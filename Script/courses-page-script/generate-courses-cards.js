@@ -129,12 +129,16 @@ class SlideLoader {
     }
 
 
-    setupCardClickListeners(courses) {
+    setupCardClickListeners() {
         const cards = document.querySelectorAll('.course-card');
         cards.forEach(card => {
             const index = card.dataset.index; // Retrieve the correct index from data attributes
             card.addEventListener('click', () => {
-                const activeCourse = courses[index].title;
+                const activeCourse = this.filteredCourses[index].title;
+                console.log(activeCourse);
+                console.log(this.filteredCourses);
+                console.log(index);
+
                 localStorage.setItem('activeCourseCard', activeCourse);
                 window.location.href = 'course.html';
             });
@@ -181,7 +185,7 @@ class SlideLoader {
         this.renderCourses();
     }
 
-// Parse duration (e.g., "1 month", "3 weeks", "1-3 months")
+    // Parse duration (e.g., "1 month", "3 weeks", "1-3 months")
     parseDuration(duration) {
         if (!duration) return NaN;
 

@@ -14,8 +14,7 @@
     "moreDescription": "The Programming Basics with C++ course provides essential programming skills required for all tech specialties at SoftUni. It focuses on beginner-level coding, utilizing an Integrated Development Environment (IDE), and foundational concepts such as variables, data types, operators, expressions, input/output operations, conditional statements (if, if-else), and loops (for, while).",
     "price": "50",
     "haveCertificate": true,
-    "certificateImage":
-    [
+    "certificateImage": [
       "Image/Certificate-Image/Programming Basics with C++/Programming Basics with C++ Certificate.jpg",
       "Image/Certificate-Image/Programming Basics with C++/Programming Basics with C++ Certificate Back.jpg"
     ],
@@ -171,7 +170,84 @@
       "16. Regular Exam"
     ],
     "topicsLinks": [
-      []
+      [
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/First%20Steps%20In%20Coding"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/First%20Steps%20In%20Coding%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/Conditional%20Statements"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/Conditional%20Statements%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/Conditional%20Statements%20Advanced"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/Conditional%20Statements%20Advanced%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/For%20Loop"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/For%20Loop%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/While%20Loop"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/While%20Loop%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/Nested%20Loops"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/Nested%20Loops%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---TypeScript-Exercise/tree/main/Basics/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
     ],
     "skills": [
       "Working with the console (input and output of data)",
@@ -206,7 +282,10 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [],
+    "topicsLinks": [],
+    "skills": [],
+    "MyExperience": []
   },
   {
     "id": 4,
@@ -222,7 +301,73 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Resources",
+      "2. Course Introduction",
+      "3. Data Structures and Complexity",
+      "4. Linear Data Structures",
+      "5. Exercise: Linear Data Structures",
+      "6. Trees Representation and Traversal (BFS, DFS)",
+      "7. Exercise: Trees Representation and Traversal (BFS, DFS)",
+      "8. Heaps and Binary Search Trees (BST)",
+      "9. Exercise: Heaps and BST",
+      "10. Exam Preparation",
+      "11. Regular Exam"
+    ],
+    "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Fundamentals-with-CSharp/tree/main/Data%20Structures%20and%20Complexity"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Fundamentals-with-CSharp/tree/main/Linear%20Data%20Structures"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Fundamentals-with-CSharp/tree/main/Exercise%20-%20Linear%20Data%20Structures"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Fundamentals-with-CSharp/tree/main/Trees%20Representation%20and%20Traversal%20(BFS%2C%20DFS)"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Fundamentals-with-CSharp/tree/main/Exercise%20-%20Trees%20Representation%20and%20Traversal%20(BFS%2C%20DFS)"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Fundamentals-with-CSharp/tree/main/Heaps%20and%20Binary%20Search%20Trees%20(BST)"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Fundamentals-with-CSharp/tree/main/Exercise%20-%20Heaps%20and%20BST"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Fundamentals-with-CSharp/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Fundamentals-with-CSharp/tree/main/Regular%20Exam"
+      ]
+    ]
   },
   {
     "id": 5,
@@ -238,7 +383,122 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Resources",
+      "2. Course Introduction",
+      "3. First Steps in Programming",
+      "4. Exercise: First Steps in Programming",
+      "5. Conditional Statements",
+      "6. Exercise: Conditional Statements",
+      "7. Conditional Statements Advanced",
+      "8. Exercise: Conditional Statements Advanced",
+      "9. For Loop",
+      "10. Exercise: For Loop",
+      "11. While Loop",
+      "12. Exercise: While Loop",
+      "13. Nested Loops",
+      "14. Exercise: Nested Loops",
+      "15. Exam Preparation",
+      "16. Regular Exam"
+    ],
+    "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/First%20Steps%20In%20Coding"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/First%20Steps%20In%20Coding%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/Conditional%20Statements"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/Conditional%20Statements%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/Conditional%20Statements%20Advanced"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/Conditional%20Statements%20Advanced%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/For%20Loop"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/For%20Loop%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/While%20Loop"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/While%20Loop%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/Nested%20Loops"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/Nested%20Loops%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-Python/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "skills": [
+      "Working with the console (input and output of data)",
+      "Working with loops (for)",
+      "Working with more complex logical conditions",
+      "Working with logical conditions (if-else)",
+      "Performing simple calculations",
+      "Working with more complex loops (nested for loops and while)"
+    ],
+    "courseSuitableFor": "The course is suitable for complete beginners, with no need for experience in technology or computer science.",
+    "MyExperience": [
+      "I built a solid foundation in Python, learning how to write clean and efficient code.",
+      "The practical exercises helped me understand core programming concepts like loops and conditionals.",
+      "This course was my gateway into the world of Python programming."
+    ],
+    "educationalOrganization": [
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
+      "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
+    ]
   },
   {
     "id": 6,
@@ -254,7 +514,48 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. B-Trees and Red-Black Trees",
+      "2. AVL Trees",
+      "3. Binary Trees Heaps BST",
+      "4. Hash Tables",
+      "5. Quad Trees, K-D Trees, Interval Trees",
+      "6. Exam"
+    ],
+    "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Advanced/tree/main/B-Trees%20and%20Red-Black%20Trees"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Advanced/tree/main/AVL%20Trees"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Advanced/tree/main/Binary%20Trees%20Heaps%20BST"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Advanced/tree/main/Hash%20Tables"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Advanced/tree/main/Quad%20Trees%2C%20K-D%20Trees%2C%20Interval%20Trees"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "skills": [],
+    "MyExperience": []
   },
   {
     "id": 7,
@@ -270,7 +571,94 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Databases Introduction. Data Definition and Datatypes",
+      "2. Exercise: Data Definition and Datatypes",
+      "3. Basic CRUD",
+      "4. Exercise: Basic CRUD",
+      "5. Built-in Functions",
+      "6. Exercise: Built-in Functions",
+      "7. Data Aggregation",
+      "8. Exercise: Data Aggregation",
+      "9. Table Relations",
+      "10. Exercise: Table Relations",
+      "11. Subqueries and JOINs",
+      "12. Exercise: Subqueries and JOINs",
+      "13. Database Programmability and Transactions",
+      "14. Exercise: Functions and Procedures"
+    ],
+    "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Databases%20Introduction.%20Data%20Definition%20and%20Datatypes"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Exercise%20-%20Data%20Definition%20and%20Datatypes"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Basic%20CRUD"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Exercise%20-%20Basic%20CRUD"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Built-in%20Functions"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Exercise%20-%20Built-in%20Functions"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Data%20Aggregation"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Exercise%20-%20Data%20Aggregation"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Table%20Relations"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Exercise%20-%20Table%20Relations"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Subqueries%20and%20JOINs"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Exercise%20-%20Subqueries%20and%20JOINs"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Database%20Programmability%20and%20Transactions"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---MySQL/tree/main/Exercise%20-%20Functions%20and%20Procedures"
+      ]
+    ]
   },
   {
     "id": 8,
@@ -286,7 +674,122 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Resources",
+      "2. Course Introduction",
+      "3. First Steps in Programming",
+      "4. Exercise: First Steps in Programming",
+      "5. Conditional Statements",
+      "6. Exercise: Conditional Statements",
+      "7. Conditional Statements Advanced",
+      "8. Exercise: Conditional Statements Advanced",
+      "9. For Loop",
+      "10. Exercise: For Loop",
+      "11. While Loop",
+      "12. Exercise: While Loop",
+      "13. Nested Loops",
+      "14. Exercise: Nested Loops",
+      "15. Exam Preparation",
+      "16. Regular Exam"
+    ],
+    "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/First%20Steps%20In%20Coding"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/First%20Steps%20In%20Coding%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/Conditional%20Statements"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/Conditional%20Statements%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/Conditional%20Statements%20Advanced"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/Conditional%20Statements%20Advanced%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/For%20Loop"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/For%20Loop%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/While%20Loop"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/While%20Loop%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/Nested%20Loops"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/Nested%20Loops%20-%20Exercise"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Programming-Basics-with-CSharp/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "skills": [
+      "Working with the console (input and output of data)",
+      "Working with loops (for)",
+      "Working with more complex logical conditions",
+      "Working with logical conditions (if-else)",
+      "Performing simple calculations",
+      "Working with more complex loops (nested for loops and while)"
+    ],
+    "courseSuitableFor": "The course is suitable for complete beginners, with no need for experience in technology or computer science.",
+    "MyExperience": [
+      "I started my programming journey with C# through this course, mastering the syntax and logic.",
+      "The exercises on loops and conditionals were challenging but very rewarding.",
+      "It gave me the confidence to pursue more advanced C# topics."
+    ],
+    "educationalOrganization": [
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
+      "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
+    ]
   },
   {
     "id": 9,
@@ -302,7 +805,60 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Basic Syntax",
+      "2. Functions",
+      "3. Arrays and Vectors",
+      "4. Strings and Streams",
+      "5. Associative Containers",
+      "6. Classes and Objects",
+      "7. Exam Preparation",
+      "8. Exam"
+    ],
+    "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Fundamentals/tree/main/Basic%20Syntax"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Fundamentals/tree/main/Functions"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Fundamentals/tree/main/Arrays%20and%20Vectors"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Fundamentals/tree/main/Strings%20and%20Streams"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Fundamentals/tree/main/Associative%20Containers"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Fundamentals/tree/main/Classes%20and%20Objects"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Fundamentals/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "skills": [],
+    "MyExperience": []
   },
   {
     "id": 10,
@@ -318,7 +874,76 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Basic Syntax, Conditional Statements and Loops",
+      "2. Data Types and Variables",
+      "3. Arrays",
+      "4. Methods",
+      "5. Lists",
+      "6. Objects and Classes",
+      "7. Associative Arrays",
+      "8. Text Processing",
+      "9. Regular Expressions",
+      "10. Exam Preparation",
+      "11. Final Exam"
+    ],
+    "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Fundamentals/tree/main/Basic%20Syntax%2C%20Conditional%20Statements%20and%20Loops"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Fundamentals/tree/main/Data%20Types%20and%20Variables"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Fundamentals/tree/main/Arrays"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Fundamentals/tree/main/Methods"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Fundamentals/tree/main/Lists"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Fundamentals/tree/main/Objects%20and%20Classes"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Fundamentals/tree/main/Associative%20Arrays"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Fundamentals/tree/main/Text%20Processing"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Fundamentals/tree/main/Regular%20Expressions"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Fundamentals/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ]
   },
   {
     "id": 11,
@@ -334,7 +959,52 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Stacks and Queues",
+      "2. Maps and Sets",
+      "3. Multidimensional Arrays",
+      "4. Memory Management",
+      "5. Computer Architecture and Data Organization",
+      "6. Exam Preparation",
+      "7. Regular Exam"
+    ],
+    "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Advanced/tree/main/Stacks%20and%20Queues"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Advanced/tree/main/Maps%20and%20Sets"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Advanced/tree/main/Multidimensional%20Arrays"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Advanced/tree/main/Memory%20Management"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Advanced/tree/main/Computer%20Architecture%20and%20Data%20Organization"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-Advanced/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ]
   },
   {
     "id": 12,
@@ -350,7 +1020,70 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Stacks and Queues",
+      "2. Multidimensional Arrays",
+      "3. Sets and Dictionaries Advanced",
+      "4. Streams, Files and Directories",
+      "5. Functional Programming",
+      "6. Defining Classes",
+      "7. Generics",
+      "8. Iterators and Comparators",
+      "9. Exam Preparation",
+      "10. Final Exam"
+    ],
+    "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Advanced/tree/main/Stacks%20and%20Queues"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Advanced/tree/main/Multidimensional%20Arrays"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Advanced/tree/main/Sets%20and%20Dictionaries%20Advanced"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Advanced/tree/main/Streams%2C%20Files%20and%20Directories"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Advanced/tree/main/Functional%20Programming"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Advanced/tree/main/Defining%20Classes"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Advanced/tree/main/Generics"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Advanced/tree/main/Iterators%20and%20Comparators"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Advanced/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ]
   },
   {
     "id": 13,
@@ -382,7 +1115,70 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Objects and Classes",
+      "2. Inheritance",
+      "3. Encapsulation",
+      "4. Interfaces and Abstraction",
+      "5. Polymorphism",
+      "6. Design Patterns",
+      "7. Reflection and Attributes",
+      "8. Unit Testing",
+      "9. Exam Preparation",
+      "10. Final Exam"
+    ],
+    "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-OOP/tree/main/Objects%20and%20Classes"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-OOP/tree/main/Inheritance"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-OOP/tree/main/Encapsulation"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-OOP/tree/main/Interfaces%20and%20Abstraction"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-OOP/tree/main/Polymorphism"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-OOP/tree/main/Design%20Patterns"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-OOP/tree/main/Reflection%20and%20Attributes"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-OOP/tree/main/Unit%20Testing"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CPlus-OOP/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ]
   },
   {
     "id": 15,
@@ -398,7 +1194,58 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Recursion and Backtracking",
+      "2. Combinatorial Problems",
+      "3. Searching, Sorting and Greedy Algorithms",
+      "4. The Role of Algorithms in Computer Science",
+      "5. Graph Theory, Traversal and Shortest Paths",
+      "6. Introduction to Dynamic Programming",
+      "7. Exam Preparation",
+      "8. Regular Exam"
+    ],
+    "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Fundamentals-with-CSharp/tree/main/Recursion%20and%20Backtracking"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Fundamentals-with-CSharp/tree/main/Combinatorial%20Problems"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Fundamentals-with-CSharp/tree/main/Searching%2C%20Sorting%20and%20Greedy%20Algorithms"
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Fundamentals-with-CSharp/tree/main/Graph%20Theory%2C%20Traversal%20and%20Shortest%20Paths"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Fundamentals-with-CSharp/tree/main/Introduction%20to%20Dynamic%20Programming"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Fundamentals-with-CSharp/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ]
   },
   {
     "id": 16,
@@ -430,7 +1277,82 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Inheritance",
+      "2. Encapsulation",
+      "3. Interfaces and Abstraction",
+      "4. Polymorphism",
+      "5. Exception Handling",
+      "6. Debugging Techniques",
+      "7. Reflection and Attributes",
+      "8. Unit Testing",
+      "9. Mocking and Test Driven Development",
+      "10. Design Patterns",
+      "11. Exam Preparation",
+      "12. Final Exam"
+    ],
+    "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-OOP/tree/main/Inheritance"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-OOP/tree/main/Encapsulation"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-OOP/tree/main/Interfaces%20and%20Abstraction"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-OOP/tree/main/Polymorphism"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-OOP/tree/main/Exception%20Handling"
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-OOP/tree/main/Reflection%20and%20Attributes"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-OOP/tree/main/Unit%20Testing"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-OOP/tree/main/Mocking%20and%20Test%20Driven%20Development"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-OOP/tree/main/Design%20Patterns"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-OOP/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ]
   },
   {
     "id": 18,
@@ -446,7 +1368,58 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. B-Trees and Red-Black Trees",
+      "2. AVL Trees",
+      "3. Quad Trees, K-D Trees, Interval Trees",
+      "4. Hash Tables, Sets and Maps",
+      "5. Dynamic Programming Advanced",
+      "6. Graphs Strong Connected Components, Max Flow",
+      "7. Exam Preparation",
+      "8. Exam"
+    ],
+    "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Advanced-with-CSharp/tree/main/B-Trees%20and%20Red-Black%20Trees"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Advanced-with-CSharp/tree/main/AVL%20Trees"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Advanced-with-CSharp/tree/main/Quad%20Trees%2C%20K-D%20Trees%2C%20Interval%20Trees"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Advanced-with-CSharp/tree/main/Hash%20Tables%2C%20Sets%20and%20Maps"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Advanced-with-CSharp/tree/main/Dynamic%20Programming%20Advanced"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Advanced-with-CSharp/tree/main/Graphs%20Strong%20Connected%20Components%2C%20Max%20Flow"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Algorithms-Advanced-with-CSharp/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ]
   },
   {
     "id": 19,
@@ -462,7 +1435,48 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. HTML5 and CSS3",
+      "2. JavaScript",
+      "3. PHP",
+      "4. Java",
+      "5. C# ASP.NET MVC",
+      "6. Exam Preparation"
+    ],
+    "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Software-Technologies/tree/main/HTML5%20and%20CSS3"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Software-Technologies/tree/main/JavaScript"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Software-Technologies/tree/main/PHP"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Software-Technologies/tree/main/Java"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Software-Technologies/tree/main/CSharp%20ASP.NET%20MVC"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "skills": [],
+    "MyExperience": []
   },
   {
     "id": 20,
@@ -478,7 +1492,36 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": ""
+    "topics": [
+      "1. Data Definition and Normalization",
+      "2. Data Manipulation and Queries",
+      "3. Transactions and Concurrency",
+      "4. Database Performance",
+      "5. NoSQL Databases Introduction",
+      "6. Exam Preparation"
+    ],
+    "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
+    ],
+    "skills": [],
+    "MyExperience": []
   },
   {
     "id": 21,
@@ -495,20 +1538,62 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Intro to Angular and TypeScript",
+      "2. Components",
+      "3. DI, Services and Observables",
+      "4. Modules and Routing",
+      "5. Forms",
+      "6. Pipes",
+      "7. State Management",
+      "8. Workshop"
     ],
     "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Angular/tree/main/Intro%20to%20Angular%20and%20TypeScript"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Angular/tree/main/Components"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Angular/tree/main/DI%2C%20Services%20and%20Observables"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Angular/tree/main/Modules%20and%20Routing"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Angular/tree/main/Forms"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Angular/tree/main/Pipes"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Angular/tree/main/State%20Management"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -529,20 +1614,50 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Web Server - HTTP Protocol",
+      "2. Asynchronous Processing",
+      "3. State Management",
+      "4. MVC Introduction",
+      "5. Exam Preparation",
+      "6. Exam"
     ],
     "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Web-Basics/tree/main/Web%20Server%20-%20HTTP%20Protocol"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Web-Basics/tree/main/Asynchronous%20Processing"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Web-Basics/tree/main/State%20Management"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Web-Basics/tree/main/MVC%20Introduction"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---CSharp-Web-Basics/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -563,20 +1678,45 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. ORM Fundamentals",
+      "2. Entity Framework Core Introduction",
+      "3. Entity Relations",
+      "4. LINQ",
+      "5. Advanced Querying",
+      "6. C# Auto Mapping Objects",
+      "7. JSON Processing",
+      "8. XML Processing"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
-    "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "skills": [],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -597,20 +1737,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Django Introduction",
+      "2. URLs and Views",
+      "3. Templates",
+      "4. Models",
+      "5. Django Admin Site",
+      "6. Forms",
+      "7. Class Based Views",
+      "8. Authentication and Authorization"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -631,20 +1797,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Introduction to Unity",
+      "2. Game Objects and Components",
+      "3. C# Scripting for Unity",
+      "4. Physics and Collisions",
+      "5. UI Systems",
+      "6. Audio and Animation",
+      "7. Scene Management",
+      "8. Building and Deployment"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -665,20 +1857,62 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Lists as Stacks and Queues",
+      "2. Tuples and Sets",
+      "3. Multidimensional Lists",
+      "4. Functions Advanced",
+      "5. Error Handling",
+      "6. File Handling",
+      "7. Modules",
+      "8. Exam Preparation"
     ],
     "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Python-Advanced/tree/main/Lists%20as%20Stacks%20and%20Queues"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Python-Advanced/tree/main/Tuples%20and%20Sets"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Python-Advanced/tree/main/Multidimensional%20Lists"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Python-Advanced/tree/main/Functions%20Advanced"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Python-Advanced/tree/main/Error%20Handling"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Python-Advanced/tree/main/File%20Handling"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---Python-Advanced/tree/main/Modules"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -699,20 +1933,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Intro to PHP",
+      "2. Arrays and Strings",
+      "3. Functions and Objects",
+      "4. Forms and Sessions",
+      "5. Database Interaction with PHP",
+      "6. MySQL and PHP",
+      "7. Unit Testing with PHPUnit",
+      "8. Exam Preparation"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -733,20 +1993,62 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Intro to Node.js",
+      "2. Node.js Streams and Utilities",
+      "3. ExpressJS and Templating",
+      "4. NoSQL and MongoDB",
+      "5. Session and Authentication",
+      "6. Validation and Error Handling",
+      "7. Exam Preparation",
+      "8. Exam"
     ],
     "topicsLinks": [
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---JS-Back-End/tree/main/Intro%20to%20Node.js"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---JS-Back-End/tree/main/Node.js%20Streams%20and%20Utilities"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---JS-Back-End/tree/main/ExpressJS%20and%20Templating"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---JS-Back-End/tree/main/NoSQL%20and%20MongoDB"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---JS-Back-End/tree/main/Session%20and%20Authentication"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---JS-Back-End/tree/main/Validation%20and%20Error%20Handling"
+      ],
+      [
+        null,
+        null,
+        "https://github.com/KadirYazadzhi/SoftUni---JS-Back-End/tree/main/Exam%20Preparation"
+      ],
+      [
+        null,
+        null,
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -767,20 +2069,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Numeral Systems",
+      "2. Probabilities",
+      "3. Combinatorics",
+      "4. Statistics",
+      "5. Coordinate Geometry",
+      "6. Linear Algebra",
+      "7. Mathematical Logic",
+      "8. Exam Preparation"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -801,20 +2129,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Intro to Angular",
+      "2. Components and Databinding",
+      "3. Directives",
+      "4. Services and Dependency Injection",
+      "5. Routing",
+      "6. Observables",
+      "7. Forms",
+      "8. Pipes"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -835,20 +2189,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Django REST Framework",
+      "2. Asynchronous Tasks with Celery",
+      "3. Testing in Django",
+      "4. Deployment",
+      "5. User Management and Security",
+      "6. Performance Optimization",
+      "7. Caching",
+      "8. Workshop"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -869,20 +2249,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Intro to Node.js and Express",
+      "2. Middleware",
+      "3. Routing",
+      "4. Template Engines (Handlebars/Pug)",
+      "5. Database Integration (MongoDB/Mongoose)",
+      "6. Authentication and Sessions",
+      "7. Error Handling",
+      "8. REST API Development"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -903,20 +2309,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. MVC Concepts",
+      "2. Custom MVC Framework",
+      "3. Routing and Controllers",
+      "4. Views and Templating",
+      "5. Database Abstraction Layer",
+      "6. Dependency Injection Container",
+      "7. Security Best Practices",
+      "8. Workshop"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -937,20 +2369,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. SQLAlchemy Core",
+      "2. SQLAlchemy ORM",
+      "3. Django ORM",
+      "4. Migrations",
+      "5. Data Seeding",
+      "6. Advanced Querying",
+      "7. Transactions",
+      "8. Performance Optimization"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -971,20 +2429,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. HTTP Protocol",
+      "2. HTML & CSS Basics for Backend",
+      "3. PHP Syntax",
+      "4. State Management (Cookies/Sessions)",
+      "5. Database Connectivity",
+      "6. MVC Pattern Introduction",
+      "7. Encryption and Hashing",
+      "8. Workshop"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -1005,20 +2489,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Python Syntax Review",
+      "2. HTTP and Web Servers",
+      "3. CGI Programming",
+      "4. WSGI Standard",
+      "5. Introduction to Flask",
+      "6. Templating with Jinja2",
+      "7. Flask Forms",
+      "8. Workshop"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -1039,20 +2549,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Pyramid/Flask/Tornado Overview",
+      "2. Advanced Routing",
+      "3. Middleware Development",
+      "4. API Design with DRF or FastApi",
+      "5. Authentication Systems (OAuth2/JWT)",
+      "6. Testing Web Applications",
+      "7. Deployment (Docker/Nginx)",
+      "8. CI/CD"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -1073,20 +2609,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. PHP Syntax Variables Loops",
+      "2. HTML & PHP Integration",
+      "3. Functions",
+      "4. Arrays",
+      "5. Forms and Inputs",
+      "6. HTTP Headers",
+      "7. Simple CRUD",
+      "8. Exam Preparation"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -1107,20 +2669,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. ASP.NET Core Introduction",
+      "2. Controllers and Actions",
+      "3. Razor Views",
+      "4. Models and ViewModels",
+      "5. SQL Server and EF Core",
+      "6. Identity System",
+      "7. Web API",
+      "8. Workshop"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -1141,20 +2729,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Programming Basics with PHP",
+      "2. Frontend Basics (HTML/CSS)",
+      "3. HTTP Protocol",
+      "4. Database Basics",
+      "5. PHP Standard Library",
+      "6. Basic OOP in PHP",
+      "7. Web Security Basics",
+      "8. Workshop"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -1175,20 +2789,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Intro to C Language",
+      "2. Data Types and Variables",
+      "3. Control Flow",
+      "4. Arrays and Strings",
+      "5. Pointers",
+      "6. Memory Management",
+      "7. Structs and Unions",
+      "8. File I/O"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -1209,20 +2849,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. High Quality Code Concepts",
+      "2. Naming Identifiers",
+      "3. Formatting Code",
+      "4. Code Documentation",
+      "5. High Quality Methods",
+      "6. Dependency Injection",
+      "7. Design Patterns",
+      "8. Refactoring"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -1243,20 +2909,46 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. ASP.NET Web API",
+      "2. RESTful Services",
+      "3. Consuming Web Services",
+      "4. Cloud Concepts (Azure)",
+      "5. Containers and Docker",
+      "6. Identity Server",
+      "7. Serverless Computing",
+      "8. Exam Preparation"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
@@ -1277,27 +2969,53 @@
     "moreDescription": "",
     "price": "0",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. Intro to C#",
+      "2. Data Types and Variables",
+      "3. Arrays",
+      "4. Methods",
+      "5. Lists",
+      "6. Objects and Classes",
+      "7. Associative Arrays",
+      "8. Text Processing"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
+    "MyExperience": [],
     "educationalOrganization": [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmitkovtori.github.io%2FMitko.Vtori-World%2Fimages%2FSoftUni.png&f=1&nofb=1&ipt=cfbee56e4415859faf1cf667cf297abbb399b0ff7e175b05ab835893510b919b&ipo=images",
       "SoftUni is a top IT training center in Bulgaria, offering practical courses in programming, web development, and more. Known for its hands-on approach, it prepares students for careers in tech."
     ]
   },
   {
-    "id": 44,
+    "id": 45,
     "category": "Programming",
     "type": "Course",
     "image": "Image/Courses-Image/Web Programming.jpg",
@@ -1311,22 +3029,46 @@
     "moreDescription": "",
     "price": "540",
     "haveCertificate": true,
-    "certificateImage":
-    [
-    ],
+    "certificateImage": [],
     "topics": [
+      "1. HTML5 and CSS3 Essentials",
+      "2. JavaScript Basics",
+      "3. DOM Manipulation",
+      "4. Responsive Design",
+      "5. HTTP and AJAX",
+      "6. PHP Introduction",
+      "7. MySQL Integration",
+      "8. Final Project"
     ],
     "topicsLinks": [
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ],
+      [
+        null
+      ]
     ],
-    "skills": [
-
-    ],
+    "skills": [],
     "courseSuitableFor": "",
-    "MyExperience": [
-
-    ],
-    "educationalOrganization": [
-
-    ]
+    "MyExperience": [],
+    "educationalOrganization": []
   }
 ]
