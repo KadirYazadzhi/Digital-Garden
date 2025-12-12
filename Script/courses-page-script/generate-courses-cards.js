@@ -135,10 +135,6 @@ class SlideLoader {
             const index = card.dataset.index; // Retrieve the correct index from data attributes
             card.addEventListener('click', () => {
                 const activeCourse = this.filteredCourses[index].title;
-                console.log(activeCourse);
-                console.log(this.filteredCourses);
-                console.log(index);
-
                 localStorage.setItem('activeCourseCard', activeCourse);
                 window.location.href = 'course.html';
             });
