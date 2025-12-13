@@ -4,10 +4,8 @@
     --big-gap: 20px;
     --form-width: 95%;
     --form-elemnts-padding: 12px;
-    --form-elements-background : rgba(62, 240, 142, 0.05);
-    --form-elements-border: 1px solid rgba(62, 240, 142, 0.15);
     --form-elements-font-size: 16px;
-    --form-btn-border: 2px solid var(--button-main-color);
+
 }
 
 .contact-form {
