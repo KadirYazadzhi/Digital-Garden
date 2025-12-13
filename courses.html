@@ -20,47 +20,7 @@
 </head>
 
 <body>
-  <nav>
-    <div class="nav-bar">
-      <i class='bx bx-menu sidebarOpen'></i>
-      <span class="logo navLogo"><a href="#">KadirYazadzhi</a></span>
-
-      <div class="menu">
-        <div class="logo-toggle">
-          <span class="logo"><a href="#">KadirYazadzhi</a></span>
-          <i class='bx bx-x siderbarClose'></i>
-        </div>
-
-        <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Tools</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-
-      <div class="darkLight-searchBox">
-        <div class="dark-light">
-          <i class='bx bx-moon moon'></i>
-          <i class='bx bx-sun sun'></i>
-        </div>
-
-        <div class="searchBox">
-          <div class="searchToggle">
-            <i class='bx bx-x cancel'></i>
-            <i class='bx bx-search search'></i>
-          </div>
-
-          <div class="search-field">
-            <input type="text" placeholder="Search...">
-            <i class='bx bx-search'></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
+  <my-header></my-header>
 
   <section class="section sorting-section">
     <div class="sorting-box-container type-sorting">
@@ -159,10 +119,11 @@
     </div>
   </section>
 
+  <my-footer></my-footer>
 </body>
 
-<script src="Script/navbar.js"></script>
-<script src="Script/script.js"></script>
+<script type="application/javascript" src="Script/components/navbar.js?v=2"></script>
+<script type="application/javascript" src="Script/components/footer.js?v=2"></script>
 <script src="Script/courses-page-script/sorting-buttons-change.js"></script>
 <script src="Script/courses-page-script/generate-courses-cards.js?v=2"></script>
 
