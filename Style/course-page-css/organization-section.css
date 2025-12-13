@@ -16,13 +16,13 @@
     justify-content: flex-start;
     width: 80%;
     padding: var(--top-baner-padding);
-    gap: var(--medium-gap);
+    gap: var(--gap-md);
 }
 
 .organization-card {
     display: flex;
     flex-direction: row;
-    gap: var(--medium-gap);
+    gap: var(--gap-md);
     align-items: center;
     justify-content: flex-start;
 }
@@ -34,10 +34,10 @@
 .organization-logo-box {
     width: 70px;
     height: 70px;
-    border-radius: 50%;
+    border-radius: var(--border-radius-circle);
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(35, 174, 98, 0.05);
-    padding: 10px;
+    background: var(--org-logo-bg);
+    padding: var(--padding-sm);
 }

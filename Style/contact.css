@@ -1,11 +1,7 @@
 :root {
-    --very-big-gap: 25px;
-    --small-gap: 10px;
-    --big-gap: 20px;
     --form-width: 95%;
     --form-elemnts-padding: 12px;
     --form-elements-font-size: 16px;
-
 }
 
 .contact-form {
@@ -13,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 1.25rem;
+    padding: 0 var(--padding-container);
 }
 
 .contact, .form, .contact-form-top {
@@ -30,13 +26,13 @@
 .form {
     width: var(--form-width);
     flex-direction: column;
-    gap: var(--very-big-gap);
-    margin-top: 30px;
+    gap: var(--gap-xl);
+    margin-top: var(--gap-xl);
 }
 
 .contact-form-top {
     flex-direction: row;
-    gap: var(--big-gap);
+    gap: var(--gap-lg);
 }
 
 .contact-form-top, .contact-form-medium, .contact-form-bottom {
@@ -48,7 +44,7 @@
 .contact-form-medium {
     flex-direction: column;
     align-items: flex-start;
-    gap: var(--small-gap);
+    gap: var(--gap-sm);
 }
 
 .contact-input, .contact-input-textArea {
@@ -82,7 +78,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    gap: var(--small-gap);
+    gap: var(--gap-sm);
     width: 50%;
 }
 

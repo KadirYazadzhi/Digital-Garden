@@ -13,28 +13,28 @@ footer {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    gap: var(--big-gap);
+    gap: var(--gap-lg);
     position: relative;
 }
 
 .top-section {
     width: 80%;
     min-height: 120px;
-    border-radius: 6px;
+    border-radius: var(--border-radius-sm);
     position: absolute;
     top: -18%;
-    background-color: #111928;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    background-color: var(--nav-color);
+    border: 1px solid var(--card-border-light);
     display: flex;
     flex-direction: row;
     text-align: start;
     padding: 15px 20px;
-    gap: var(--small-gap);
+    gap: var(--gap-sm);
 }
 
 .top-section-left {
     flex-direction: column;
-    gap: var(--very-small-gap);
+    gap: var(--gap-xs);
 }
 
 .top-section-left h3 {
@@ -42,7 +42,7 @@ footer {
 }
 
 .top-section-right {
-    gap: var(--small-gap);
+    gap: var(--gap-sm);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -65,14 +65,14 @@ footer {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 20px;
+    gap: var(--gap-lg);
     margin-top: 70px;
-    padding: 0 1.25rem;
+    padding: 0 var(--padding-container);
 }
 
 .left-bottom-part {
     align-items: flex-start;
-    gap: 30px;
+    gap: var(--gap-xl);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -83,7 +83,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: var(--small-gap);
+    gap: var(--gap-sm);
     cursor: pointer;
 }
 
@@ -100,13 +100,13 @@ footer {
 }
 
 .items p:hover {
-    color: #4fd68c;
+    color: var(--footer-text-hover);
     transform: translateX(10px);
 }
 
 .footer-items h3, .left-bottom-part h3, .right-bottom-part h3 {
     color: var(--text-color);
-    margin-bottom: 10px;
+    margin-bottom: var(--gap-sm);
 }
 
 .social-part {
@@ -119,13 +119,13 @@ footer {
 .social-icons {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: var(--gap-md);
     cursor: pointer;
 }
 
 .social-icon {
     font-size: 24px;
-    border-radius: 50%;
+    border-radius: var(--border-radius-circle);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,13 +133,13 @@ footer {
 }
 
 .social-icon:hover {
-    color: #4fd68c;
+    color: var(--footer-text-hover);
     transform: translateY(-5px);
 }
 
 .plus-part {
-    padding: 20px;
-    background: #090d15;
+    padding: var(--padding-lg);
+    background: var(--body-color);
     display: flex;
     align-items: center;
     justify-content: center;

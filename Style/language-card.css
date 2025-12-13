@@ -1,11 +1,11 @@
 .language-card {
     width: 18%;
-    gap: 10px;
+    gap: var(--gap-sm);
 }
 
 .languages {
-    gap: 10px;
-    margin-top: 10px;
+    gap: var(--gap-sm);
+    margin-top: var(--gap-sm);
 }
 
 @media (max-width: 800px) {

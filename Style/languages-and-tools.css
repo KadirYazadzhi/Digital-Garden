@@ -4,8 +4,8 @@
     backdrop-filter: blur(25px) saturate(72%);
     -webkit-backdrop-filter: blur(25px) saturate(72%);
     background-color: var(--card-bg-color);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--card-border-light);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,9 +23,9 @@
     height: 60px;
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-    padding: 0 1.25rem;
-    gap: 15px;
+    margin-top: var(--gap-lg);
+    padding: 0 var(--padding-container);
+    gap: var(--gap-md);
     align-items: center;
     justify-content: center;
 }

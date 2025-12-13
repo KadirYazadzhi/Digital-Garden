@@ -5,7 +5,7 @@
 }
 
 .asm g {
-    fill: #015c2a;
+    fill: var(--asm-fill);
 }
 
 .tool {
@@ -14,7 +14,7 @@
 }
 
 .tool-card {
-    gap: 10px;
+    gap: var(--gap-sm);
     width: 100%;
 }
 
@@ -28,7 +28,7 @@
     width: 10px;
     height: 10px;
     background: var(--text-color);
-    border-radius: 50%;
+    border-radius: var(--border-radius-circle);
 }
 
 .burp {

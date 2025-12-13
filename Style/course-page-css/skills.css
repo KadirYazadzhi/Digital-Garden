@@ -28,7 +28,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    gap: var(--medium-gap);
+    gap: var(--gap-md);
     padding-top: var(--middle-padding-top);
 }
 
@@ -36,7 +36,7 @@
 .skill-box {
     display: flex;
     flex-direction: row;
-    gap: var(--small-gap);
+    gap: var(--gap-sm);
     align-items: center;
     justify-content: center;
 }

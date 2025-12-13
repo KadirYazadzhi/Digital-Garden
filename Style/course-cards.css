@@ -3,15 +3,19 @@
 }
 
 .courses-slider {
-    margin-bottom: 15px;
+    margin-bottom: var(--gap-md);
 }
 
 .course-card {
     text-align: left;
     justify-content: left;
     align-items: center;
-    opacity: 0.7;
+    opacity: 0.95;
     width: 100%;
+}
+
+body.dark .course-card {
+    opacity: 0.7;
 }
 
 .course-card:hover {
@@ -26,7 +30,7 @@
 
 .course-card-top img {
     width: 100%;
-    border-radius: 12px;
+    border-radius: var(--border-radius-md);
 }
 
 .topic-card {
@@ -36,7 +40,7 @@
     left: 2%;
     background-color: var(--card-bg-color)!important;
     opacity: 0.6;
-    border-radius: 12px;
+    border-radius: var(--border-radius-md);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +73,7 @@
 }
 
 .glide__slides {
-    gap: 10px;
+    gap: var(--gap-sm);
 }
 
 .glide__arrow {
@@ -79,7 +83,7 @@
     width: 30px;
     height: 30px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: var(--border-radius-circle);
     opacity: 0.5;
     transition: var(--animation);
 }
@@ -110,7 +114,7 @@
     width: 100%;
     height: auto;
     padding: 10px 0 25px 0;
-    gap: 15px;
+    gap: var(--gap-md);
 }
 
 .topic {
@@ -151,18 +155,21 @@
 
 .small-course-text {
     font-size: var(--small-text-font-size);
-    opacity: 0.2;
+    opacity: 0.6;
     cursor: pointer;
     transition: opacity var(--animation);
 }
 
+body.dark .small-course-text { opacity: 0.2; }
+body.dark .small-course-text:hover { opacity: 0.6; }
+
 .small-course-text:hover {
-    opacity: 0.6;
+    opacity: 1;
 }
 
 @media (max-width: 800px) {
     .topics {
-        gap: 5px;
+        gap: var(--gap-xs);
     }
 
     .topic p {

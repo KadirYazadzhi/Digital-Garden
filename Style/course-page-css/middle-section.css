@@ -16,7 +16,7 @@
     justify-content: flex-start;
     width: 80%;
     padding: var(--top-baner-padding);
-    gap: var(--small-gap);
+    gap: var(--gap-sm);
 }
 
 .middle-box p {

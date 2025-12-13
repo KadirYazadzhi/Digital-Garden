@@ -1,6 +1,4 @@
 :root {
-    --very-small-gap: 5px;
-    --certificate-border: 1px solid rgba(35, 174, 98, 0.3);
     --certificate-background-color: ;
 }
 
@@ -18,15 +16,15 @@
     position: fixed;
     right: 12%;
     top: 12%;
-    border-radius: 12px;
-    background: var(--certificate-background-color);
+    border-radius: var(--border-radius-md);
+    background: var(--certificate-bg);
     border: var(--certificate-border);
     padding: 15px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    gap: var(--small-gap);
+    gap: var(--gap-sm);
     width: auto;
     height: auto;
 }
@@ -50,13 +48,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: var(--very-small-gap);
+    gap: var(--gap-xs);
 }
 
 .dot {
     width: 10px;
     height: 10px;
-    border-radius: 50%;
+    border-radius: var(--border-radius-circle);
     opacity: 0.5;
     cursor: pointer;
 }

@@ -14,8 +14,8 @@
     align-items: flex-start;
     justify-content: flex-start;
     width: 80%;
-    padding: var(--main-padding);
-    gap: var(--small-gap);
+    padding: 20px 25% 50px 0;
+    gap: var(--gap-sm);
 }
 
 .blog-card {

@@ -10,33 +10,84 @@
 }
 
 
-/* ===== Colours ===== */
+/* ===== Colours & Variables ===== */
 :root {
+    /* Colors */
+    --primary-color: #23AE62;
     --body-color: #F5F7FA;
     --nav-color: #FFFFFF;
     --side-nav: #ECEFF4;
     --text-color: #1B263B;
+    --text-color-page: #1D3557;
     --search-bar: #FFFFFF;
     --search-text: #23AE62;
-    --color-white-100: hsl(215, 20%, 15%); /* Dark color for light theme */
-    --text-color-page: #1D3557;
+    --white: #FFFFFF;
+    --black: #000000;
+    
+    /* Specific Backgrounds */
+    --footer-bg: #111928;
+    --footer-plus-bg: #090d15;
+    --progress-bar-bg: aliceblue;
+    --overlay-color: rgba(35, 174, 98, 0.3);
+    --filled-bar: #23AE62;
+    --asm-fill: #015c2a;
+    --footer-text-hover: #4fd68c;
+    --faq-border: #010718;
 
+    /* UI Elements */
     --button-main-color: #23AE62;
     --card-bg-color: rgba(255, 255, 255, 0.75);
-    --card-bg-color-hover: #1B263B1A; /* Low opacity dark text */
-    --icon-back: #1B263B1A; /* Low opacity dark text */
-    --card-border-color: #1B263B1A;
+    --card-bg-color-hover: rgba(27, 38, 59, 0.1); 
+    --icon-back: rgba(27, 38, 59, 0.1);
+    --card-border-color: rgba(27, 38, 59, 0.25);
+    --card-border-light: rgb(223, 223, 223, 0.5);
+    --card-border-very-light: rgba(255, 255, 255, 0.05);
+    --tag-border: rgba(35, 174, 98, 0.2);
+    --btn-border-green: rgba(35, 174, 98, 0.65);
+    --btn-bg-green-hover: rgba(35, 174, 98, 0.65);
+    --org-logo-bg: rgba(35, 174, 98, 0.05);
 
-    --arrow-color: rgba(27, 38, 59, 0.5); /* Semi-transparent dark text */
-    --topic-background: rgba(27, 38, 59, 0.05); /* Low opacity dark text */
-    --topic-hover-background: rgba(27, 38, 59, 0.1); /* Low opacity dark text */
-    --topic-border-color: rgba(27, 38, 59, 0.2); /* Low opacity dark text */
-    --topic-hover-border-color: rgba(27, 38, 59, 0.4); /* Low opacity dark text */
+    --arrow-color: rgba(27, 38, 59, 0.5);
+    --topic-background: rgba(27, 38, 59, 0.05);
+    --topic-hover-background: rgba(27, 38, 59, 0.1);
+    --topic-border-color: rgba(27, 38, 59, 0.2);
+    --topic-hover-border-color: rgba(27, 38, 59, 0.4);
 
     --form-elements-background : #FFFFFF;
-    --form-elements-border: 1px solid rgba(27, 38, 59, 0.1); /* Subtle dark border */
+    --form-elements-border: 1px solid rgba(27, 38, 59, 0.8);
     --form-btn-border: 2px solid var(--button-main-color);
+    
+    --certificate-border: 1px solid rgba(35, 174, 98, 0.3);
+    --certificate-bg: transparent;
 
+    --top-baner-background-color: rgba(0, 255, 116, 0.05);;
+    --top-type-box-background-color: rgba(12, 17, 26, 0.18);
+
+    /* Spacing */
+    --gap-xs: 5px;
+    --gap-sm: 10px;
+    --gap-md: 15px;
+    --gap-lg: 20px;
+    --gap-xl: 25px;
+    --gap-xxl: 30px;
+    --gap-huge: 40px;
+    
+    --padding-xs: 5px;
+    --padding-sm: 10px;
+    --padding-md: 15px;
+    --padding-lg: 20px;
+    --padding-xl: 30px;
+    --padding-container: 1.25rem;
+    
+    --border-radius-sm: 6px;
+    --border-radius-md: 12px;
+    --border-radius-lg: 30px;
+    --border-radius-circle: 50%;
+    
+    --shadow-small: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    
+    --font-size-sm: 14px;
 }
 
 body{
@@ -50,14 +101,14 @@ body.dark{
     --text-color: #23AE62;
     --search-bar: #0c111a;
     --search-text: #23AE62;
-    --color-white-100: hsl(206, 5%, 100%);
     --text-color-page: #8dfcbf;
     --button-main-color: #23AE62;
 
     --card-bg-color: rgba(17, 25, 40, 0.67);
-    --card-bg-color-hover: #3ef08e1a;
-    --icon-back: #36eb871f;
+    --card-bg-color-hover: rgba(62, 240, 142, 0.1);
+    --icon-back: rgba(54, 235, 135, 0.12);
     --card-border-color: rgba(255, 255, 255, 0.125);
+    --card-border-light: rgba(255, 255, 255, 0.125);
 
     --arrow-color: rgba(35, 174, 98, 0.5);
     --topic-background: rgba(35, 174, 98, 0.05);
@@ -68,6 +119,17 @@ body.dark{
     --form-elements-background : rgba(62, 240, 142, 0.05);
     --form-elements-border: 1px solid rgba(62, 240, 142, 0.15);
     --form-btn-border: 2px solid var(--button-main-color);
+    
+    --progress-bar-bg: #1e293b;
+    --certificate-bg: #0c111a;
+
+    --top-baner-background-color: rgba(0, 255, 116, 0.015);;
+    --top-type-box-background-color: rgba(12, 17, 26, 0.8);
+    
+    /* Dark mode overrides for new vars */
+    --asm-fill: #23AE62; /* Example override, adjust if needed */
+    --footer-text-hover: #4fd68c;
+    --faq-border: #393838;
 }
 
 nav{
@@ -101,7 +163,7 @@ nav .nav-bar{
 nav .nav-bar .sidebarOpen{
     color: var(--text-color);
     font-size: 25px;
-    padding: 5px;
+    padding: var(--padding-xs);
     cursor: pointer;
     display: none;
 }
@@ -123,7 +185,7 @@ nav .nav-bar .logo a{
 }
 
 .nav-bar .nav-links li{
-    margin: 0 5px;
+    margin: 0 var(--gap-xs);
     list-style: none;
 }
 
@@ -133,7 +195,7 @@ nav .nav-bar .logo a{
     font-weight: 400;
     color: var(--text-color);
     text-decoration: none;
-    padding: 10px;
+    padding: var(--padding-sm);
 }
 
 .nav-links li a::before{
@@ -144,7 +206,7 @@ nav .nav-bar .logo a{
     transform: translateX(-50%);
     height: 6px;
     width: 6px;
-    border-radius: 50%;
+    border-radius: var(--border-radius-circle);
     background-color: var(--text-color);
     opacity: 0;
     transition: all 0.3s ease;
@@ -166,7 +228,7 @@ nav .nav-bar .logo a{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 5px;
+    margin: 0 var(--gap-xs);
 }
 
 .dark-light i,
@@ -222,7 +284,7 @@ nav .nav-bar .logo a{
     align-items: center;
     background-color: var(--nav-color);
     padding: 3px;
-    border-radius: 6px;
+    border-radius: var(--border-radius-sm);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
     opacity: 0;
     pointer-events: none;
@@ -283,7 +345,7 @@ body.dark .search-field i{
     left: 0;
     width: 100%;
     background-color: var(--nav-color);
-    border-radius: 6px;
+    border-radius: var(--border-radius-sm);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     max-height: 300px;
     overflow-y: auto;
@@ -298,7 +360,7 @@ body.dark .search-field i{
 
 .search-results li {
     list-style: none;
-    padding: 10px 15px;
+    padding: var(--padding-sm) var(--padding-md);
     cursor: pointer;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     color: var(--text-color);
@@ -338,7 +400,7 @@ body.dark .search-field i{
         width: 320px;
         left: -100%;
         top: 0;
-        padding: 20px;
+        padding: var(--padding-lg);
         background-color: var(--side-nav);
         z-index: 100;
         transition: all 0.4s ease;

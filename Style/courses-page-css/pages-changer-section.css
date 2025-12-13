@@ -11,13 +11,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: var(--gap-sm);
 }
 
 .page-number-box {
     width: 32px;
     height: 32px;
-    border-radius: 50%;
+    border-radius: var(--border-radius-circle);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,13 +34,13 @@
 
 .page-number-box:hover {
     background: var(--button-main-color);
-    color: white;
+    color: var(--white);
 }
 
 .active-page {
     opacity: 1;
     background: var(--button-main-color);
-    color: white;
+    color: var(--white);
 }
 
 .numbers {
@@ -48,5 +48,5 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: var(--gap-sm);
 }
