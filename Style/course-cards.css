@@ -1,9 +1,4 @@
 :root {
-    --arrow-color: rgba(35, 174, 98, 0.5);
-    --topic-background: rgba(35, 174, 98, 0.05);
-    --topic-hover-background: rgba(35, 174, 98, 0.2);
-    --topic-border-color: rgba(35, 174, 98, 0.2);
-    --topic-hover-border-color: rgba(35, 174, 98, 0.4);
     --small-text-font-size: clamp(0.9rem, 2vw, 0.95rem);
 }
 
