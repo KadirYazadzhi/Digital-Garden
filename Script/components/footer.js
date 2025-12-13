@@ -100,7 +100,7 @@ connectedCallback() {
                 </section>
         
                 <div class="plus-part">
-                    <p></p>
+                    <p class="copyright-text"></p>
                 </div>
            </footer>
         `;
