@@ -30,7 +30,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   height: -webkit-fill-available;
-  color: var(--text-color-page);
+  color: var(--text-body);
   height: 100vh;
 }
 
@@ -52,7 +52,7 @@ button {
   background: none;
   box-shadow: none;
   text-decoration: none;
-  color: var(--text-color-page);
+  color: var(--text-body);
 }
 
 img,
@@ -98,7 +98,7 @@ video {
   letter-spacing: -1px;
 }
 .heading {
-    color: var(--text-color);
+    color: var(--text-heading);
 }
 .heading-sm {
   font-family: inherit;
@@ -146,15 +146,15 @@ video {
 }
 .btn-darken {
   padding: 0.75rem 2rem;
-  color: var(--text-color);
+  color: var(--text-heading);
   background-color: transparent;
-  box-shadow: var(--shadow-medium);
-  border: 3px solid var(--button-main-color);
+  box-shadow: var(--shadow-md);
+  border: 3px solid var(--primary-color);
   transition: var(--animation);
 }
 .btn-darken:hover {
-    background-color: var(--button-main-color);
-    color: var(--white);
+    background-color: var(--primary-color);
+    color: var(--text-inverse);
 }
 .banner-column {
   position: relative;

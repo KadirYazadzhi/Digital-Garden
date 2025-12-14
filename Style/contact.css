@@ -53,9 +53,9 @@
     border-radius: 0.25rem;
     backdrop-filter: blur(25px) saturate(72%);
     -webkit-backdrop-filter: blur(25px) saturate(72%);
-    background-color: var(--form-elements-background);
-    border: var(--form-elements-border);
-    color: var(--text-color-page);
+    background-color: var(--bg-glass);
+    border: 1px solid var(--border-strong);
+    color: var(--text-body);
     font-size: var(--form-elements-font-size);
     outline: none;
 }
@@ -64,7 +64,7 @@
     width: 30%;
     cursor: pointer;
     background: none;
-    border: var(--form-btn-border);
+    border: 2px solid var(--primary-color);
 }
 
 .contact-input-textArea {

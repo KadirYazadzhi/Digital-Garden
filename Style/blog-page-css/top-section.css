@@ -15,13 +15,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--overlay-color);
+    background: var(--primary-alpha-30);
     filter: blur(5px);
 }
 
 .content {
     position: relative;
-    color: var(--white);
+    color: var(--text-inverse);
     z-index: 1;
 }
 

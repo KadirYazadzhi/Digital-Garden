@@ -16,7 +16,7 @@
     justify-content: center;
     width: 100%;
     height: auto;
-    background: var(--top-baner-background-color);
+    background: var(--banner-bg);
     padding-top: var(--baner-section-top-padding);
     z-index: var(--section-z-index);
 
@@ -37,8 +37,9 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    border-radius: var(--border-radius-md);
-    background: var(--top-type-box-background-color);
+    border-radius: var(--radius-md);
+    background: var(--banner-type-box-bg);
+    border: 1px solid var(--border-subtle);
 }
 
 .title {

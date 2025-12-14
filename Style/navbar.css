@@ -10,60 +10,64 @@
 }
 
 
-/* ===== Colours & Variables ===== */
+/* ===== GLOBAL VARIABLE SYSTEM ===== */
 :root {
-    /* Colors */
+    /* --- Base Colors (Palette) --- */
     --primary-color: #23AE62;
-    --body-color: #F5F7FA;
-    --nav-color: #FFFFFF;
-    --side-nav: #ECEFF4;
-    --text-color: #1B263B;
-    --text-color-page: #1D3557;
-    --search-bar: #FFFFFF;
-    --search-text: #23AE62;
-    --white: #FFFFFF;
-    --black: #000000;
+    --primary-rgb: 35, 174, 98;
     
-    /* Specific Backgrounds */
-    --footer-bg: #111928;
-    --footer-plus-bg: #090d15;
-    --progress-bar-bg: aliceblue;
-    --overlay-color: rgba(35, 174, 98, 0.3);
-    --filled-bar: #23AE62;
-    --asm-fill: #015c2a;
-    --footer-text-hover: #4fd68c;
+    /* --- Light Mode Semantics --- */
+    --bg-body: #F5F7FA;
+    --bg-surface: #FFFFFF;
+    --bg-sidebar: #ECEFF4;
+    --bg-glass: rgba(255, 255, 255, 0.75);
+    
+    /* Text */
+    --text-heading: #1B263B;
+    --text-body: #1D3557;
+    --text-inverse: #FFFFFF;
+    
+    /* Borders & Outlines */
+    --border-subtle: rgba(27, 38, 59, 0.1);
+    --border-medium: rgba(27, 38, 59, 0.2);
+    --border-strong: rgba(27, 38, 59, 0.8);
+    
+    /* Functional Overlays */
+    --overlay-hover: rgba(27, 38, 59, 0.1);
+    --overlay-active: rgba(27, 38, 59, 0.05);
+
+    /* Specific UI Elements Colors */
+    --footer-bg: var(--bg-sidebar);
+    --footer-plus-bg: var(--bg-body);
     --faq-border: #010718;
-
-    /* UI Elements */
-    --button-main-color: #23AE62;
-    --card-bg-color: rgba(255, 255, 255, 0.75);
-    --card-bg-color-hover: rgba(27, 38, 59, 0.1); 
-    --icon-back: rgba(27, 38, 59, 0.1);
-    --card-border-color: rgba(27, 38, 59, 0.25);
-    --card-border-light: rgb(223, 223, 223, 0.5);
-    --card-border-very-light: rgba(255, 255, 255, 0.05);
-    --tag-border: rgba(35, 174, 98, 0.2);
-    --btn-border-green: rgba(35, 174, 98, 0.65);
-    --btn-bg-green-hover: rgba(35, 174, 98, 0.65);
-    --org-logo-bg: rgba(35, 174, 98, 0.05);
-
-    --arrow-color: rgba(27, 38, 59, 0.5);
-    --topic-background: rgba(27, 38, 59, 0.05);
-    --topic-hover-background: rgba(27, 38, 59, 0.1);
-    --topic-border-color: rgba(27, 38, 59, 0.2);
-    --topic-hover-border-color: rgba(27, 38, 59, 0.4);
-
-    --form-elements-background : #FFFFFF;
-    --form-elements-border: 1px solid rgba(27, 38, 59, 0.8);
-    --form-btn-border: 2px solid var(--button-main-color);
+    --footer-text-hover: #4fd68c;
+    --progress-bar-bg: aliceblue;
+    --certificate-bg: var(--bg-sidebar);
     
-    --certificate-border: 1px solid rgba(35, 174, 98, 0.3);
-    --certificate-bg: transparent;
+    /* Top Banner Specifics */
+    --banner-bg: rgba(0, 255, 116, 0.015);
+    --banner-type-box-bg: var(--bg-surface);
 
-    --top-baner-background-color: rgba(0, 255, 116, 0.05);;
-    --top-type-box-background-color: rgba(12, 17, 26, 0.18);
+    /* Price Section Specifics */
+    --price-card-bg: rgba(141, 252, 191, 0.05);
+    --price-card-bg-hover: rgba(141, 252, 191, 0.12);
 
-    /* Spacing */
+    /* Opacity Variations for Primary Color (rgba) */
+    --primary-alpha-05: rgba(35, 174, 98, 0.05);
+    --primary-alpha-10: rgba(35, 174, 98, 0.1);
+    --primary-alpha-20: rgba(35, 174, 98, 0.2);
+    --primary-alpha-30: rgba(35, 174, 98, 0.3);
+    --primary-alpha-40: rgba(35, 174, 98, 0.4);
+    --primary-alpha-50: rgba(35, 174, 98, 0.5);
+    --primary-alpha-60: rgba(35, 174, 98, 0.6);
+    --primary-alpha-65: rgba(35, 174, 98, 0.65);
+    --primary-alpha-100: rgba(35, 174, 98, 1);
+
+    /* White Variations */
+    --white-alpha-05: rgba(255, 255, 255, 0.05);
+    --white-alpha-125: rgba(255, 255, 255, 0.125);
+
+    /* Spacing System */
     --gap-xs: 5px;
     --gap-sm: 10px;
     --gap-md: 15px;
@@ -79,58 +83,56 @@
     --padding-xl: 30px;
     --padding-container: 1.25rem;
     
-    --border-radius-sm: 6px;
-    --border-radius-md: 12px;
-    --border-radius-lg: 30px;
-    --border-radius-circle: 50%;
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 30px;
+    --radius-circle: 50%;
     
-    --shadow-small: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    
-    --font-size-sm: 14px;
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-body{
-    background-color: var(--body-color);
+body {
+    background-color: var(--bg-body);
 }
 
-body.dark{
-    --body-color: #101622;
-    --nav-color: #0c111a;
-    --side-nav: #010718;
-    --text-color: #23AE62;
-    --search-bar: #0c111a;
-    --search-text: #23AE62;
-    --text-color-page: #8dfcbf;
-    --button-main-color: #23AE62;
-
-    --card-bg-color: rgba(17, 25, 40, 0.67);
-    --card-bg-color-hover: rgba(62, 240, 142, 0.1);
-    --icon-back: rgba(54, 235, 135, 0.12);
-    --card-border-color: rgba(255, 255, 255, 0.125);
-    --card-border-light: rgba(255, 255, 255, 0.125);
-
-    --arrow-color: rgba(35, 174, 98, 0.5);
-    --topic-background: rgba(35, 174, 98, 0.05);
-    --topic-hover-background: rgba(35, 174, 98, 0.2);
-    --topic-border-color: rgba(35, 174, 98, 0.2);
-    --topic-hover-border-color: rgba(35, 174, 98, 0.4);
-
-    --form-elements-background : rgba(62, 240, 142, 0.05);
-    --form-elements-border: 1px solid rgba(62, 240, 142, 0.15);
-    --form-btn-border: 2px solid var(--button-main-color);
+body.dark {
+    /* --- Dark Mode Semantics --- */
+    --bg-body: #101622;
+    --bg-surface: #0c111a;
+    --bg-sidebar: #010718;
+    --bg-glass: rgba(17, 25, 40, 0.67);
     
-    --progress-bar-bg: #1e293b;
-    --certificate-bg: #0c111a;
-
-    --top-baner-background-color: rgba(0, 255, 116, 0.015);;
-    --top-type-box-background-color: rgba(12, 17, 26, 0.8);
+    /* Text */
+    --text-heading: #23AE62; 
+    --text-body: #8dfcbf;
     
-    /* Dark mode overrides for new vars */
-    --asm-fill: #23AE62; /* Example override, adjust if needed */
-    --footer-text-hover: #4fd68c;
+    /* Borders */
+    --border-subtle: rgba(255, 255, 255, 0.125);
+    --border-medium: rgba(62, 240, 142, 0.15);
+    --border-strong: rgba(62, 240, 142, 0.15);
+
+    /* Top Banner Specifics */
+    --banner-bg: rgba(0, 255, 116, 0.015);
+    --banner-type-box-bg: rgba(12, 17, 26, 0.8);
+    
+    /* Functional Overlays */
+    --overlay-hover: rgba(62, 240, 142, 0.1);
+    --overlay-active: rgba(35, 174, 98, 0.05);
+
+    /* Specific UI Overrides */
     --faq-border: #393838;
+    --progress-bar-bg: #1e293b;
+
+    --footer-bg: #111928;
+    --footer-plus-bg: #090d15;
+    --footer-text-hover: #4fd68c;
+    --certificate-bg: #0c111a;
 }
+
+/* ===========================
+   Navbar Specific Styles
+   =========================== */
 
 nav{
     position: fixed;
@@ -138,13 +140,12 @@ nav{
     left: 0;
     height: 70px;
     width: 100%;
-    background-color: var(--nav-color);
+    background-color: var(--bg-surface);
     z-index: 100;
 }
 
 body.dark nav{
-    border: 1px solid #393838;
-
+    border: 1px solid #393838; 
 }
 
 nav .nav-bar{
@@ -152,7 +153,7 @@ nav .nav-bar{
     height: 100%;
     max-width: 1000px;
     width: 100%;
-    background-color: var(--nav-color);
+    background-color: var(--bg-surface);
     margin: 0 auto;
     padding: 0 30px;
     display: flex;
@@ -161,7 +162,7 @@ nav .nav-bar{
 }
 
 nav .nav-bar .sidebarOpen{
-    color: var(--text-color);
+    color: var(--text-heading);
     font-size: 25px;
     padding: var(--padding-xs);
     cursor: pointer;
@@ -171,7 +172,7 @@ nav .nav-bar .sidebarOpen{
 nav .nav-bar .logo a{
     font-size: 25px;
     font-weight: 500;
-    color: var(--text-color);
+    color: var(--text-heading);
     text-decoration: none;
 }
 
@@ -193,7 +194,7 @@ nav .nav-bar .logo a{
     position: relative;
     font-size: 17px;
     font-weight: 400;
-    color: var(--text-color);
+    color: var(--text-heading);
     text-decoration: none;
     padding: var(--padding-sm);
 }
@@ -206,8 +207,8 @@ nav .nav-bar .logo a{
     transform: translateX(-50%);
     height: 6px;
     width: 6px;
-    border-radius: var(--border-radius-circle);
-    background-color: var(--text-color);
+    border-radius: var(--radius-circle);
+    background-color: var(--text-heading);
     opacity: 0;
     transition: all 0.3s ease;
 }
@@ -234,7 +235,7 @@ nav .nav-bar .logo a{
 .dark-light i,
 .searchToggle i{
     position: absolute;
-    color: var(--text-color);
+    color: var(--text-heading);
     font-size: 22px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -282,9 +283,9 @@ nav .nav-bar .logo a{
     width: 300px;
     display: flex;
     align-items: center;
-    background-color: var(--nav-color);
+    background-color: var(--bg-surface);
     padding: 3px;
-    border-radius: var(--border-radius-sm);
+    border-radius: var(--radius-sm);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
     opacity: 0;
     pointer-events: none;
@@ -304,7 +305,7 @@ nav .nav-bar .logo a{
     top: -4px;
     height: 12px;
     width: 12px;
-    background-color: var(--nav-color);
+    background-color: var(--bg-surface);
     transform: rotate(-45deg);
     z-index: -1;
 }
@@ -318,24 +319,24 @@ nav .nav-bar .logo a{
     border-radius: 4px;
     font-size: 14px;
     font-weight: 400;
-    color: var(--search-text);
-    background-color: var(--search-bar);
+    color: var(--primary-color);
+    background-color: var(--bg-surface);
 }
 
 body.dark .search-field input{
-    color: var(--text-color);
+    color: var(--text-heading);
 }
 
 .search-field i{
     position: absolute;
-    color: var(--nav-color);
+    color: var(--bg-surface);
     right: 15px;
     font-size: 22px;
     cursor: pointer;
 }
 
 body.dark .search-field i{
-    color: var(--text-color);
+    color: var(--text-heading);
 }
 
 /* Search Results Dropdown */
@@ -344,8 +345,8 @@ body.dark .search-field i{
     top: calc(100% + 5px);
     left: 0;
     width: 100%;
-    background-color: var(--nav-color);
-    border-radius: var(--border-radius-sm);
+    background-color: var(--bg-surface);
+    border-radius: var(--radius-sm);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     max-height: 300px;
     overflow-y: auto;
@@ -363,7 +364,7 @@ body.dark .search-field i{
     padding: var(--padding-sm) var(--padding-md);
     cursor: pointer;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    color: var(--text-color);
+    color: var(--text-heading);
     display: flex;
     flex-direction: column;
 }
@@ -401,7 +402,7 @@ body.dark .search-field i{
         left: -100%;
         top: 0;
         padding: var(--padding-lg);
-        background-color: var(--side-nav);
+        background-color: var(--bg-sidebar);
         z-index: 100;
         transition: all 0.4s ease;
     }
@@ -424,7 +425,7 @@ body.dark .search-field i{
     }
 
     .logo-toggle .siderbarClose{
-        color: var(--text-color);
+        color: var(--text-heading);
         font-size: 24px;
         cursor: pointer;
     }

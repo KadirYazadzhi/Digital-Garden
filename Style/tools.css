@@ -1,11 +1,11 @@
 .tool svg, .tool img {
     width: 70px;
     height: 70px;
-    fill: var(--text-color);
+    fill: var(--text-heading);
 }
 
 .asm g {
-    fill: var(--asm-fill);
+    fill: var(--bg-body);
 }
 
 .tool {
@@ -24,11 +24,11 @@
 }
 
 .glide__bullet {
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--text-heading);
     width: 10px;
     height: 10px;
-    background: var(--text-color);
-    border-radius: var(--border-radius-circle);
+    background: var(--text-heading);
+    border-radius: var(--radius-circle);
 }
 
 .burp {

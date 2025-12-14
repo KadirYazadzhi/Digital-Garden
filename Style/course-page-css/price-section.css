@@ -1,8 +1,4 @@
 :root {
-    --card-background: rgba(141, 252, 191, 0.05);
-    --card-background-hover: rgba(141, 252, 191, 0.12);
-    --card-border-standart: 1px solid rgba(35, 174, 98, 0.6);
-    --card-border-hover: 1px solid rgba(35, 174, 98, 1);
     --elements-font-size: clamp(1.2rem, 4vw, 1.165rem);
 }
 
@@ -45,9 +41,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: var(--border-radius-md);
-    background: var(--card-background);
-    border: var(--card-border-standart);
+    border-radius: var(--radius-md);
+    background: var(--price-card-bg);
+    border: 1px solid var(--primary-alpha-60);
     cursor: pointer;
     flex-direction: row;
     gap: var(--gap-xs);
@@ -55,8 +51,8 @@
 }
 
 .price-box:hover, .type-box:hover {
-    border: var(--card-border-hover);
-    background: var(--card-background-hover);
+    border: 1px solid var(--primary-alpha-100);
+    background: var(--price-card-bg-hover);
 }
 
 .type-box {

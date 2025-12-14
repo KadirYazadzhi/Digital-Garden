@@ -16,9 +16,9 @@
     position: fixed;
     right: 12%;
     top: 12%;
-    border-radius: var(--border-radius-md);
+    border-radius: var(--radius-md);
     background: var(--certificate-bg);
-    border: var(--certificate-border);
+    border: 1px solid var(--primary-alpha-30);
     padding: 15px 20px;
     display: flex;
     flex-direction: column;
@@ -54,14 +54,14 @@
 .dot {
     width: 10px;
     height: 10px;
-    border-radius: var(--border-radius-circle);
+    border-radius: var(--radius-circle);
     opacity: 0.5;
     cursor: pointer;
 }
 
 .dot,
 .activeDot {
-    background: var(--text-color);
+    background: var(--text-heading);
 }
 
 .activeDot {

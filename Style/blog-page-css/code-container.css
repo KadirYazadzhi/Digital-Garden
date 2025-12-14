@@ -17,15 +17,15 @@
 }
 
 .copy-btn {
-    border-radius: var(--border-radius-sm);
+    border-radius: var(--radius-sm);
     opacity: 0.4;
     padding: 4px 8px;
     cursor: pointer;
     transition: opacity 0.4s;
     backdrop-filter: blur(25px) saturate(72%);
     -webkit-backdrop-filter: blur(25px) saturate(72%);
-    background-color: var(--card-bg-color);
-    border: 1px solid var(--card-border-light);
+    background-color: var(--bg-glass);
+    border: 1px solid var(--border-subtle);
 }
 
 .copy-btn:hover {
@@ -40,7 +40,7 @@ pre {
 }
 
 code {
-    border-radius: var(--border-radius-md);
+    border-radius: var(--radius-md);
 }
 
 .after-code {

@@ -34,10 +34,10 @@
 .organization-logo-box {
     width: 70px;
     height: 70px;
-    border-radius: var(--border-radius-circle);
+    border-radius: var(--radius-circle);
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--org-logo-bg);
+    background: var(--primary-alpha-05);
     padding: var(--padding-sm);
 }
