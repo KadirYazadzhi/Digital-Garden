@@ -56,9 +56,11 @@ class CourseRenderer {
 
     // Render certificate section if applicable
     renderCertificateSection() {
-        if (!this.course.haveCertificate) return;
+        if (!this.course.haveCertificate || !this.course.certificateImage || this.course.certificateImage.length === 0) return;
 
         const certificateSection = document.querySelector(".certificate");
+        if (!certificateSection) return;
+        
         certificateSection.innerHTML = `
         <div class="certificate-card">
             <div class="image-box">
