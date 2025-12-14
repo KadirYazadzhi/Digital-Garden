@@ -37,7 +37,7 @@
     --overlay-active: rgba(27, 38, 59, 0.05);
 
     /* Specific UI Elements Colors */
-    --footer-bg: var(--bg-sidebar);
+    --footer-bg: var(--bg-body);
     --footer-plus-bg: var(--bg-body);
     --faq-border: #010718;
     --footer-text-hover: #4fd68c;
