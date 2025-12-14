@@ -282,25 +282,6 @@
     "moreDescription": "",
     "price": "",
     "certificateImage": "",
-    "topics": [],
-    "topicsLinks": [],
-    "skills": [],
-    "MyExperience": []
-  },
-  {
-    "id": 4,
-    "category": "Cybersecurity",
-    "image": "Image/Courses-Image/Bug Bounty Hunter - HTB.svg",
-    "title": "Bug Bounty Hunter",
-    "description": "Learn how to identify and responsibly disclose vulnerabilities in real-world applications.",
-    "location": "Hack The Box",
-    "duration": "1-3 months",
-    "difficulty": "Medium",
-    "iconType": "fa-battery-half",
-    "certificate": "With Certificate",
-    "moreDescription": "",
-    "price": "",
-    "certificateImage": "",
     "topics": [
       "1. Resources",
       "2. Course Introduction",
@@ -367,7 +348,28 @@
         null,
         "https://github.com/KadirYazadzhi/SoftUni---Data-Structures-Fundamentals-with-CSharp/tree/main/Regular%20Exam"
       ]
-    ]
+    ],
+    "skills": [],
+    "MyExperience": []
+  },
+  {
+    "id": 4,
+    "category": "Cybersecurity",
+    "image": "Image/Courses-Image/Bug Bounty Hunter - HTB.svg",
+    "title": "Bug Bounty Hunter",
+    "description": "Learn how to identify and responsibly disclose vulnerabilities in real-world applications.",
+    "location": "Hack The Box",
+    "duration": "1-3 months",
+    "difficulty": "Medium",
+    "iconType": "fa-battery-half",
+    "certificate": "With Certificate",
+    "moreDescription": "",
+    "price": "",
+    "certificateImage": "",
+    "topics": [],
+    "topicsLinks": [],
+    "skills": [],
+    "MyExperience": []
   },
   {
     "id": 5,
