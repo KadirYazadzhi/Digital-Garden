@@ -1,0 +1,45 @@
+/* Layout Container */
+.course-layout-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+/* Main Content Column */
+.course-content {
+    flex: 1; /* Takes available space */
+    max-width: 900px; /* Limits the width so text doesn't stretch too much, mimicking previous look */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Certificate Sidebar */
+.certificate {
+    width: 350px; /* Fixed width for the sidebar */
+    margin-left: 40px; /* Spacing between content and sidebar */
+    position: sticky;
+    top: 100px; /* Distance from top (clears navbar) */
+    align-self: flex-start; /* Important for sticky to work in flex */
+    height: auto;
+    z-index: 10;
+}
+
+/* Responsive: Hide certificate on smaller screens */
+@media (max-width: 1250px) {
+    .certificate {
+        display: none;
+    }
+    
+    .course-content {
+        max-width: 100%; /* Allow content to use full width on smaller screens */
+    }
+}
+
+/* Ensure sections inside course-content fit well */
+.course-content > section {
+    width: 100%;
+}
