@@ -24,7 +24,7 @@ footer {
     position: absolute;
     top: -18%;
     background-color: var(--footer-bg);
-    border: 1px solid var(--white-alpha-125);
+    border: 1px solid var(--border-medium);
     display: flex;
     flex-direction: row;
     text-align: start;
