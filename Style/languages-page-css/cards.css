@@ -20,8 +20,10 @@
     padding: var(--padding-md);
     transition: var(--animation);
     cursor: pointer;
-    opacity: 0.5;
+    opacity: 0.9;
 }
+
+body.dark .card-box { opacity: 0.5; }
 
 .card-box:hover {
     opacity: 1;
