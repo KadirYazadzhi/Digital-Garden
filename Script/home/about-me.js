@@ -18,8 +18,22 @@ class ProgressBar {
 
     // Method to retrieve the percentage value from the text element
     getProcentValue() {
-        // Parse the percentage value from the text content
-        return parseInt(this.procentTextElement.innerText);
+        const text = this.procentTextElement.innerText.trim();
+        
+        switch (text) {
+            case "Advanced":
+                return 95;
+            case "Proficient":
+                return 80;
+            case "Intermediate":
+                return 60;
+            case "Fundamental":
+            case "Beginner":
+                return 40;
+            default:
+                // Fallback if it's still a number or unknown
+                return parseInt(text) || 0;
+        }
     }
 
     // Method to set the width of the filled bar based on the percentage value
