@@ -70,7 +70,7 @@
 .price-dropdown {
     background: transparent;
     border: none;
-    color: inherit;
+    color: var(--text-heading);
     font-size: inherit;
     font-family: inherit;
     font-weight: inherit;
@@ -82,8 +82,11 @@
     text-align-last: center; 
 }
 
-/* Optional: remove default appearance to make it look purely like text, 
-   or keep it to show it's interactable. keeping default is safer for UX. */
+/* Ensure options have background and correct text color in light/dark mode */
+.price-dropdown option {
+    background-color: var(--bg-body);
+    color: var(--text-heading);
+}
 
 /* Responsive Logic */
 @media (max-width: 768px) {
