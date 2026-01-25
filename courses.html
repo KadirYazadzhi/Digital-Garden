@@ -3,6 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Courses</title>
     <link rel="stylesheet" href="Style/navbar.css">
     <link rel="stylesheet" href="Style/style.css">
@@ -24,6 +27,39 @@
 
 <body>
   <my-header></my-header>
+
+  <!-- Mobile Sorting Section (Visible only on mobile) -->
+  <section class="section mobile-sorting-section">
+      <div class="mobile-filter-row">
+          <select class="mobile-filter" data-target="type-sorting">
+              <option value="All">All Categories</option>
+              <option value="Programming">Programming</option>
+              <option value="Cybersecurity">Cybersecurity</option>
+          </select>
+          
+          <select class="mobile-filter" data-target="time-soring">
+              <option value="All">All Durations</option>
+              <option value="< 1 month">< 1 month</option>
+              <option value="> 1 month">> 1 month</option>
+          </select>
+      </div>
+      
+      <div class="mobile-filter-row">
+          <select class="mobile-filter" data-target="level-sorting">
+              <option value="All">All Levels</option>
+              <option value="Easy">Easy</option>
+              <option value="Medium">Medium</option>
+              <option value="Hard">Hard</option>
+              <option value="Very Hard">Very Hard</option>
+          </select>
+
+          <select class="mobile-filter" data-target="certificate-sorting">
+              <option value="All">All Certificates</option>
+              <option value="With Certificate">With Certificate</option>
+              <option value="Without Certificate">Without Certificate</option>
+          </select>
+      </div>
+  </section>
 
   <section class="section sorting-section">
     <div class="sorting-box-container type-sorting">
@@ -129,5 +165,6 @@
 <script type="application/javascript" src="Script/components/footer.js?v=2"></script>
 <script src="Script/courses-page-script/sorting-buttons-change.js"></script>
 <script src="Script/courses-page-script/generate-courses-cards.js?v=2"></script>
+<script src="Script/navbar.js?v=2"></script>
 
 </html>

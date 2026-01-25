@@ -33,5 +33,47 @@
 
 .active-box {
     background: var(--primary-color);
-    color: var(--text-inverse);
+    color: var(--text-heading);
+}
+
+/* Mobile Sorting Styles */
+.mobile-sorting-section {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 0; /* Adjust spacing */
+}
+
+.mobile-filter-row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.mobile-filter {
+    flex: 1;
+    padding: 12px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--primary-alpha-60);
+    background-color: var(--bg-body);
+    color: var(--text-heading);
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    /* Custom arrow if desired, or keep default */
+}
+
+.mobile-filter:focus {
+    border-color: var(--primary-color);
+}
+
+
+@media (max-width: 768px) {
+    .sorting-section {
+        display: none; /* Hide desktop sorting */
+    }
+
+    .mobile-sorting-section {
+        display: flex; /* Show mobile sorting */
+    }
 }

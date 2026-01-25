@@ -12,6 +12,50 @@ class SortingManager {
 
             container.addEventListener("click", (event) => this.handleClick(event, allBox, otherBoxes));
         });
+
+        // Initialize mobile dropdown listeners
+        const mobileFilters = document.querySelectorAll('.mobile-filter');
+        mobileFilters.forEach(select => {
+            select.addEventListener('change', (e) => this.handleMobileChange(e));
+        });
+    }
+
+    // Handle changes from mobile select dropdowns
+    handleMobileChange(e) {
+        const select = e.target;
+        const targetClass = select.dataset.target; // e.g., "type-sorting"
+        const selectedValue = select.value;
+        
+        // Find the corresponding desktop container
+        const container = document.querySelector(`.sorting-box-container.${targetClass}`);
+        if (!container) return;
+
+        // Find all boxes
+        const boxes = Array.from(container.querySelectorAll('.sorting-box'));
+        const allBox = boxes[0];
+        const otherBoxes = boxes.slice(1);
+
+        // Reset logic: Clear current active state to mimic single-select behavior of dropdown
+        allBox.classList.remove('active-box');
+        otherBoxes.forEach(b => b.classList.remove('active-box'));
+
+        if (selectedValue === "All" || selectedValue.includes("All")) {
+            allBox.classList.add('active-box');
+        } else {
+            // Find the specific box matching the value
+            // Note: innerText might have extra spaces, so trim
+            const targetBox = otherBoxes.find(b => b.innerText.trim() === selectedValue);
+            if (targetBox) {
+                targetBox.classList.add('active-box');
+            }
+        }
+
+        // Trigger logic to update filtered courses
+        // SortingManager handles UI state (classes), but SlideLoader applies the filter.
+        // SlideLoader listens for click on the container.
+        // We dispatch a click event so SlideLoader knows to re-filter.
+        // We ensure event.target is the container so SortingManager's handleClick ignores it (it needs .sorting-box target)
+        container.dispatchEvent(new Event('click'));
     }
 
     // Handle the click event for sorting boxes
