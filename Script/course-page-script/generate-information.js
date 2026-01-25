@@ -317,17 +317,70 @@ class CourseRenderer {
                     <p>Online</p>
                 </div>
 
-                <div class="price-box mobile-card">
+                <div class="price-box mobile-card custom-dropdown-container">
                     <i class="fa-solid fa-money-bill"></i>
-                    <select class="price-dropdown">
-                        <option value="${priceEur} €" selected>${priceEur} €</option>
-                        <option value="${priceLv} lv.">${priceLv} lv.</option>
-                        <option value="${priceUsd} $">${priceUsd} $</option>
-                    </select>
+                    
+                    <div class="custom-select-wrapper">
+                        <div class="custom-select-trigger">
+                            <span>${priceEur} €</span>
+                            <i class="fa-solid fa-chevron-down arrow"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="custom-options">
+                        <span class="custom-option selected" data-value="${priceEur} €">${priceEur} €</span>
+                        <span class="custom-option" data-value="${priceLv} lv.">${priceLv} lv.</span>
+                        <span class="custom-option" data-value="${priceUsd} $">${priceUsd} $</span>
+                    </div>
                 </div>
             </div>
         </div>        
         `
+        
+        // Initialize custom dropdown logic immediately after rendering
+        this.initCustomDropdown();
+    }
+
+    initCustomDropdown() {
+        const container = document.querySelector('.custom-dropdown-container');
+        if (!container) return;
+        
+        const trigger = container.querySelector('.custom-select-wrapper'); // The clickable area inside the card
+        const optionsContainer = container.querySelector('.custom-options');
+        const options = container.querySelectorAll('.custom-option');
+        const triggerText = container.querySelector('.custom-select-trigger span');
+        const arrow = container.querySelector('.arrow');
+
+        // Toggle dropdown on click
+        container.addEventListener('click', (e) => {
+            // Check if clicking inside options to avoid double toggle
+            if (e.target.closest('.custom-options')) return;
+            
+            container.classList.toggle('open');
+            e.stopPropagation();
+        });
+
+        // Handle selection
+        options.forEach(option => {
+            option.addEventListener('click', function() {
+                // Update text
+                triggerText.textContent = this.textContent;
+                
+                // Update active styling
+                options.forEach(opt => opt.classList.remove('selected'));
+                this.classList.add('selected');
+                
+                // Close dropdown
+                container.classList.remove('open');
+            });
+        });
+
+        // Close when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!container.contains(e.target)) {
+                container.classList.remove('open');
+            }
+        });
     }
 }
 

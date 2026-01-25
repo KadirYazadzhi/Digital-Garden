@@ -45,6 +45,7 @@
     flex-direction: row;
     gap: var(--gap-xs);
     transition: var(--animation);
+    position: relative; /* Essential for custom dropdown positioning */
 }
 
 .price-box:hover, .type-box:hover {
@@ -66,30 +67,93 @@
     display: none;
 }
 
-/* Dropdown Styling */
-.price-dropdown {
-    background: transparent;
-    border: none;
-    color: var(--text-heading);
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-    cursor: pointer;
-    outline: none;
-    text-align: center;
-    width: auto; /* Let it size naturally so it centers with the icon */
-    flex: 0 1 auto; /* Allow shrinking but don't grow */
-    min-width: 0;
-    /* Ensure text is centered and visible */
-    text-align-last: center; 
-    padding-right: 5px; /* Slight buffer */
+/* --- CUSTOM DROPDOWN CSS --- */
+
+.custom-select-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; /* Fill remaining space in card */
 }
 
-/* Ensure options have background and correct text color in light/dark mode */
-.price-dropdown option {
-    background-color: var(--bg-body);
+.custom-select-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     color: var(--text-heading);
 }
+
+.custom-select-trigger span {
+    font-weight: inherit;
+}
+
+.custom-select-trigger .arrow {
+    font-size: 0.8em;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate arrow when open */
+.custom-dropdown-container.open .custom-select-trigger .arrow {
+    transform: rotate(180deg);
+}
+
+/* Options List Container */
+.custom-options {
+    position: absolute;
+    top: calc(100% + 5px); /* Just below the card */
+    left: 0;
+    width: 100%; /* Matches card width */
+    background: var(--bg-body);
+    border: 1px solid var(--primary-alpha-60);
+    border-radius: var(--radius-md);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 100;
+    overflow: hidden;
+    
+    /* Animation state: hidden */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Options List Container: Visible */
+.custom-dropdown-container.open .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+}
+
+/* Individual Options */
+.custom-option {
+    display: block;
+    padding: 12px 15px;
+    color: var(--text-heading);
+    background: var(--bg-body);
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    border-bottom: 1px solid var(--primary-alpha-10);
+}
+
+.custom-option:last-child {
+    border-bottom: none;
+}
+
+.custom-option:hover {
+    background-color: var(--primary-alpha-10);
+    color: var(--primary-color);
+}
+
+.custom-option.selected {
+    background-color: var(--primary-alpha-05);
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
 
 /* Responsive Logic */
 @media (max-width: 768px) {
@@ -112,7 +176,7 @@
 
     .mobile-view .price-box {
         width: calc(60% - var(--gap-sm) / 2);
-        padding: 0 10px; /* Add padding to prevent icon from touching edges */
+        padding: 0 10px; /* Buffer for icon */
     }
 }
 
