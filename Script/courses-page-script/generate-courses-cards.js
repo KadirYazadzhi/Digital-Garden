@@ -4,10 +4,31 @@ class SlideLoader {
         this.containerId = containerId;
         this.pagesChangerContainer = document.querySelector(pageNumberContainer);
         this.sortingContainers = document.querySelectorAll(sortingContainerSelector);
-        this.maxCoursePerPage = 16;
+        
+        this.desktopMaxPerPage = 16; // Configuration for desktop
+        this.maxCoursePerPage = this.desktopMaxPerPage; // Default initialization
+        
         this.currentPage = 1;
         this.courses = [];
         this.filteredCourses = []; // Store filtered courses
+
+        // Listen for resize to adjust cards per page dynamically
+        window.addEventListener('resize', () => {
+            this.updateMaxPerPage();
+        });
+    }
+
+    // Update cards per page based on screen width
+    updateMaxPerPage() {
+        const isMobile = window.innerWidth <= 768;
+        const newMax = isMobile ? Math.floor(this.desktopMaxPerPage / 2) : this.desktopMaxPerPage;
+        
+        // Only re-render if the value actually changed
+        if (this.maxCoursePerPage !== newMax) {
+            this.maxCoursePerPage = newMax;
+            this.currentPage = 1; // Reset to page 1 to avoid out-of-bounds issues
+            this.renderCourses();
+        }
     }
 
     // Fetch course data from the JSON file
@@ -280,7 +301,8 @@ class SlideLoader {
         this.filteredCourses = this.courses; // Initially, all courses are shown
         this.setupSortingListeners(); // Initialize sorting listeners
         this.setupSearchListener(); // Initialize search listener
-        this.renderCourses();
+        
+        this.updateMaxPerPage(); // Set initial items per page based on screen size (will also trigger renderCourses)
     }
 }
 
