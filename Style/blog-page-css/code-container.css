@@ -50,6 +50,15 @@ code {
 @media (max-width: 768px) {
     .code-container {
         width: 100%;
+        max-width: 85vw; /* Hard limit based on viewport width to prevent page expansion */
         padding-left: 0;
+        display: block; /* Ensure it behaves as a block */
+        overflow-x: hidden; /* Container hides overflow, pre handles scroll */
+    }
+
+    pre {
+        max-width: 100%; /* Force pre to fit in container */
+        overflow-x: auto; /* Allow horizontal scroll inside the code block */
+        white-space: pre; /* Keep code formatting */
     }
 }
