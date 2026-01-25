@@ -275,8 +275,10 @@ class CourseRenderer {
     }
 
     renderPriceSection() {
-        const price = parseInt(this.course.price);
-        if (isNaN(price)) return; // Handle cases where price is missing or invalid
+        let price = parseInt(this.course.price);
+        if (isNaN(price)) {
+            price = 0;
+        }
 
         const priceLv = price.toFixed(2);
         const priceEur = (price * 0.51).toFixed(2);
