@@ -78,8 +78,50 @@
     cursor: pointer;
 }
 
+/* Logic for limiting topics on mobile */
+
+/* Default: All topics are visible on desktop */
+.mobile-hidden-topic {
+    display: flex; 
+}
+
+/* Default: Show More button is hidden on desktop */
+.show-more-topics-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: var(--topic-cards-max-width);
+    padding: 15px 0;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: var(--animation);
+}
+
+.show-more-topics-btn:hover {
+    color: var(--text-heading);
+}
+
+.show-more-topics-btn p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
 @media (max-width: 768px) {
     .course-topics-box {
         padding: var(--top-baner-padding-phone);
+    }
+    
+    /* Hide extra topics on mobile */
+    .mobile-hidden-topic {
+        display: none;
+    }
+    
+    /* Show the button on mobile */
+    .show-more-topics-btn {
+        display: flex;
     }
 }

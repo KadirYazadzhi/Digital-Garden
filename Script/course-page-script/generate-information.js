@@ -175,10 +175,33 @@ class CourseRenderer {
 
         this.course.topics.forEach((topic, index) => {
             const card = this.createTopicCard(topic, index);
+            
+            // Hide topics after the 10th one on mobile
+            if (index >= 10) {
+                card.classList.add('mobile-hidden-topic');
+            }
+            
             cardsContainer.appendChild(card);
         });
 
         topicsContainer.appendChild(cardsContainer);
+
+        // Add "Show More" button if topics exceed 10
+        if (this.course.topics.length > 10) {
+            const showMoreBtn = document.createElement("div");
+            showMoreBtn.className = "show-more-topics-btn";
+            showMoreBtn.innerHTML = `<p>Show More <i class="fa-solid fa-angle-down"></i></p>`;
+            
+            showMoreBtn.addEventListener("click", () => {
+                const hiddenTopics = cardsContainer.querySelectorAll('.mobile-hidden-topic');
+                hiddenTopics.forEach(topic => {
+                    topic.classList.remove('mobile-hidden-topic');
+                });
+                showMoreBtn.style.display = 'none'; // Hide button after expanding
+            });
+
+            topicsContainer.appendChild(showMoreBtn);
+        }
     }
 
     // Create individual topic cards
