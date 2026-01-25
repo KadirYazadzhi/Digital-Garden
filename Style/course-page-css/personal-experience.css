@@ -19,3 +19,9 @@
     gap: var(--gap-sm);
 }
 
+@media (max-width: 768px) {
+    .personal-experience-box {
+        padding: var(--top-baner-padding-phone);
+    }
+}
+

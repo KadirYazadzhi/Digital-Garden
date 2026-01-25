@@ -77,3 +77,9 @@
 .topic-card .visible-part i {
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .course-topics-box {
+        padding: var(--top-baner-padding-phone);
+    }
+}

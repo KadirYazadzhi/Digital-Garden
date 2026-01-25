@@ -41,3 +41,9 @@
     background: var(--primary-alpha-05);
     padding: var(--padding-sm);
 }
+
+@media (max-width: 768px) {
+    .organization-box {
+        padding: var(--top-baner-padding-phone);
+    }
+}

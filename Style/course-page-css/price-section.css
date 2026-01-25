@@ -58,3 +58,23 @@
 .type-box {
     width: 24%;
 }
+
+@media (max-width: 768px) {
+    .boxes {
+        flex-wrap: wrap; /* Allow wrapping */
+    }
+
+    .price-box, .type-box {
+        width: 48%; /* 2 per row on tablets/large phones */
+    }
+}
+
+@media (max-width: 480px) {
+    .price-box, .type-box {
+        width: 100%; /* 1 per row on small phones */
+    }
+    
+    .boxes {
+        padding-right: 0; /* Remove right padding to prevent overflow */
+    }
+}
