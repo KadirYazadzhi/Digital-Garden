@@ -24,6 +24,20 @@ class SlideLoader {
         }
     }
 
+    // Helper method to scroll to top on mobile
+    scrollToTopOnMobile() {
+        if (window.innerWidth <= 768) {
+            const container = document.getElementById(this.containerId);
+            if (container) {
+                // Scroll to the container with a bit of offset (e.g., for navbar)
+                const yOffset = -100; 
+                const y = container.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+                window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+        }
+    }
+
     // Generate page number changers and arrow listeners
     generatePagesNumberChanger() {
         const totalPages = Math.ceil(this.filteredCourses.length / this.maxCoursePerPage);
@@ -46,6 +60,7 @@ class SlideLoader {
             pageNumberBox.addEventListener("click", () => {
                 this.currentPage = i;
                 this.renderCourses();
+                this.scrollToTopOnMobile();
             });
         }
 
@@ -55,29 +70,40 @@ class SlideLoader {
         const rightSingleArrow = numbersContainer.querySelector(".fa-chevron-right");
         const rightDoubleArrow = numbersContainer.querySelector(".fa-angles-right");
 
-        leftDoubleArrow.parentElement.addEventListener("click", () => {
-            this.currentPage = 1;
+        // Use helper to avoid duplication
+        const changePage = (newPage) => {
+            this.currentPage = newPage;
             this.renderCourses();
-        });
+            this.scrollToTopOnMobile();
+        };
 
-        leftSingleArrow.parentElement.addEventListener("click", () => {
-            if (this.currentPage > 1) {
-                this.currentPage -= 1;
-                this.renderCourses();
-            }
-        });
+        // Remove old listeners to prevent stacking (cloning the element is a quick way to clear listeners)
+        // However, since generatePagesNumberChanger is called on render, we need to be careful not to attach multiple listeners to static arrows if they are outside numbersElement.
+        // Wait, the arrows seem to be static in HTML. Let's look at the structure.
+        // The arrows are siblings of .numbers.
+        
+        // Better approach: Assign onclick directly to avoid stacking listeners or check if listener exists.
+        // Or simply clone the parent of the arrow to clear listeners.
+        
+        // Since we are re-running this function every render, we MUST handle the event listeners on the arrows carefully.
+        // The current implementation adds new listeners every time renderCourses is called! This is a bug in the original code.
+        // I will fix this by cloning the arrows to remove old listeners before adding new ones.
 
-        rightSingleArrow.parentElement.addEventListener("click", () => {
-            if (this.currentPage < totalPages) {
-                this.currentPage += 1;
-                this.renderCourses();
-            }
+        this.replaceAndAddListener(leftDoubleArrow.parentElement, () => changePage(1));
+        this.replaceAndAddListener(leftSingleArrow.parentElement, () => {
+             if (this.currentPage > 1) changePage(this.currentPage - 1);
         });
+        this.replaceAndAddListener(rightSingleArrow.parentElement, () => {
+             if (this.currentPage < totalPages) changePage(this.currentPage + 1);
+        });
+        this.replaceAndAddListener(rightDoubleArrow.parentElement, () => changePage(totalPages));
+    }
 
-        rightDoubleArrow.parentElement.addEventListener("click", () => {
-            this.currentPage = totalPages;
-            this.renderCourses();
-        });
+    // Helper to replace element to clear listeners and add new one
+    replaceAndAddListener(element, callback) {
+        const newElement = element.cloneNode(true);
+        element.parentNode.replaceChild(newElement, element);
+        newElement.addEventListener("click", callback);
     }
 
     // Render courses for the current page
