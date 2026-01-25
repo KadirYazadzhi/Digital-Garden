@@ -46,6 +46,11 @@
     gap: var(--gap-xs);
     transition: var(--animation);
     position: relative; /* Essential for custom dropdown positioning */
+    color: var(--text-heading); /* Set common color for text and icons */
+}
+
+.price-box p, .type-box p, .price-box span, .price-box i, .type-box i {
+    color: inherit; /* Ensure all children use the parent color */
 }
 
 .price-box:hover, .type-box:hover {
@@ -81,7 +86,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    color: var(--text-heading);
+    color: inherit; /* Inherit from .price-box */
 }
 
 .custom-select-trigger span {
