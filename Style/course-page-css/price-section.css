@@ -77,10 +77,12 @@
     cursor: pointer;
     outline: none;
     text-align: center;
-    flex: 1; /* Take remaining space instead of forcing 100% width */
-    min-width: 0; /* Prevent overflow on small screens */
+    width: auto; /* Let it size naturally so it centers with the icon */
+    flex: 0 1 auto; /* Allow shrinking but don't grow */
+    min-width: 0;
     /* Ensure text is centered and visible */
     text-align-last: center; 
+    padding-right: 5px; /* Slight buffer */
 }
 
 /* Ensure options have background and correct text color in light/dark mode */
@@ -110,6 +112,7 @@
 
     .mobile-view .price-box {
         width: calc(60% - var(--gap-sm) / 2);
+        padding: 0 10px; /* Add padding to prevent icon from touching edges */
     }
 }
 
