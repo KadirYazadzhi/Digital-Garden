@@ -16,3 +16,13 @@
     width: 100%!important;
     height: 420px!important;
 }
+
+@media (max-width: 768px) {
+    .courses-cards-section {
+        flex-direction: column;
+    }
+
+    .card-box {
+        width: 95%;
+    }
+}

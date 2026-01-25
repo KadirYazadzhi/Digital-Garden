@@ -38,10 +38,12 @@
 
 /* Mobile Sorting Styles */
 .mobile-sorting-section {
+    width: 95%;
     display: none;
     flex-direction: column;
     gap: 10px;
     padding-bottom: 0; /* Adjust spacing */
+    margin-top: 3rem;
 }
 
 .mobile-filter-row {

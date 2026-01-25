@@ -21,7 +21,7 @@ class SlideLoader {
     // Update cards per page based on screen width
     updateMaxPerPage() {
         const isMobile = window.innerWidth <= 768;
-        const newMax = isMobile ? Math.floor(this.desktopMaxPerPage / 2) : this.desktopMaxPerPage;
+        const newMax = isMobile ? Math.floor(this.desktopMaxPerPage / 2) + 2 : this.desktopMaxPerPage;
         
         // Only re-render if the value actually changed
         if (this.maxCoursePerPage !== newMax) {

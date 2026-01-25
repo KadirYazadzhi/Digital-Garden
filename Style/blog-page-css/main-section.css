@@ -86,7 +86,6 @@
 @media (max-width: 768px) {
     .main {
         padding: 20px 0;
-        width: 90%; /* Safer width */
         margin: 0 auto; /* Center content */
         max-width: 100%;
         box-sizing: border-box;
