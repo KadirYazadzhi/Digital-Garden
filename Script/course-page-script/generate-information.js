@@ -275,28 +275,53 @@ class CourseRenderer {
     }
 
     renderPriceSection() {
+        const price = parseInt(this.course.price);
+        if (isNaN(price)) return; // Handle cases where price is missing or invalid
+
+        const priceLv = price.toFixed(2);
+        const priceEur = (price * 0.51).toFixed(2);
+        const priceUsd = (price * 0.54).toFixed(2);
+
         const priceSection = document.querySelector(".price-section");
         priceSection.innerHTML = `
         <div class="price-boxes">
             <h3 class="price-section-title skill-title">Prices and Type</h3>
                 
-            <div class="boxes">
+            <!-- Desktop View -->
+            <div class="boxes desktop-view">
                 <div class="price-box">
                     <i class="fa-solid fa-money-bill"></i>
-                    <p>${(parseInt(this.course.price)).toFixed(2)} lv.</p>
+                    <p>${priceLv} lv.</p>
                 </div>
                 <div class="price-box">
                     <i class="fa-solid fa-money-bill"></i>
-                    <p>${(parseInt(this.course.price) * 0.51).toFixed(2)} €</p>
+                    <p>${priceEur} €</p>
                 </div>
                 <div class="price-box">
                     <i class="fa-solid fa-money-bill"></i>
-                    <p>${(parseInt(this.course.price) * 0.54).toFixed(2)} $</p>
+                    <p>${priceUsd} $</p>
                 </div>
         
                 <div class="type-box">
                     <i class="fa-solid fa-globe"></i>
                     <p>Online</p>
+                </div>
+            </div>
+
+            <!-- Mobile View -->
+            <div class="boxes mobile-view">
+                <div class="type-box mobile-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>Online</p>
+                </div>
+
+                <div class="price-box mobile-card">
+                    <i class="fa-solid fa-money-bill"></i>
+                    <select class="price-dropdown">
+                        <option value="${priceEur} €" selected>${priceEur} €</option>
+                        <option value="${priceLv} lv.">${priceLv} lv.</option>
+                        <option value="${priceUsd} $">${priceUsd} $</option>
+                    </select>
                 </div>
             </div>
         </div>        

@@ -21,10 +21,6 @@
     width: 100%;
 }
 
-.price-box {
-    width: 22.5%;
-}
-
 .boxes {
     width: 100%;
     display: flex;
@@ -36,6 +32,7 @@
     font-size: var(--elements-font-size);
 }
 
+/* Common Card Styles */
 .price-box, .type-box {
     height: 80px;
     display: flex;
@@ -55,26 +52,67 @@
     background: var(--price-card-bg-hover);
 }
 
-.type-box {
+/* Desktop Sizes */
+.desktop-view .price-box {
+    width: 22.5%;
+}
+
+.desktop-view .type-box {
     width: 24%;
 }
 
+/* Mobile View hidden by default */
+.mobile-view {
+    display: none;
+}
+
+/* Dropdown Styling */
+.price-dropdown {
+    background: transparent;
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    /* Ensure text is centered and visible */
+    text-align-last: center; 
+}
+
+/* Optional: remove default appearance to make it look purely like text, 
+   or keep it to show it's interactable. keeping default is safer for UX. */
+
+/* Responsive Logic */
 @media (max-width: 768px) {
-    .boxes {
-        flex-wrap: wrap; /* Allow wrapping */
+    /* Hide desktop layout */
+    .desktop-view {
+        display: none !important;
     }
 
-    .price-box, .type-box {
-        width: 48%; /* 2 per row on tablets/large phones */
+    /* Show mobile layout */
+    .mobile-view {
+        display: flex !important;
+        flex-wrap: nowrap; /* Force single row */
+        justify-content: space-between;
+    }
+
+    /* Ensure cards take up equal width with a gap */
+    .mobile-card {
+        width: 48%;
+        flex: 1; /* Grow to fill space */
     }
 }
 
 @media (max-width: 480px) {
-    .price-box, .type-box {
-        width: 100%; /* 1 per row on small phones */
-    }
-    
     .boxes {
         padding-right: 0; /* Remove right padding to prevent overflow */
+    }
+    
+    /* Ensure they stay side-by-side even on small screens */
+    .mobile-card {
+        width: 48%;
     }
 }
