@@ -179,6 +179,7 @@ class CourseRenderer {
             // Hide topics after the 10th one on mobile
             if (index >= 10) {
                 card.classList.add('mobile-hidden-topic');
+                card.classList.add('extra-topic'); // Helper class for toggling
             }
             
             cardsContainer.appendChild(card);
@@ -192,12 +193,24 @@ class CourseRenderer {
             showMoreBtn.className = "show-more-topics-btn";
             showMoreBtn.innerHTML = `<p>Show More <i class="fa-solid fa-angle-down"></i></p>`;
             
+            let isExpanded = false;
+
             showMoreBtn.addEventListener("click", () => {
-                const hiddenTopics = cardsContainer.querySelectorAll('.mobile-hidden-topic');
-                hiddenTopics.forEach(topic => {
-                    topic.classList.remove('mobile-hidden-topic');
+                const extraTopics = cardsContainer.querySelectorAll('.extra-topic');
+                isExpanded = !isExpanded;
+
+                extraTopics.forEach(topic => {
+                    if (isExpanded) {
+                        topic.classList.remove('mobile-hidden-topic');
+                    } else {
+                        topic.classList.add('mobile-hidden-topic');
+                    }
                 });
-                showMoreBtn.style.display = 'none'; // Hide button after expanding
+
+                // Update Button Text and Icon
+                showMoreBtn.innerHTML = isExpanded 
+                    ? `<p>Show Less <i class="fa-solid fa-angle-up"></i></p>` 
+                    : `<p>Show More <i class="fa-solid fa-angle-down"></i></p>`;
             });
 
             topicsContainer.appendChild(showMoreBtn);
