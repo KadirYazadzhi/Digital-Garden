@@ -85,12 +85,17 @@
 
 @media (max-width: 768px) {
     .main {
-        padding: 0;
-        width: 90%;
+        padding: 20px 0;
+        width: 100%;
     }
 
     .image-container {
         flex-direction: column;
+        padding-left: 0;
+    }
+
+    .text, .example-text {
+        padding-left: 5px;
     }
 
     .two-image img {
