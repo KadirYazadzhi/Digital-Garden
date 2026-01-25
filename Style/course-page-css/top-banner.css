@@ -12,6 +12,12 @@
     padding: 0 0 0 3rem;
 }
 
+@media (max-width: 768px) {
+    .section {
+        padding: 0 1rem;
+    }
+}
+
 .footer.section {
     padding: 4rem 0 1rem;
 }

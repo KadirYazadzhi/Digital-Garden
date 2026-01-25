@@ -28,14 +28,25 @@
     z-index: 10;
 }
 
-/* Responsive: Hide certificate on smaller screens */
+/* Responsive: Stack content on smaller screens */
 @media (max-width: 1250px) {
+    .course-layout-container {
+        flex-direction: column;
+        align-items: center; /* Center items */
+    }
+
     .certificate {
-        display: none;
+        display: block; /* Ensure it's visible */
+        width: 100%;
+        max-width: 500px; /* Limit width on tablet/mobile */
+        margin-left: 0;
+        margin-top: 40px;
+        position: static; /* Remove sticky behavior */
     }
     
     .course-content {
-        max-width: 100%; /* Allow content to use full width on smaller screens */
+        max-width: 100%;
+        width: 100%;
     }
 }
 
