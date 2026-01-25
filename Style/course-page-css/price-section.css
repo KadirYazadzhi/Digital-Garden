@@ -99,20 +99,18 @@
         justify-content: space-between;
     }
 
-    /* Ensure cards take up equal width with a gap */
-    .mobile-card {
-        width: 48%;
-        flex: 1; /* Grow to fill space */
+    /* Ensure cards take up specific widths with a gap */
+    .mobile-view .type-box {
+        width: calc(40% - var(--gap-sm) / 2);
+    }
+
+    .mobile-view .price-box {
+        width: calc(60% - var(--gap-sm) / 2);
     }
 }
 
 @media (max-width: 480px) {
     .boxes {
         padding-right: 0; /* Remove right padding to prevent overflow */
-    }
-    
-    /* Ensure they stay side-by-side even on small screens */
-    .mobile-card {
-        width: 48%;
     }
 }
