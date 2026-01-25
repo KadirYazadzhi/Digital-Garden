@@ -86,16 +86,24 @@
 @media (max-width: 768px) {
     .main {
         padding: 20px 0;
-        width: 100%;
+        width: 90%; /* Safer width */
+        margin: 0 auto; /* Center content */
+        max-width: 100%;
+        box-sizing: border-box;
     }
+
+    /* Override any parent section padding that might be causing issues if needed */
+    /* But safer is to ensure .main content fits inside */
 
     .image-container {
         flex-direction: column;
         padding-left: 0;
+        width: 100%; /* Ensure images don't overflow */
     }
 
     .text, .example-text {
-        padding-left: 5px;
+        padding-left: 0; /* Remove left padding completely to save space */
+        width: 100%;
     }
 
     .two-image img {
