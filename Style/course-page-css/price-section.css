@@ -77,7 +77,8 @@
     cursor: pointer;
     outline: none;
     text-align: center;
-    width: 100%;
+    flex: 1; /* Take remaining space instead of forcing 100% width */
+    min-width: 0; /* Prevent overflow on small screens */
     /* Ensure text is centered and visible */
     text-align-last: center; 
 }
