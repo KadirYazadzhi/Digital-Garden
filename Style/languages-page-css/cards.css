@@ -59,7 +59,7 @@ body.dark .card-box { opacity: 0.5; }
     width: 100%;
     max-width: 100%;
     position: relative;
-    overflow: hidden;
+    overflow: visible; /* Prevent clipping arrows */
 }
 
 .glide__track {
