@@ -62,3 +62,14 @@ body.dark .card-box { opacity: 0.5; }
     margin-top: 3rem;
     gap: var(--gap-lg);
 }
+
+@media (max-width: 768px) {
+    .cards-box {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .card-box {
+        width: 100% !important;
+    }
+}

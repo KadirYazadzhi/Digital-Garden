@@ -81,3 +81,20 @@
 .link {
     color: var(--text-body);
 }
+
+@media (max-width: 768px) {
+    .top-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--gap-md);
+    }
+    
+    .language-text {
+        width: 100%;
+    }
+
+    .languages-small-specification-box {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
