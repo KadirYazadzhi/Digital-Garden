@@ -88,11 +88,11 @@ class CourseRenderer {
         container.appendChild(description);
 
         // Find the section with class 'top-language-bar' and append the container
-        const section = document.querySelector(".section.top-language-bar");
+        const section = document.querySelector(".section.top-language-bar .container");
         if (section) {
             section.appendChild(container);
         } else {
-            console.error("Section with class 'top-language-bar' not found.");
+            console.error("Section with class 'top-language-bar' or its container not found.");
         }
     }
 
