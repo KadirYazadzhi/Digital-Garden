@@ -141,18 +141,29 @@ body.dark .card-box { opacity: 0.5; }
 
 @media (max-width: 768px) {
     .cards-box {
-        flex-wrap: nowrap;
-        gap: 0;
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+        gap: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     .card-box {
         width: 100% !important;
-        margin: 0 5px; /* Add small margin between slides */
+        margin: 0 10px; /* Add margin inside the slide content instead of gap */
     }
     
+    .glide__slide {
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .glide__arrows {
         top: -65px;
-        right: var(--padding-container); /* Align with container padding */
+        right: var(--padding-container);
     }
 
     .languages .container {
