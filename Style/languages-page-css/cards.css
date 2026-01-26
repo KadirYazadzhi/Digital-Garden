@@ -177,6 +177,6 @@ body.dark .card-box { opacity: 0.5; }
         max-width: 100vw !important;
         margin-top: 4rem;
         position: relative;
-        overflow: hidden; /* Constrain the slider */
+        overflow: visible; /* Allow arrows to be seen */
     }
 }
