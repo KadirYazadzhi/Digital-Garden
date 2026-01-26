@@ -2,15 +2,17 @@ document.addEventListener('DOMContentLoaded', () => {
     let glide = null;
 
     function initSlider() {
-        if (window.innerWidth < 768) {
+        const isMobile = window.innerWidth <= 768;
+        
+        if (isMobile) {
             if (!glide) {
                 glide = new Glide('.glide', {
-                    type: 'carousel',
+                    type: 'slider',
                     perView: 1,
-                    gap: 0, // Handled by CSS margin
+                    gap: 0,
+                    rewind: false,
                     animationDuration: 400
-                });
-                glide.mount();
+                }).mount();
             }
         } else {
             if (glide) {
@@ -21,8 +23,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     initSlider();
-
-    window.addEventListener('resize', () => {
-        initSlider();
-    });
+    window.addEventListener('resize', initSlider);
 });
