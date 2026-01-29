@@ -75,7 +75,7 @@ body.dark .card-box { opacity: 0.5; }
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
         gap: var(--gap-md);
         width: 100%;
