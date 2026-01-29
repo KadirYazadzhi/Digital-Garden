@@ -1,7 +1,7 @@
 :root {
-    --small-card-width: 20%;
-    --medium-card-width: 30%;
-    --big-card-width: 35%;
+    --small-card-width: calc(19% - var(--gap-md));
+    --medium-card-width: calc(29% - var(--gap-md));
+    --big-card-width: calc(33% - var(--gap-md));
     --icon-font-size: 6rem;
 }
 
@@ -27,6 +27,7 @@ body.dark .card-box { opacity: 0.5; }
 
 .card-box:hover {
     opacity: 1;
+    transform: translateY(-5px);
 }
 
 .small-card {
