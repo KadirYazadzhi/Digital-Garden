@@ -9,22 +9,141 @@ const cardsData = [
     { icon: "fa-regular fa-note-sticky", title: "My Notes", size: "small-card" }
 ];
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const container = document.querySelector('.section.languages .container');
     let glide = null;
+
+    // 1. Fetch Data
+    let languageData = null;
+    const activeLanguageName = localStorage.getItem("activeLanguage");
+    
+    try {
+        const response = await fetch('Json/languages.json');
+        const languages = await response.json();
+        languageData = languages.find(l => l.name === activeLanguageName);
+    } catch (e) {
+        console.error("Failed to load language data", e);
+    }
+
+    // 2. Create Modal (if not exists)
+    let modalOverlay = document.getElementById('resource-modal');
+    if (!modalOverlay) {
+        modalOverlay = document.createElement('div');
+        modalOverlay.id = 'resource-modal';
+        modalOverlay.className = 'modal-overlay';
+        modalOverlay.style.display = 'none'; // Initially hidden
+        modalOverlay.innerHTML = `
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2 id="modal-title">Resource Title</h2>
+                <div id="modal-body">
+                    <!-- Dynamic Content -->
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modalOverlay);
+
+        // CSS for Modal
+        const style = document.createElement('style');
+        style.textContent = `
+            .modal-overlay {
+                position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+                background: rgba(0,0,0,0.7); z-index: 1000;
+                display: flex; justify-content: center; align-items: center;
+            }
+            .modal-content {
+                background: #1f1f1f; color: white; padding: 20px; border-radius: 8px;
+                width: 90%; max-width: 500px; position: relative;
+                max-height: 80vh; overflow-y: auto;
+                text-align: left;
+            }
+            .close-modal {
+                position: absolute; top: 10px; right: 15px; font-size: 24px; cursor: pointer; color: #aaa;
+            }
+            .close-modal:hover { color: #fff; }
+            .resource-item { margin-bottom: 15px; padding: 10px; background: #2a2a2a; border-radius: 4px; }
+            .resource-item a { color: #00d2ff; text-decoration: none; word-break: break-all; }
+            .resource-item a:hover { text-decoration: underline; }
+            .resource-item p { margin: 5px 0 0; font-size: 0.9em; color: #ccc; }
+            .resource-item strong { display: block; margin-bottom: 5px; color: #fff; }
+        `;
+        document.head.appendChild(style);
+
+        // Close logic
+        const closeBtn = modalOverlay.querySelector('.close-modal');
+        closeBtn.onclick = () => {
+            modalOverlay.style.display = 'none';
+        };
+        window.onclick = (event) => {
+            if (event.target == modalOverlay) {
+                modalOverlay.style.display = 'none';
+            }
+        };
+    }
 
     function renderCards() {
         const isMobile = window.innerWidth <= 768;
         
-        // Clean up existing glide if it exists
         if (glide) {
             glide.destroy();
             glide = null;
         }
 
-        // Clear container
         if (container) {
             container.innerHTML = '';
+
+            const createCardContent = (card) => {
+                 const cardBox = document.createElement('div');
+                 cardBox.className = `card-box ${card.size}`;
+                 cardBox.style.cursor = 'pointer'; // Make it look clickable
+                 cardBox.innerHTML = `
+                    <i class="${card.icon}"></i>
+                    <p>${card.title}</p>
+                 `;
+                 
+                 // Add Click Listener
+                 cardBox.addEventListener('click', () => {
+                     if (card.title === "Courses") {
+                         // Filter redirection
+                         if (activeLanguageName) {
+                             window.location.href = `courses.html?filter=${encodeURIComponent(activeLanguageName)}`;
+                         } else {
+                             window.location.href = 'courses.html';
+                         }
+                     } else {
+                         // Open Modal
+                         const title = document.getElementById('modal-title');
+                         const body = document.getElementById('modal-body');
+                         title.textContent = `${activeLanguageName || ''} - ${card.title}`;
+                         
+                         body.innerHTML = '';
+                         if (languageData && languageData.resources && languageData.resources[card.title]) {
+                             const items = languageData.resources[card.title];
+                             if (items.length > 0) {
+                                 items.forEach(item => {
+                                     const div = document.createElement('div');
+                                     div.className = 'resource-item';
+                                     let content = '';
+                                     if (item.title) content += `<strong>${item.title}</strong>`;
+                                     if (item.link && item.link !== '#') content += `<a href="${item.link}" target="_blank">${item.link}</a><br>`;
+                                     if (item.description) content += `<p>${item.description}</p>`;
+                                     if (item.content) content += `<p>${item.content}</p>`; // For notes
+                                     div.innerHTML = content;
+                                     body.appendChild(div);
+                                 });
+                             } else {
+                                 body.innerHTML = '<p style="color:#aaa;">No resources found for this category yet.</p>';
+                             }
+                         } else {
+                             body.innerHTML = '<p style="color:#aaa;">Data not available or language not selected.</p>';
+                         }
+
+                         modalOverlay.style.display = 'flex';
+                     }
+                 });
+
+                 return cardBox;
+            };
 
             if (isMobile) {
                 // Generate Mobile Structure (Glide)
@@ -41,16 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 cardsData.forEach(card => {
                     const li = document.createElement('li');
                     li.className = 'glide__slide';
-                    
-                    const cardBox = document.createElement('div');
-                    cardBox.className = `card-box ${card.size}`;
-                    
-                    cardBox.innerHTML = `
-                        <i class="${card.icon}"></i>
-                        <p>${card.title}</p>
-                    `;
-                    
-                    li.appendChild(cardBox);
+                    li.appendChild(createCardContent(card));
                     ul.appendChild(li);
                 });
     
@@ -70,7 +180,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 glideDiv.appendChild(arrows);
                 container.appendChild(glideDiv);
     
-                // Init Glide
                 try {
                     glide = new Glide('.glide', {
                         type: 'slider',
@@ -84,21 +193,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
     
             } else {
-                // Generate Desktop Structure (No Glide classes)
-                // Using div.cards-box to ensure proper flex sizing of children
+                // Generate Desktop Structure
                 const cardsBox = document.createElement('div');
                 cardsBox.className = 'cards-box';
     
                 cardsData.forEach(card => {
-                    const cardBox = document.createElement('div');
-                    cardBox.className = `card-box ${card.size}`;
-                    
-                    cardBox.innerHTML = `
-                        <i class="${card.icon}"></i>
-                        <p>${card.title}</p>
-                    `;
-                    
-                    cardsBox.appendChild(cardBox);
+                    cardsBox.appendChild(createCardContent(card));
                 });
                 
                 container.appendChild(cardsBox);

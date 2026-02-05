@@ -98,18 +98,6 @@ class SlideLoader {
             this.scrollToTopOnMobile();
         };
 
-        // Remove old listeners to prevent stacking (cloning the element is a quick way to clear listeners)
-        // However, since generatePagesNumberChanger is called on render, we need to be careful not to attach multiple listeners to static arrows if they are outside numbersElement.
-        // Wait, the arrows seem to be static in HTML. Let's look at the structure.
-        // The arrows are siblings of .numbers.
-        
-        // Better approach: Assign onclick directly to avoid stacking listeners or check if listener exists.
-        // Or simply clone the parent of the arrow to clear listeners.
-        
-        // Since we are re-running this function every render, we MUST handle the event listeners on the arrows carefully.
-        // The current implementation adds new listeners every time renderCourses is called! This is a bug in the original code.
-        // I will fix this by cloning the arrows to remove old listeners before adding new ones.
-
         this.replaceAndAddListener(leftDoubleArrow.parentElement, () => changePage(1));
         this.replaceAndAddListener(leftSingleArrow.parentElement, () => {
              if (this.currentPage > 1) changePage(this.currentPage - 1);
@@ -136,6 +124,11 @@ class SlideLoader {
         }
 
         container.innerHTML = ""; // Clear previous content
+        
+        if (this.filteredCourses.length === 0) {
+            container.innerHTML = '<p style="color:white; width:100%; text-align:center;">No courses found matching criteria.</p>';
+            return;
+        }
 
         const startIndex = (this.currentPage - 1) * this.maxCoursePerPage;
         const endIndex = Math.min(startIndex + this.maxCoursePerPage, this.filteredCourses.length);
@@ -180,7 +173,13 @@ class SlideLoader {
         const cards = document.querySelectorAll('.course-card');
         cards.forEach(card => {
             const index = card.dataset.index; // Retrieve the correct index from data attributes
+            // Note: index matches filteredCourses, so we need to ensure filteredCourses is stable for this render
             card.addEventListener('click', () => {
+                // Because we slice filteredCourses for pagination, 'index' here is relative to the page start if we just use loop index
+                // Wait, in renderCourses loop: i goes from startIndex to endIndex.
+                // data-index="${i}" uses the correct index from filteredCourses array.
+                // So filteredCourses[index] is correct.
+                
                 const activeCourse = this.filteredCourses[index].title;
                 localStorage.setItem('activeCourseCard', activeCourse);
                 window.location.href = 'course.html';
@@ -264,9 +263,15 @@ class SlideLoader {
     }
 
     setupSearchListener() {
+        // Wait a bit for the navbar to render search field if strictly necessary, 
+        // but here we assume it's available or will be shortly. 
+        // Best effort:
         const searchField = document.querySelector('.search-field input');
+        
         if (!searchField) {
-            console.error('Search field with class "search-field" not found.');
+            // It might be a custom element that takes time to render. 
+            // We can retry or just log.
+            // console.error('Search field with class "search-field" not found.');
             return;
         }
 
@@ -298,7 +303,27 @@ class SlideLoader {
         this.courses = await this.fetchCourses();
         if (this.courses.length === 0) return;
 
-        this.filteredCourses = this.courses; // Initially, all courses are shown
+        // Check for URL filter
+        const urlParams = new URLSearchParams(window.location.search);
+        const filter = urlParams.get('filter');
+
+        if (filter) {
+            const lowerFilter = filter.toLowerCase();
+            this.filteredCourses = this.courses.filter(course => 
+                (course.title && course.title.toLowerCase().includes(lowerFilter)) ||
+                (course.category && course.category.toLowerCase().includes(lowerFilter)) ||
+                (course.description && course.description.toLowerCase().includes(lowerFilter))
+            );
+            
+            // Pre-fill search if possible
+            const searchField = document.querySelector('.search-field input');
+            if (searchField) {
+                searchField.value = filter;
+            }
+        } else {
+            this.filteredCourses = this.courses;
+        }
+
         this.setupSortingListeners(); // Initialize sorting listeners
         this.setupSearchListener(); // Initialize search listener
         
@@ -316,4 +341,3 @@ document.addEventListener("DOMContentLoaded", () => {
     );
     slideLoader.load();
 });
-

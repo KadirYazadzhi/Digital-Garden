@@ -10,7 +10,30 @@
     "uses": "Back End",
     "devSalary": "$50,000 - $140,000",
     "description": "Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple paradigms and is widely used in web development, data science, AI, and automation. Its extensive library and active community make it versatile for both beginners and experienced developers.",
-    "officialDocumentationLink": "https://docs.python.org/3/"
+    "officialDocumentationLink": "https://docs.python.org/3/",
+    "resources": {
+      "Codes": [
+        { "title": "Example Code 1", "link": "#", "description": "Basic Python syntax example." }
+      ],
+      "Cheatsheets": [
+        { "title": "Python Basics", "link": "#" }
+      ],
+      "Books": [
+        { "title": "Automate the Boring Stuff with Python", "link": "https://automatetheboringstuff.com/" }
+      ],
+      "Blogs": [
+        { "title": "Real Python", "link": "https://realpython.com/" }
+      ],
+      "Youtube": [
+        { "title": "Programming with Mosh - Python", "link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc" }
+      ],
+      "In Cybersecurity": [
+        { "title": "Black Hat Python", "link": "#" }
+      ],
+      "My Notes": [
+        { "title": "My Personal Notes on Python", "link": "#", "content": "Variables are dynamic..." }
+      ]
+    }
   },
   {
     "id": 2,
@@ -23,7 +46,16 @@
     "uses": "Front End, Back End",
     "devSalary": "$50,000 - $120,000",
     "description": "JavaScript, created in 1995, is a versatile programming language for building dynamic and interactive web content. It supports various programming styles and powers frameworks like React and Node.js. Essential for web development, JavaScript is widely used on both the client and server sides.",
-    "officialDocumentationLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    "officialDocumentationLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "resources": {
+      "Codes": [],
+      "Cheatsheets": [],
+      "Books": [],
+      "Blogs": [],
+      "Youtube": [],
+      "In Cybersecurity": [],
+      "My Notes": []
+    }
   },
   {
     "id": 3,
@@ -36,7 +68,16 @@
     "uses": "Back End",
     "devSalary": "$70,000 - $130,000",
     "description": "Go, also known as Golang, is an open-source programming language created by Google in 2009. It's designed for simplicity, efficiency, and strong concurrency support. Go is widely used for building scalable, high-performance systems, particularly for web servers and cloud applications.",
-    "officialDocumentationLink": "https://golang.org/doc/"
+    "officialDocumentationLink": "https://golang.org/doc/",
+    "resources": {
+      "Codes": [],
+      "Cheatsheets": [],
+      "Books": [],
+      "Blogs": [],
+      "Youtube": [],
+      "In Cybersecurity": [],
+      "My Notes": []
+    }
   },
   {
     "id": 4,
@@ -49,7 +90,16 @@
     "uses": "Database Management",
     "devSalary": "$60,000 - $110,000",
     "description": "SQL (Structured Query Language) is a standard programming language used for managing and manipulating relational databases. It allows developers to query, insert, update, and delete data efficiently. SQL is fundamental for working with databases in web development, data analysis, and business intelligence.",
-    "officialDocumentationLink": "https://www.w3schools.com/sql/"
+    "officialDocumentationLink": "https://www.w3schools.com/sql/",
+    "resources": {
+      "Codes": [],
+      "Cheatsheets": [],
+      "Books": [],
+      "Blogs": [],
+      "Youtube": [],
+      "In Cybersecurity": [],
+      "My Notes": []
+    }
   },
   {
     "id": 5,
@@ -62,7 +112,16 @@
     "uses": "Back End",
     "devSalary": "$60,000 - $120,000",
     "description": "Ruby is a high-level, dynamic, object-oriented programming language designed for simplicity and productivity. It is widely known for its use in the Ruby on Rails framework, which helps developers build web applications quickly and efficiently. Ruby emphasizes convention over configuration and developer happiness.",
-    "officialDocumentationLink": "https://www.ruby-lang.org/en/documentation/"
+    "officialDocumentationLink": "https://www.ruby-lang.org/en/documentation/",
+    "resources": {
+      "Codes": [],
+      "Cheatsheets": [],
+      "Books": [],
+      "Blogs": [],
+      "Youtube": [],
+      "In Cybersecurity": [],
+      "My Notes": []
+    }
   },
   {
     "id": 6,
@@ -75,7 +134,16 @@
     "uses": "Back End",
     "devSalary": "$50,000 - $100,000",
     "description": "PHP is a widely-used open-source server-side scripting language designed for web development. It can be embedded into HTML and is most often used for creating dynamic websites and web applications. PHP powers major content management systems like WordPress and frameworks like Laravel.",
-    "officialDocumentationLink": "https://www.php.net/docs.php"
+    "officialDocumentationLink": "https://www.php.net/docs.php",
+    "resources": {
+      "Codes": [],
+      "Cheatsheets": [],
+      "Books": [],
+      "Blogs": [],
+      "Youtube": [],
+      "In Cybersecurity": [],
+      "My Notes": []
+    }
   },
   {
     "id": 7,
@@ -88,7 +156,16 @@
     "uses": "System Programming",
     "devSalary": "$70,000 - $120,000",
     "description": "Assembly language is a low-level programming language that is closely related to machine code. It is used for programming hardware and embedded systems where performance and memory efficiency are crucial. Assembly is difficult to learn but offers the highest level of control over system resources.",
-    "officialDocumentationLink": "https://en.wikibooks.org/wiki/Assembly_Language"
+    "officialDocumentationLink": "https://en.wikibooks.org/wiki/Assembly_Language",
+    "resources": {
+      "Codes": [],
+      "Cheatsheets": [],
+      "Books": [],
+      "Blogs": [],
+      "Youtube": [],
+      "In Cybersecurity": [],
+      "My Notes": []
+    }
   },
   {
     "id": 8,
@@ -101,7 +178,16 @@
     "uses": "System Programming",
     "devSalary": "$60,000 - $110,000",
     "description": "C is a general-purpose, procedural programming language developed in the early 1970s. It is widely used for system software, embedded systems, and operating systems. C provides low-level access to memory and system resources, making it an essential language for performance-critical applications.",
-    "officialDocumentationLink": "https://en.wikipedia.org/wiki/C_(programming_language)"
+    "officialDocumentationLink": "https://en.wikipedia.org/wiki/C_(programming_language)",
+    "resources": {
+      "Codes": [],
+      "Cheatsheets": [],
+      "Books": [],
+      "Blogs": [],
+      "Youtube": [],
+      "In Cybersecurity": [],
+      "My Notes": []
+    }
   },
   {
     "id": 9,
@@ -114,7 +200,16 @@
     "uses": "System Programming, Game Development",
     "devSalary": "$70,000 - $120,000",
     "description": "C++ is a powerful, high-performance programming language developed as an extension of C. It supports both object-oriented and procedural programming and is used for building system software, high-performance applications, games, and real-time simulations. C++ is known for its efficiency and control over hardware.",
-    "officialDocumentationLink": "https://en.cppreference.com/w/"
+    "officialDocumentationLink": "https://en.cppreference.com/w/",
+    "resources": {
+      "Codes": [],
+      "Cheatsheets": [],
+      "Books": [],
+      "Blogs": [],
+      "Youtube": [],
+      "In Cybersecurity": [],
+      "My Notes": []
+    }
   },
   {
     "id": 10,
@@ -127,6 +222,15 @@
     "uses": "Back End, Game Development",
     "devSalary": "$60,000 - $110,000",
     "description": "C# (C-sharp) is a modern, object-oriented programming language developed by Microsoft. It is commonly used for building enterprise applications, web applications, and video games using the Unity game engine. C# is known for its ease of use, versatility, and integration with the .NET ecosystem.",
-    "officialDocumentationLink": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+    "officialDocumentationLink": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    "resources": {
+      "Codes": [],
+      "Cheatsheets": [],
+      "Books": [],
+      "Blogs": [],
+      "Youtube": [],
+      "In Cybersecurity": [],
+      "My Notes": []
+    }
   }
 ]
