@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         modalOverlay.innerHTML = `
             <div class="modal-content">
                 <span class="close-modal">&times;</span>
-                <h2 id="modal-title">Resource Title</h2>
-                <div id="modal-body">
+                <h2 id="modal-title" class="heading-sm">Resource Title</h2>
+                <div id="modal-body" class="paragraph-small">
                     <!-- Dynamic Content -->
                 </div>
             </div>
@@ -50,22 +50,70 @@ document.addEventListener('DOMContentLoaded', async () => {
                 position: fixed; top: 0; left: 0; width: 100%; height: 100%;
                 background: rgba(0,0,0,0.7); z-index: 1000;
                 display: flex; justify-content: center; align-items: center;
+                backdrop-filter: blur(5px);
             }
             .modal-content {
-                background: #1f1f1f; color: white; padding: 20px; border-radius: 8px;
-                width: 90%; max-width: 500px; position: relative;
-                max-height: 80vh; overflow-y: auto;
+                background: var(--bg-surface); 
+                color: var(--text-body);
+                padding: 20px; 
+                border-radius: var(--radius-md);
+                width: 90%; 
+                max-width: 500px; 
+                position: relative;
+                max-height: 80vh; 
+                overflow-y: auto;
                 text-align: left;
+                box-shadow: var(--shadow-md);
+                border: 1px solid var(--border-medium);
             }
             .close-modal {
-                position: absolute; top: 10px; right: 15px; font-size: 24px; cursor: pointer; color: #aaa;
+                position: absolute; 
+                top: 10px; 
+                right: 15px; 
+                font-size: 24px; 
+                cursor: pointer; 
+                color: var(--text-heading);
+                transition: var(--animation);
             }
-            .close-modal:hover { color: #fff; }
-            .resource-item { margin-bottom: 15px; padding: 10px; background: #2a2a2a; border-radius: 4px; }
-            .resource-item a { color: #00d2ff; text-decoration: none; word-break: break-all; }
-            .resource-item a:hover { text-decoration: underline; }
-            .resource-item p { margin: 5px 0 0; font-size: 0.9em; color: #ccc; }
-            .resource-item strong { display: block; margin-bottom: 5px; color: #fff; }
+            .close-modal:hover { 
+                color: var(--primary-color); 
+            }
+            .resource-item { 
+                margin-bottom: 15px; 
+                padding: 15px; 
+                background: var(--bg-sidebar); 
+                border-radius: var(--radius-sm); 
+                border: 1px solid var(--border-subtle);
+            }
+            .resource-item a { 
+                color: var(--primary-color); 
+                text-decoration: none; 
+                word-break: break-all; 
+                font-weight: 500;
+                transition: var(--animation);
+            }
+            .resource-item a:hover { 
+                text-decoration: underline; 
+                color: var(--text-heading);
+            }
+            .resource-item p { 
+                margin: 5px 0 0; 
+                font-size: 0.9em; 
+                color: var(--text-body); 
+            }
+            .resource-item strong { 
+                display: block; 
+                margin-bottom: 5px; 
+                color: var(--text-heading); 
+                font-size: 1.1em;
+            }
+            #modal-title {
+                margin-bottom: 1rem;
+                color: var(--text-heading);
+                border-bottom: 2px solid var(--primary-color);
+                padding-bottom: 0.5rem;
+                display: inline-block;
+            }
         `;
         document.head.appendChild(style);
 
@@ -132,10 +180,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                                      body.appendChild(div);
                                  });
                              } else {
-                                 body.innerHTML = '<p style="color:#aaa;">No resources found for this category yet.</p>';
+                                 body.innerHTML = '<p style="color:var(--text-body); opacity: 0.7;">No resources found for this category yet.</p>';
                              }
                          } else {
-                             body.innerHTML = '<p style="color:#aaa;">Data not available or language not selected.</p>';
+                             body.innerHTML = '<p style="color:var(--text-body); opacity: 0.7;">Data not available or language not selected.</p>';
                          }
 
                          modalOverlay.style.display = 'flex';
