@@ -327,7 +327,8 @@ class SlideLoader {
         this.setupSortingListeners(); // Initialize sorting listeners
         this.setupSearchListener(); // Initialize search listener
         
-        this.updateMaxPerPage(); // Set initial items per page based on screen size (will also trigger renderCourses)
+        this.updateMaxPerPage(); // Set initial items per page based on screen size
+        this.renderCourses(); // Ensure initial render happens
     }
 }
 
