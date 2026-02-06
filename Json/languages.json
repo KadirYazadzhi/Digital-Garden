@@ -13,36 +13,36 @@
     "officialDocumentationLink": "https://docs.python.org/3/",
     "resources": {
       "Codes": [
-        { "title": "The Algorithms - Python", "link": "https://github.com/TheAlgorithms/Python", "description": "All Algorithms implemented in Python." },
-        { "title": "Python Snippets", "link": "https://python-snippets.com/", "description": "Useful Python code snippets." }
+        { "title": "The Algorithms - Python", "link": "https://github.com/TheAlgorithms/Python", "description": "All Algorithms implemented in Python.", "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&q=80" },
+        { "title": "Python Snippets", "link": "https://python-snippets.com/", "description": "Useful Python code snippets.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "Cheatsheets": [
-        { "title": "Python Cheatsheet.org", "link": "https://www.pythoncheatsheet.org/", "description": "Comprehensive Python features guide." },
-        { "title": "Real Python Cheatsheets", "link": "https://realpython.com/downloads/", "description": "Topic-specific cheatsheets from Real Python." },
-        { "title": "DataCamp Python Cheat Sheet", "link": "https://www.datacamp.com/cheat-sheet/python-basics-cheat-sheet", "description": "Great for data science and beginners." }
+        { "title": "Python Cheatsheet.org", "link": "https://www.pythoncheatsheet.org/", "description": "Comprehensive Python features guide.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" },
+        { "title": "Real Python Cheatsheets", "link": "https://realpython.com/downloads/", "description": "Topic-specific cheatsheets from Real Python.", "image": "https://realpython.com/static/social-default-image.c6e4e080777e.png" },
+        { "title": "DataCamp Python Cheat Sheet", "link": "https://www.datacamp.com/cheat-sheet/python-basics-cheat-sheet", "description": "Great for data science and beginners.", "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500&q=80" }
       ],
       "Books": [
-        { "title": "Python Crash Course", "link": "https://nostarch.com/pythoncrashcourse2e", "description": "A hands-on, project-based introduction to programming." },
-        { "title": "Automate the Boring Stuff with Python", "link": "https://automatetheboringstuff.com/", "description": "Practical programming for total beginners." },
-        { "title": "Fluent Python", "link": "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/", "description": "Clear, concise, and effective programming." }
+        { "title": "Python Crash Course", "link": "https://nostarch.com/pythoncrashcourse2e", "description": "A hands-on, project-based introduction to programming.", "image": "https://m.media-amazon.com/images/I/81vmJln+KvL._AC_UF1000,1000_QL80_.jpg" },
+        { "title": "Automate the Boring Stuff with Python", "link": "https://automatetheboringstuff.com/", "description": "Practical programming for total beginners.", "image": "https://automatetheboringstuff.com/images/cover_small.png" },
+        { "title": "Fluent Python", "link": "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/", "description": "Clear, concise, and effective programming.", "image": "https://covers.oreillystatic.com/images/9781491946008/lrg.jpg" }
       ],
       "Blogs": [
-        { "title": "Real Python", "link": "https://realpython.com/", "description": "Top-tier tutorials and articles." },
-        { "title": "Planet Python", "link": "https://planetpython.org/", "description": "Aggregator of Python blogs." },
-        { "title": "Mouse vs Python", "link": "https://www.blog.pythonlibrary.org/", "description": "Mike Driscoll's blog on Python." }
+        { "title": "Real Python", "link": "https://realpython.com/", "description": "Top-tier tutorials and articles.", "image": "https://realpython.com/static/social-default-image.c6e4e080777e.png" },
+        { "title": "Planet Python", "link": "https://planetpython.org/", "description": "Aggregator of Python blogs.", "image": "https://images.unsplash.com/photo-1499750310159-525446a91989?w=500&q=80" },
+        { "title": "Mouse vs Python", "link": "https://www.blog.pythonlibrary.org/", "description": "Mike Driscoll's blog on Python.", "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=500&q=80" }
       ],
       "Youtube": [
-        { "title": "Programming with Mosh", "link": "https://www.youtube.com/c/programmingwithmosh", "description": "Fast-paced, high-quality tutorials." },
-        { "title": "Corey Schafer", "link": "https://www.youtube.com/user/schafer5", "description": "In-depth Python tutorials." },
-        { "title": "Tech With Tim", "link": "https://www.youtube.com/c/TechWithTim", "description": "Python, Game Dev, and Machine Learning." }
+        { "title": "Programming with Mosh", "link": "https://www.youtube.com/c/programmingwithmosh", "description": "Fast-paced, high-quality tutorials.", "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&q=80" },
+        { "title": "Corey Schafer", "link": "https://www.youtube.com/user/schafer5", "description": "In-depth Python tutorials.", "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&q=80" },
+        { "title": "Tech With Tim", "link": "https://www.youtube.com/c/TechWithTim", "description": "Python, Game Dev, and Machine Learning.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "In Cybersecurity": [
-        { "title": "Black Hat Python", "link": "https://nostarch.com/blackhatpython2e", "description": "Python for hackers and pentesters." },
-        { "title": "Scapy", "link": "https://scapy.net/", "description": "Packet manipulation program." },
-        { "title": "Violent Python", "link": "https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579", "description": "Cookbook for hackers." }
+        { "title": "Black Hat Python", "link": "https://nostarch.com/blackhatpython2e", "description": "Python for hackers and pentesters.", "image": "https://m.media-amazon.com/images/I/71951W+68VL._AC_UF1000,1000_QL80_.jpg" },
+        { "title": "Scapy", "link": "https://scapy.net/", "description": "Packet manipulation program.", "image": "https://images.unsplash.com/photo-1563206767-5b1d97299337?w=500&q=80" },
+        { "title": "Violent Python", "link": "https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579", "description": "Cookbook for hackers.", "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&q=80" }
       ],
       "My Notes": [
-        { "title": "Variables & Types", "content": "Python uses dynamic typing. Variables don't need explicit declaration." }
+        { "title": "Variables & Types", "content": "Python uses dynamic typing. Variables don't need explicit declaration.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" }
       ]
     }
   },
@@ -60,36 +60,36 @@
     "officialDocumentationLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "resources": {
       "Codes": [
-        { "title": "30 Seconds of Code", "link": "https://www.30secondsofcode.org/js/p/1", "description": "Short JavaScript code snippets for all your development needs." },
-        { "title": "JavaScript Algorithms", "link": "https://github.com/trekhleb/javascript-algorithms", "description": "Algorithms and data structures implemented in JavaScript." }
+        { "title": "30 Seconds of Code", "link": "https://www.30secondsofcode.org/js/p/1", "description": "Short JavaScript code snippets for all your development needs.", "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=500&q=80" },
+        { "title": "JavaScript Algorithms", "link": "https://github.com/trekhleb/javascript-algorithms", "description": "Algorithms and data structures implemented in JavaScript.", "image": "https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=500&q=80" }
       ],
       "Cheatsheets": [
-        { "title": "JavaScript Info", "link": "https://javascript.info/", "description": "Modern JavaScript Tutorial." },
-        { "title": "OverAPI JavaScript Cheat Sheet", "link": "https://overapi.com/javascript", "description": "Comprehensive reference." },
-        { "title": "ES6 Cheatsheet", "link": "https://github.com/DrkSephy/es6-cheatsheet", "description": "Cheatsheet for ES6 features." }
+        { "title": "JavaScript Info", "link": "https://javascript.info/", "description": "Modern JavaScript Tutorial.", "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=500&q=80" },
+        { "title": "OverAPI JavaScript Cheat Sheet", "link": "https://overapi.com/javascript", "description": "Comprehensive reference.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" },
+        { "title": "ES6 Cheatsheet", "link": "https://github.com/DrkSephy/es6-cheatsheet", "description": "Cheatsheet for ES6 features.", "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=500&q=80" }
       ],
       "Books": [
-        { "title": "Eloquent JavaScript", "link": "https://eloquentjavascript.net/", "description": "A modern introduction to programming." },
-        { "title": "You Don't Know JS", "link": "https://github.com/getify/You-Dont-Know-JS", "description": "Deep dive into the core mechanisms of the language." },
-        { "title": "JavaScript: The Good Parts", "link": "https://www.oreilly.com/library/view/javascript-the-good/9780596517748/", "description": "Classic book on writing better JavaScript." }
+        { "title": "Eloquent JavaScript", "link": "https://eloquentjavascript.net/", "description": "A modern introduction to programming.", "image": "https://eloquentjavascript.net/img/cover.jpg" },
+        { "title": "You Don't Know JS", "link": "https://github.com/getify/You-Dont-Know-JS", "description": "Deep dive into the core mechanisms of the language.", "image": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/1st-ed/book_cover.png" },
+        { "title": "JavaScript: The Good Parts", "link": "https://www.oreilly.com/library/view/javascript-the-good/9780596517748/", "description": "Classic book on writing better JavaScript.", "image": "https://covers.oreillystatic.com/images/9780596517748/lrg.jpg" }
       ],
       "Blogs": [
-        { "title": "CSS-Tricks", "link": "https://css-tricks.com/tag/javascript/", "description": "Great articles on JS and Front-end." },
-        { "title": "David Walsh Blog", "link": "https://davidwalsh.name/", "description": "Expert advice and tutorials." },
-        { "title": "Overreacted", "link": "https://overreacted.io/", "description": "Dan Abramov's blog (React focus)." }
+        { "title": "CSS-Tricks", "link": "https://css-tricks.com/tag/javascript/", "description": "Great articles on JS and Front-end.", "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=500&q=80" },
+        { "title": "David Walsh Blog", "link": "https://davidwalsh.name/", "description": "Expert advice and tutorials.", "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&q=80" },
+        { "title": "Overreacted", "link": "https://overreacted.io/", "description": "Dan Abramov's blog (React focus).", "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500&q=80" }
       ],
       "Youtube": [
-        { "title": "Traversy Media", "link": "https://www.youtube.com/user/TechGuyWeb", "description": "Web development tutorials." },
-        { "title": "The Net Ninja", "link": "https://www.youtube.com/c/TheNetNinja", "description": "Comprehensive series on JS, React, Node." },
-        { "title": "Web Dev Simplified", "link": "https://www.youtube.com/c/WebDevSimplified", "description": "Concepts explained simply." }
+        { "title": "Traversy Media", "link": "https://www.youtube.com/user/TechGuyWeb", "description": "Web development tutorials.", "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&q=80" },
+        { "title": "The Net Ninja", "link": "https://www.youtube.com/c/TheNetNinja", "description": "Comprehensive series on JS, React, Node.", "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80" },
+        { "title": "Web Dev Simplified", "link": "https://www.youtube.com/c/WebDevSimplified", "description": "Concepts explained simply.", "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&q=80" }
       ],
       "In Cybersecurity": [
-        { "title": "OWASP XSS Prevention Cheat Sheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html", "description": "Preventing Cross-Site Scripting." },
-        { "title": "Node.js Security Cheatsheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html", "description": "Securing Node.js applications." },
-        { "title": "DOMPurify", "link": "https://github.com/cure53/DOMPurify", "description": "XSS sanitizer for HTML, MathML and SVG." }
+        { "title": "OWASP XSS Prevention Cheat Sheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html", "description": "Preventing Cross-Site Scripting.", "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&q=80" },
+        { "title": "Node.js Security Cheatsheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html", "description": "Securing Node.js applications.", "image": "https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?w=500&q=80" },
+        { "title": "DOMPurify", "link": "https://github.com/cure53/DOMPurify", "description": "XSS sanitizer for HTML, MathML and SVG.", "image": "https://images.unsplash.com/photo-1618060932014-4deda4932554?w=500&q=80" }
       ],
       "My Notes": [
-        { "title": "Closures", "content": "A closure is the combination of a function bundled together with references to its surrounding state." }
+        { "title": "Closures", "content": "A closure is the combination of a function bundled together with references to its surrounding state.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" }
       ]
     }
   },
@@ -107,35 +107,35 @@
     "officialDocumentationLink": "https://golang.org/doc/",
     "resources": {
       "Codes": [
-        { "title": "Go by Example", "link": "https://gobyexample.com/", "description": "Hands-on introduction to Go using annotated example programs." },
-        { "title": "Awesome Go", "link": "https://awesome-go.com/", "description": "A curated list of awesome Go frameworks, libraries and software." }
+        { "title": "Go by Example", "link": "https://gobyexample.com/", "description": "Hands-on introduction to Go using annotated example programs.", "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&q=80" },
+        { "title": "Awesome Go", "link": "https://awesome-go.com/", "description": "A curated list of awesome Go frameworks, libraries and software.", "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&q=80" }
       ],
       "Cheatsheets": [
-        { "title": "Go Cheat Sheet", "link": "https://github.com/a8m/go-lang-cheat-sheet", "description": "A reference for Go syntax." },
-        { "title": "Devhints Go", "link": "https://devhints.io/go", "description": "Quick reference for Go." }
+        { "title": "Go Cheat Sheet", "link": "https://github.com/a8m/go-lang-cheat-sheet", "description": "A reference for Go syntax.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" },
+        { "title": "Devhints Go", "link": "https://devhints.io/go", "description": "Quick reference for Go.", "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500&q=80" }
       ],
       "Books": [
-        { "title": "The Go Programming Language", "link": "https://www.gopl.io/", "description": "The authoritative guide." },
-        { "title": "Learning Go", "link": "https://www.oreilly.com/library/view/learning-go/9781492077206/", "description": "Idiomatic Go guide." },
-        { "title": "Go in Action", "link": "https://www.manning.com/books/go-in-action", "description": "Guide for experienced developers." }
+        { "title": "The Go Programming Language", "link": "https://www.gopl.io/", "description": "The authoritative guide.", "image": "https://www.gopl.io/cover.png" },
+        { "title": "Learning Go", "link": "https://www.oreilly.com/library/view/learning-go/9781492077206/", "description": "Idiomatic Go guide.", "image": "https://covers.oreillystatic.com/images/9781492077213/lrg.jpg" },
+        { "title": "Go in Action", "link": "https://www.manning.com/books/go-in-action", "description": "Guide for experienced developers.", "image": "https://images.manning.com/720/960/resize/book/9/4c27771-8668-4663-8e79-246df72643a7/Kennedy-Go-HI.png" }
       ],
       "Blogs": [
-        { "title": "The Go Blog", "link": "https://blog.golang.org/", "description": "Official blog." },
-        { "title": "Dave Cheney", "link": "https://dave.cheney.net/", "description": "High quality Go articles." },
-        { "title": "Ardan Labs", "link": "https://www.ardanlabs.com/blog/", "description": "Deep dives into Go internals." }
+        { "title": "The Go Blog", "link": "https://blog.golang.org/", "description": "Official blog.", "image": "https://images.unsplash.com/photo-1499750310159-525446a91989?w=500&q=80" },
+        { "title": "Dave Cheney", "link": "https://dave.cheney.net/", "description": "High quality Go articles.", "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&q=80" },
+        { "title": "Ardan Labs", "link": "https://www.ardanlabs.com/blog/", "description": "Deep dives into Go internals.", "image": "https://images.unsplash.com/photo-1607799275518-d750cc6867a8?w=500&q=80" }
       ],
       "Youtube": [
-        { "title": "JustForFunc", "link": "https://www.youtube.com/c/JustForFunc", "description": "Programming in Go with Francesc Campoy." },
-        { "title": "Golang Dojo", "link": "https://www.youtube.com/c/GolangDojo", "description": "Tutorials for Go." },
-        { "title": "Nic Jackson", "link": "https://www.youtube.com/c/NicJackson", "description": "Microservices and Go." }
+        { "title": "JustForFunc", "link": "https://www.youtube.com/c/JustForFunc", "description": "Programming in Go with Francesc Campoy.", "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&q=80" },
+        { "title": "Golang Dojo", "link": "https://www.youtube.com/c/GolangDojo", "description": "Tutorials for Go.", "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80" },
+        { "title": "Nic Jackson", "link": "https://www.youtube.com/c/NicJackson", "description": "Microservices and Go.", "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&q=80" }
       ],
       "In Cybersecurity": [
-        { "title": "Black Hat Go", "link": "https://nostarch.com/blackhatgo", "description": "Go for Penetration Testers and Researchers." },
-        { "title": "Bettercap", "link": "https://www.bettercap.org/", "description": "The Swiss Army knife for 802.11, BLE and Ethernet networks reconnaissance and attacks." },
-        { "title": "Gosec", "link": "https://github.com/securego/gosec", "description": "Golang Security Checker." }
+        { "title": "Black Hat Go", "link": "https://nostarch.com/blackhatgo", "description": "Go for Penetration Testers and Researchers.", "image": "https://m.media-amazon.com/images/I/81+mwg3ZtGL._AC_UF1000,1000_QL80_.jpg" },
+        { "title": "Bettercap", "link": "https://www.bettercap.org/", "description": "The Swiss Army knife for 802.11, BLE and Ethernet networks reconnaissance and attacks.", "image": "https://images.unsplash.com/photo-1563206767-5b1d97299337?w=500&q=80" },
+        { "title": "Gosec", "link": "https://github.com/securego/gosec", "description": "Golang Security Checker.", "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&q=80" }
       ],
       "My Notes": [
-        { "title": "Goroutines", "content": "Lightweight threads managed by the Go runtime." }
+        { "title": "Goroutines", "content": "Lightweight threads managed by the Go runtime.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" }
       ]
     }
   },
@@ -153,35 +153,35 @@
     "officialDocumentationLink": "https://www.w3schools.com/sql/",
     "resources": {
       "Codes": [
-        { "title": "SQL Zoo", "link": "https://sqlzoo.net/", "description": "Interactive SQL tutorials." },
-        { "title": "Mode SQL Tutorial", "link": "https://mode.com/sql-tutorial/", "description": "Introduction to SQL for Data Analysis." }
+        { "title": "SQL Zoo", "link": "https://sqlzoo.net/", "description": "Interactive SQL tutorials.", "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=500&q=80" },
+        { "title": "Mode SQL Tutorial", "link": "https://mode.com/sql-tutorial/", "description": "Introduction to SQL for Data Analysis.", "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&q=80" }
       ],
       "Cheatsheets": [
-        { "title": "SQL Cheat Sheet", "link": "https://www.sqltutorial.org/sql-cheat-sheet/", "description": "Quick reference for SQL commands." },
-        { "title": "DataCamp SQL Cheat Sheet", "link": "https://www.datacamp.com/cheat-sheet/sql-basics-cheat-sheet", "description": "Basics for beginners." }
+        { "title": "SQL Cheat Sheet", "link": "https://www.sqltutorial.org/sql-cheat-sheet/", "description": "Quick reference for SQL commands.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" },
+        { "title": "DataCamp SQL Cheat Sheet", "link": "https://www.datacamp.com/cheat-sheet/sql-basics-cheat-sheet", "description": "Basics for beginners.", "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500&q=80" }
       ],
       "Books": [
-        { "title": "SQL in 10 Minutes, Sams Teach Yourself", "link": "https://www.amazon.com/SQL-Minutes-Sams-Teach-Yourself/dp/0135182794", "description": "Quick start guide." },
-        { "title": "SQL Cookbook", "link": "https://www.oreilly.com/library/view/sql-cookbook/0596009763/", "description": "Query solutions and techniques." },
-        { "title": "Learning SQL", "link": "https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/", "description": "Master SQL Fundamentals." }
+        { "title": "SQL in 10 Minutes, Sams Teach Yourself", "link": "https://www.amazon.com/SQL-Minutes-Sams-Teach-Yourself/dp/0135182794", "description": "Quick start guide.", "image": "https://m.media-amazon.com/images/I/71Yg+vI7e+L._AC_UF1000,1000_QL80_.jpg" },
+        { "title": "SQL Cookbook", "link": "https://www.oreilly.com/library/view/sql-cookbook/0596009763/", "description": "Query solutions and techniques.", "image": "https://covers.oreillystatic.com/images/9780596009769/lrg.jpg" },
+        { "title": "Learning SQL", "link": "https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/", "description": "Master SQL Fundamentals.", "image": "https://covers.oreillystatic.com/images/9781492057611/lrg.jpg" }
       ],
       "Blogs": [
-        { "title": "Brent Ozar Unlimited", "link": "https://www.brentozar.com/blog/", "description": "SQL Server focus." },
-        { "title": "Use The Index, Luke", "link": "https://use-the-index-luke.com/", "description": "SQL performance explained." },
-        { "title": "SQLAuthority", "link": "https://blog.sqlauthority.com/", "description": "Comprehensive SQL tips." }
+        { "title": "Brent Ozar Unlimited", "link": "https://www.brentozar.com/blog/", "description": "SQL Server focus.", "image": "https://images.unsplash.com/photo-1499750310159-525446a91989?w=500&q=80" },
+        { "title": "Use The Index, Luke", "link": "https://use-the-index-luke.com/", "description": "SQL performance explained.", "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=500&q=80" },
+        { "title": "SQLAuthority", "link": "https://blog.sqlauthority.com/", "description": "Comprehensive SQL tips.", "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&q=80" }
       ],
       "Youtube": [
-        { "title": "Alex The Analyst", "link": "https://www.youtube.com/c/AlexTheAnalyst", "description": "SQL for Data Analysis." },
-        { "title": "Joey Blue", "link": "https://www.youtube.com/user/Jblue05", "description": "Database design and SQL." },
-        { "title": "Kudvenkat", "link": "https://www.youtube.com/user/kudvenkat", "description": "SQL Server tutorials." }
+        { "title": "Alex The Analyst", "link": "https://www.youtube.com/c/AlexTheAnalyst", "description": "SQL for Data Analysis.", "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&q=80" },
+        { "title": "Joey Blue", "link": "https://www.youtube.com/user/Jblue05", "description": "Database design and SQL.", "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80" },
+        { "title": "Kudvenkat", "link": "https://www.youtube.com/user/kudvenkat", "description": "SQL Server tutorials.", "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&q=80" }
       ],
       "In Cybersecurity": [
-        { "title": "SQL Injection Cheat Sheet", "link": "https://portswigger.net/web-security/sql-injection/cheat-sheet", "description": "PortSwigger's guide to SQLi." },
-        { "title": "SQLMap", "link": "https://sqlmap.org/", "description": "Automatic SQL injection and database takeover tool." },
-        { "title": "OWASP SQL Injection", "link": "https://owasp.org/www-community/attacks/SQL_Injection", "description": "Understanding the vulnerability." }
+        { "title": "SQL Injection Cheat Sheet", "link": "https://portswigger.net/web-security/sql-injection/cheat-sheet", "description": "PortSwigger's guide to SQLi.", "image": "https://images.unsplash.com/photo-1563206767-5b1d97299337?w=500&q=80" },
+        { "title": "SQLMap", "link": "https://sqlmap.org/", "description": "Automatic SQL injection and database takeover tool.", "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&q=80" },
+        { "title": "OWASP SQL Injection", "link": "https://owasp.org/www-community/attacks/SQL_Injection", "description": "Understanding the vulnerability.", "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=500&q=80" }
       ],
       "My Notes": [
-        { "title": "Joins", "content": "INNER JOIN returns records that have matching values in both tables." }
+        { "title": "Joins", "content": "INNER JOIN returns records that have matching values in both tables.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" }
       ]
     }
   },
@@ -199,35 +199,35 @@
     "officialDocumentationLink": "https://www.ruby-lang.org/en/documentation/",
     "resources": {
       "Codes": [
-        { "title": "Ruby Koans", "link": "http://rubykoans.com/", "description": "Learn Ruby with the Edge of Enlightenment." },
-        { "title": "Exercism Ruby", "link": "https://exercism.org/tracks/ruby", "description": "Practice Ruby concepts." }
+        { "title": "Ruby Koans", "link": "http://rubykoans.com/", "description": "Learn Ruby with the Edge of Enlightenment.", "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&q=80" },
+        { "title": "Exercism Ruby", "link": "https://exercism.org/tracks/ruby", "description": "Practice Ruby concepts.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "Cheatsheets": [
-        { "title": "Ruby Cheatsheet", "link": "https://www.ruby-lang.org/en/documentation/quickstart/", "description": "Official Quickstart." },
-        { "title": "Ruby on Rails Cheatsheet", "link": "https://devhints.io/rails", "description": "Quick reference for Rails." }
+        { "title": "Ruby Cheatsheet", "link": "https://www.ruby-lang.org/en/documentation/quickstart/", "description": "Official Quickstart.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" },
+        { "title": "Ruby on Rails Cheatsheet", "link": "https://devhints.io/rails", "description": "Quick reference for Rails.", "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500&q=80" }
       ],
       "Books": [
-        { "title": "The Well-Grounded Rubyist", "link": "https://www.manning.com/books/the-well-grounded-rubyist-third-edition", "description": "Deep dive into Ruby objects." },
-        { "title": "Practical Object-Oriented Design in Ruby", "link": "https://www.poodr.com/", "description": "Clean code in Ruby." },
-        { "title": "Programming Ruby (The Pickaxe)", "link": "https://pragprog.com/titles/ruby4/programming-ruby-3-0-4th-edition/", "description": "The definitive guide." }
+        { "title": "The Well-Grounded Rubyist", "link": "https://www.manning.com/books/the-well-grounded-rubyist-third-edition", "description": "Deep dive into Ruby objects.", "image": "https://images.manning.com/720/960/resize/book/9/0075591-389f-4428-9842-777651c62378/Black-Rubyist-3ed-HI.png" },
+        { "title": "Practical Object-Oriented Design in Ruby", "link": "https://www.poodr.com/", "description": "Clean code in Ruby.", "image": "https://m.media-amazon.com/images/I/81+mv+o5VlL._AC_UF1000,1000_QL80_.jpg" },
+        { "title": "Programming Ruby (The Pickaxe)", "link": "https://pragprog.com/titles/ruby4/programming-ruby-3-0-4th-edition/", "description": "The definitive guide.", "image": "https://imagery.pragprog.com/products/655/ruby5.jpg" }
       ],
       "Blogs": [
-        { "title": "Ruby Inside", "link": "http://www.rubyinside.com/", "description": "Popular Ruby blog." },
-        { "title": "Schneems", "link": "https://www.schneems.com/", "description": "Richard Schneeman's blog." },
-        { "title": "Tenderlovemaking", "link": "https://tenderlovemaking.com/", "description": "Aaron Patterson's blog." }
+        { "title": "Ruby Inside", "link": "http://www.rubyinside.com/", "description": "Popular Ruby blog.", "image": "https://images.unsplash.com/photo-1499750310159-525446a91989?w=500&q=80" },
+        { "title": "Schneems", "link": "https://www.schneems.com/", "description": "Richard Schneeman's blog.", "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=500&q=80" },
+        { "title": "Tenderlovemaking", "link": "https://tenderlovemaking.com/", "description": "Aaron Patterson's blog.", "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&q=80" }
       ],
       "Youtube": [
-        { "title": "Drifting Ruby", "link": "https://www.youtube.com/c/DriftingRuby", "description": "Ruby on Rails tutorials." },
-        { "title": "GoRails", "link": "https://www.youtube.com/c/GorailsTV", "description": "Rails casts and tutorials." },
-        { "title": "RubyConf", "link": "https://www.youtube.com/c/RubyConf", "description": "Conference talks." }
+        { "title": "Drifting Ruby", "link": "https://www.youtube.com/c/DriftingRuby", "description": "Ruby on Rails tutorials.", "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&q=80" },
+        { "title": "GoRails", "link": "https://www.youtube.com/c/GorailsTV", "description": "Rails casts and tutorials.", "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&q=80" },
+        { "title": "RubyConf", "link": "https://www.youtube.com/c/RubyConf", "description": "Conference talks.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "In Cybersecurity": [
-        { "title": "Brakeman", "link": "https://brakemanscanner.org/", "description": "Static analysis security scanner for Ruby on Rails." },
-        { "title": "Ruby Advisory Database", "link": "https://github.com/rubysec/ruby-advisory-db", "description": "Database of vulnerable Ruby Gems." },
-        { "title": "Metasploit", "link": "https://www.metasploit.com/", "description": "The world's most used penetration testing framework (written in Ruby)." }
+        { "title": "Brakeman", "link": "https://brakemanscanner.org/", "description": "Static analysis security scanner for Ruby on Rails.", "image": "https://images.unsplash.com/photo-1563206767-5b1d97299337?w=500&q=80" },
+        { "title": "Ruby Advisory Database", "link": "https://github.com/rubysec/ruby-advisory-db", "description": "Database of vulnerable Ruby Gems.", "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=500&q=80" },
+        { "title": "Metasploit", "link": "https://www.metasploit.com/", "description": "The world's most used penetration testing framework (written in Ruby).", "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&q=80" }
       ],
       "My Notes": [
-        { "title": "Blocks", "content": "Ruby blocks are anonymous functions that can be passed to methods." }
+        { "title": "Blocks", "content": "Ruby blocks are anonymous functions that can be passed to methods.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" }
       ]
     }
   },
@@ -245,35 +245,35 @@
     "officialDocumentationLink": "https://www.php.net/docs.php",
     "resources": {
       "Codes": [
-        { "title": "PHP The Right Way", "link": "https://phptherightway.com/", "description": "Quick reference for popular PHP coding standards." },
-        { "title": "PHP Delusions", "link": "https://phpdelusions.net/", "description": "Proper PHP practices." }
+        { "title": "PHP The Right Way", "link": "https://phptherightway.com/", "description": "Quick reference for popular PHP coding standards.", "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&q=80" },
+        { "title": "PHP Delusions", "link": "https://phpdelusions.net/", "description": "Proper PHP practices.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "Cheatsheets": [
-        { "title": "PHP Cheat Sheet", "link": "https://websitesetup.org/php-cheat-sheet/", "description": "PDF available." },
-        { "title": "OverAPI PHP", "link": "https://overapi.com/php", "description": "Comprehensive reference." }
+        { "title": "PHP Cheat Sheet", "link": "https://websitesetup.org/php-cheat-sheet/", "description": "PDF available.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" },
+        { "title": "OverAPI PHP", "link": "https://overapi.com/php", "description": "Comprehensive reference.", "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500&q=80" }
       ],
       "Books": [
-        { "title": "Modern PHP", "link": "https://www.oreilly.com/library/view/modern-php/9781491905128/", "description": "New features and good practices." },
-        { "title": "PHP & MySQL: Novice to Ninja", "link": "https://www.sitepoint.com/premium/books/php-mysql-novice-to-ninja-7th-edition", "description": "Solid introduction." },
-        { "title": "Laravel: Up and Running", "link": "https://laravelupandrunning.com/", "description": "Guide to the Laravel framework." }
+        { "title": "Modern PHP", "link": "https://www.oreilly.com/library/view/modern-php/9781491905128/", "description": "New features and good practices.", "image": "https://covers.oreillystatic.com/images/9781491905012/lrg.jpg" },
+        { "title": "PHP & MySQL: Novice to Ninja", "link": "https://www.sitepoint.com/premium/books/php-mysql-novice-to-ninja-7th-edition", "description": "Solid introduction.", "image": "https://d2sofvawe08yqg.cloudfront.net/php-mysql-novice-to-ninja-6th-edition/hero2x?1549308077" },
+        { "title": "Laravel: Up and Running", "link": "https://laravelupandrunning.com/", "description": "Guide to the Laravel framework.", "image": "https://covers.oreillystatic.com/images/9781492041214/lrg.jpg" }
       ],
       "Blogs": [
-        { "title": "Laravel News", "link": "https://laravel-news.com/", "description": "Everything Laravel." },
-        { "title": "Stitcher.io", "link": "https://stitcher.io/blog", "description": "Brent Roose's PHP blog." },
-        { "title": "PHP.Watch", "link": "https://php.watch/", "description": "PHP evolution and news." }
+        { "title": "Laravel News", "link": "https://laravel-news.com/", "description": "Everything Laravel.", "image": "https://images.unsplash.com/photo-1499750310159-525446a91989?w=500&q=80" },
+        { "title": "Stitcher.io", "link": "https://stitcher.io/blog", "description": "Brent Roose's PHP blog.", "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=500&q=80" },
+        { "title": "PHP.Watch", "link": "https://php.watch/", "description": "PHP evolution and news.", "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&q=80" }
       ],
       "Youtube": [
-        { "title": "Laracasts", "link": "https://www.youtube.com/c/LaracastsOfficial", "description": "Best PHP/Laravel tutorials." },
-        { "title": "Program With Gio", "link": "https://www.youtube.com/c/ProgramWithGio", "description": "Modern PHP development." },
-        { "title": "Traversy Media", "link": "https://www.youtube.com/user/TechGuyWeb", "description": "PHP for beginners." }
+        { "title": "Laracasts", "link": "https://www.youtube.com/c/LaracastsOfficial", "description": "Best PHP/Laravel tutorials.", "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&q=80" },
+        { "title": "Program With Gio", "link": "https://www.youtube.com/c/ProgramWithGio", "description": "Modern PHP development.", "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&q=80" },
+        { "title": "Traversy Media", "link": "https://www.youtube.com/user/TechGuyWeb", "description": "PHP for beginners.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "In Cybersecurity": [
-        { "title": "PHP Security Best Practices", "link": "https://phptherightway.com/#security", "description": "Security section of PHP The Right Way." },
-        { "title": "DVWA (Damn Vulnerable Web App)", "link": "https://github.com/digininja/DVWA", "description": "Practice PHP/MySQL vulnerabilities." },
-        { "title": "OWASP PHP Security Cheat Sheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/PHP_Configuration_Cheat_Sheet.html", "description": "Securing PHP configuration." }
+        { "title": "PHP Security Best Practices", "link": "https://phptherightway.com/#security", "description": "Security section of PHP The Right Way.", "image": "https://images.unsplash.com/photo-1563206767-5b1d97299337?w=500&q=80" },
+        { "title": "DVWA (Damn Vulnerable Web App)", "link": "https://github.com/digininja/DVWA", "description": "Practice PHP/MySQL vulnerabilities.", "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=500&q=80" },
+        { "title": "OWASP PHP Security Cheat Sheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/PHP_Configuration_Cheat_Sheet.html", "description": "Securing PHP configuration.", "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&q=80" }
       ],
       "My Notes": [
-        { "title": "Composer", "content": "Dependency manager for PHP, standard for modern projects." }
+        { "title": "Composer", "content": "Dependency manager for PHP, standard for modern projects.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" }
       ]
     }
   },
@@ -291,34 +291,34 @@
     "officialDocumentationLink": "https://en.wikibooks.org/wiki/Assembly_Language",
     "resources": {
       "Codes": [
-        { "title": "Assembly Language Examples", "link": "https://www.tutorialspoint.com/assembly_programming/assembly_examples.htm", "description": "Basic examples." },
-        { "title": "x86 Assembly Guide", "link": "https://www.cs.virginia.edu/~evans/cs216/guides/x86.html", "description": "University of Virginia guide." }
+        { "title": "Assembly Language Examples", "link": "https://www.tutorialspoint.com/assembly_programming/assembly_examples.htm", "description": "Basic examples.", "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&q=80" },
+        { "title": "x86 Assembly Guide", "link": "https://www.cs.virginia.edu/~evans/cs216/guides/x86.html", "description": "University of Virginia guide.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "Cheatsheets": [
-        { "title": "x86 Assembly Cheat Sheet", "link": "https://www.bmo.cl/bmo/x86m/", "description": "Opcode reference." },
-        { "title": "ARM Assembly Basics", "link": "https://azeria-labs.com/assembly-basics-cheatsheet/", "description": "For ARM architecture." }
+        { "title": "x86 Assembly Cheat Sheet", "link": "https://www.bmo.cl/bmo/x86m/", "description": "Opcode reference.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" },
+        { "title": "ARM Assembly Basics", "link": "https://azeria-labs.com/assembly-basics-cheatsheet/", "description": "For ARM architecture.", "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500&q=80" }
       ],
       "Books": [
-        { "title": "Assembly Language for x86 Processors", "link": "http://asmirvine.com/", "description": "Standard textbook." },
-        { "title": "Programming from the Ground Up", "link": "https://savannah.nongnu.org/projects/pgubook/", "description": "Intro to programming using Assembly." },
-        { "title": "The Art of Assembly Language", "link": "https://nostarch.com/artofassembly", "description": "Comprehensive guide." }
+        { "title": "Assembly Language for x86 Processors", "link": "http://asmirvine.com/", "description": "Standard textbook.", "image": "https://images-na.ssl-images-amazon.com/images/I/71Vf+4+Z+IL.jpg" },
+        { "title": "Programming from the Ground Up", "link": "https://savannah.nongnu.org/projects/pgubook/", "description": "Intro to programming using Assembly.", "image": "https://m.media-amazon.com/images/I/51+tX1oF7LL._AC_UF1000,1000_QL80_.jpg" },
+        { "title": "The Art of Assembly Language", "link": "https://nostarch.com/artofassembly", "description": "Comprehensive guide.", "image": "https://nostarch.com/sites/default/files/styles/cover_page/public/artofassembly_cover.png" }
       ],
       "Blogs": [
-        { "title": "Azeria Labs", "link": "https://azeria-labs.com/", "description": "ARM assembly and exploitation." },
-        { "title": "Agner Fog's Optimization Manuals", "link": "https://www.agner.org/optimize/", "description": "Deep dive into low-level optimization." }
+        { "title": "Azeria Labs", "link": "https://azeria-labs.com/", "description": "ARM assembly and exploitation.", "image": "https://images.unsplash.com/photo-1499750310159-525446a91989?w=500&q=80" },
+        { "title": "Agner Fog's Optimization Manuals", "link": "https://www.agner.org/optimize/", "description": "Deep dive into low-level optimization.", "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=500&q=80" }
       ],
       "Youtube": [
-        { "title": "Creel", "link": "https://www.youtube.com/c/CreelProgramming", "description": "Modern Assembly tutorials." },
-        { "title": "LiveOverflow", "link": "https://www.youtube.com/c/LiveOverflow", "description": "Hacking and Assembly basics." },
-        { "title": "Low Level Learning", "link": "https://www.youtube.com/c/LowLevelLearning", "description": "Systems programming and Assembly." }
+        { "title": "Creel", "link": "https://www.youtube.com/c/CreelProgramming", "description": "Modern Assembly tutorials.", "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&q=80" },
+        { "title": "LiveOverflow", "link": "https://www.youtube.com/c/LiveOverflow", "description": "Hacking and Assembly basics.", "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&q=80" },
+        { "title": "Low Level Learning", "link": "https://www.youtube.com/c/LowLevelLearning", "description": "Systems programming and Assembly.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "In Cybersecurity": [
-        { "title": "Reverse Engineering for Beginners", "link": "https://beginners.re/", "description": "Free book on RE." },
-        { "title": "Ghidra", "link": "https://ghidra-sre.org/", "description": "NSA's reverse engineering tool." },
-        { "title": "Practical Malware Analysis", "link": "https://nostarch.com/malware", "description": "Dissecting malicious software." }
+        { "title": "Reverse Engineering for Beginners", "link": "https://beginners.re/", "description": "Free book on RE.", "image": "https://images.unsplash.com/photo-1563206767-5b1d97299337?w=500&q=80" },
+        { "title": "Ghidra", "link": "https://ghidra-sre.org/", "description": "NSA's reverse engineering tool.", "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=500&q=80" },
+        { "title": "Practical Malware Analysis", "link": "https://nostarch.com/malware", "description": "Dissecting malicious software.", "image": "https://nostarch.com/sites/default/files/styles/cover_page/public/malware_cover.png" }
       ],
       "My Notes": [
-        { "title": "Registers", "content": "Small storage locations directly in the CPU used for immediate operations." }
+        { "title": "Registers", "content": "Small storage locations directly in the CPU used for immediate operations.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" }
       ]
     }
   },
@@ -336,34 +336,34 @@
     "officialDocumentationLink": "https://en.wikipedia.org/wiki/C_(programming_language)",
     "resources": {
       "Codes": [
-        { "title": "C Examples", "link": "https://www.programiz.com/c-programming/examples", "description": "Standard C examples." },
-        { "title": "The Algorithms - C", "link": "https://github.com/TheAlgorithms/C", "description": "Algorithms implemented in C." }
+        { "title": "C Examples", "link": "https://www.programiz.com/c-programming/examples", "description": "Standard C examples.", "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&q=80" },
+        { "title": "The Algorithms - C", "link": "https://github.com/TheAlgorithms/C", "description": "Algorithms implemented in C.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "Cheatsheets": [
-        { "title": "C Cheat Sheet", "link": "https://quickref.me/c", "description": "Quick reference guide." },
-        { "title": "C Reference Card", "link": "https://www.cs.sfu.ca/~ggbaker/reference/c-class/crefcard.pdf", "description": "Standard C reference PDF." }
+        { "title": "C Cheat Sheet", "link": "https://quickref.me/c", "description": "Quick reference guide.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" },
+        { "title": "C Reference Card", "link": "https://www.cs.sfu.ca/~ggbaker/reference/c-class/crefcard.pdf", "description": "Standard C reference PDF.", "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500&q=80" }
       ],
       "Books": [
-        { "title": "The C Programming Language (K&R)", "link": "https://en.wikipedia.org/wiki/The_C_Programming_Language", "description": "The classic text." },
-        { "title": "C Programming: A Modern Approach", "link": "http://knking.com/books/c2/", "description": "Comprehensive modern guide." },
-        { "title": "Head First C", "link": "https://www.oreilly.com/library/view/head-first-c/9781449345013/", "description": "Learner-friendly guide." }
+        { "title": "The C Programming Language (K&R)", "link": "https://en.wikipedia.org/wiki/The_C_Programming_Language", "description": "The classic text.", "image": "https://m.media-amazon.com/images/I/51L7aRvbU-L._AC_UF1000,1000_QL80_.jpg" },
+        { "title": "C Programming: A Modern Approach", "link": "http://knking.com/books/c2/", "description": "Comprehensive modern guide.", "image": "https://m.media-amazon.com/images/I/61M6xM2zOEL._AC_UF1000,1000_QL80_.jpg" },
+        { "title": "Head First C", "link": "https://www.oreilly.com/library/view/head-first-c/9781449345013/", "description": "Learner-friendly guide.", "image": "https://covers.oreillystatic.com/images/9781449345013/lrg.jpg" }
       ],
       "Blogs": [
-        { "title": "Embedded.com", "link": "https://www.embedded.com/", "description": "C in embedded systems." },
-        { "title": "Dan Saks", "link": "https://www.dansaks.com/", "description": "C and C++ articles." }
+        { "title": "Embedded.com", "link": "https://www.embedded.com/", "description": "C in embedded systems.", "image": "https://images.unsplash.com/photo-1499750310159-525446a91989?w=500&q=80" },
+        { "title": "Dan Saks", "link": "https://www.dansaks.com/", "description": "C and C++ articles.", "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=500&q=80" }
       ],
       "Youtube": [
-        { "title": "Neso Academy", "link": "https://www.youtube.com/c/nesoacademy", "description": "C Programming playlist." },
-        { "title": "Jacob Sorber", "link": "https://www.youtube.com/c/JacobSorber", "description": "Systems programming in C." },
-        { "title": "CS50", "link": "https://www.youtube.com/c/cs50", "description": "Harvard's intro to CS (heavy on C)." }
+        { "title": "Neso Academy", "link": "https://www.youtube.com/c/nesoacademy", "description": "C Programming playlist.", "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&q=80" },
+        { "title": "Jacob Sorber", "link": "https://www.youtube.com/c/JacobSorber", "description": "Systems programming in C.", "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&q=80" },
+        { "title": "CS50", "link": "https://www.youtube.com/c/cs50", "description": "Harvard's intro to CS (heavy on C).", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "In Cybersecurity": [
-        { "title": "Secure Coding in C and C++", "link": "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30666", "description": "CERT standards." },
-        { "title": "Buffer Overflow Attacks", "link": "https://owasp.org/www-community/attacks/Buffer_Overflow", "description": "Classic C vulnerability." },
-        { "title": "Hacking: The Art of Exploitation", "link": "https://nostarch.com/hacking2.htm", "description": "Exploiting C programs." }
+        { "title": "Secure Coding in C and C++", "link": "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30666", "description": "CERT standards.", "image": "https://images.unsplash.com/photo-1563206767-5b1d97299337?w=500&q=80" },
+        { "title": "Buffer Overflow Attacks", "link": "https://owasp.org/www-community/attacks/Buffer_Overflow", "description": "Classic C vulnerability.", "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=500&q=80" },
+        { "title": "Hacking: The Art of Exploitation", "link": "https://nostarch.com/hacking2.htm", "description": "Exploiting C programs.", "image": "https://nostarch.com/sites/default/files/styles/cover_page/public/hacking2_cover.png" }
       ],
       "My Notes": [
-        { "title": "Pointers", "content": "Variables that store memory addresses. Powerful but dangerous." }
+        { "title": "Pointers", "content": "Variables that store memory addresses. Powerful but dangerous.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" }
       ]
     }
   },
@@ -381,35 +381,35 @@
     "officialDocumentationLink": "https://en.cppreference.com/w/",
     "resources": {
       "Codes": [
-        { "title": "Learn C++ Examples", "link": "https://www.learncpp.com/", "description": "Excellent tutorial site with examples." },
-        { "title": "C++ Samples", "link": "https://github.com/microsoft/Windows-classic-samples", "description": "Windows samples." }
+        { "title": "Learn C++ Examples", "link": "https://www.learncpp.com/", "description": "Excellent tutorial site with examples.", "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&q=80" },
+        { "title": "C++ Samples", "link": "https://github.com/microsoft/Windows-classic-samples", "description": "Windows samples.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "Cheatsheets": [
-        { "title": "C++ Reference", "link": "https://en.cppreference.com/w/", "description": "The definitive wiki." },
-        { "title": "C++ Cheat Sheet", "link": "https://hackr.io/blog/cpp-cheat-sheet", "description": "Quick guide." }
+        { "title": "C++ Reference", "link": "https://en.cppreference.com/w/", "description": "The definitive wiki.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" },
+        { "title": "C++ Cheat Sheet", "link": "https://hackr.io/blog/cpp-cheat-sheet", "description": "Quick guide.", "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500&q=80" }
       ],
       "Books": [
-        { "title": "A Tour of C++", "link": "https://www.stroustrup.com/tour2.html", "description": "Overview by the creator." },
-        { "title": "Effective Modern C++", "link": "https://www.oreilly.com/library/view/effective-modern-c/9781491908419/", "description": "Best practices for C++11 and C++14." },
-        { "title": "C++ Primer", "link": "https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113", "description": "Comprehensive introduction." }
+        { "title": "A Tour of C++", "link": "https://www.stroustrup.com/tour2.html", "description": "Overview by the creator.", "image": "https://www.stroustrup.com/tour2_cover.jpg" },
+        { "title": "Effective Modern C++", "link": "https://www.oreilly.com/library/view/effective-modern-c/9781491908419/", "description": "Best practices for C++11 and C++14.", "image": "https://covers.oreillystatic.com/images/9781491903995/lrg.jpg" },
+        { "title": "C++ Primer", "link": "https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113", "description": "Comprehensive introduction.", "image": "https://m.media-amazon.com/images/I/81X4R7QhFkL._AC_UF1000,1000_QL80_.jpg" }
       ],
       "Blogs": [
-        { "title": "Fluent C++", "link": "https://www.fluentcpp.com/", "description": "Expressive code in C++." },
-        { "title": "Modernes C++", "link": "https://www.modernescpp.com/", "description": "Blog about modern C++ standards." },
-        { "title": "Sutter's Mill", "link": "https://herbsutter.com/", "description": "Herb Sutter's blog." }
+        { "title": "Fluent C++", "link": "https://www.fluentcpp.com/", "description": "Expressive code in C++.", "image": "https://images.unsplash.com/photo-1499750310159-525446a91989?w=500&q=80" },
+        { "title": "Modernes C++", "link": "https://www.modernescpp.com/", "description": "Blog about modern C++ standards.", "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=500&q=80" },
+        { "title": "Sutter's Mill", "link": "https://herbsutter.com/", "description": "Herb Sutter's blog.", "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&q=80" }
       ],
       "Youtube": [
-        { "title": "The Cherno", "link": "https://www.youtube.com/c/TheChernoProject", "description": "Game engine series (Hazel) and C++." },
-        { "title": "CppCon", "link": "https://www.youtube.com/user/CppCon", "description": "Conference talks." },
-        { "title": "CodeBeauty", "link": "https://www.youtube.com/c/CodeBeauty", "description": "C++ tutorials." }
+        { "title": "The Cherno", "link": "https://www.youtube.com/c/TheChernoProject", "description": "Game engine series (Hazel) and C++.", "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&q=80" },
+        { "title": "CppCon", "link": "https://www.youtube.com/user/CppCon", "description": "Conference talks.", "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&q=80" },
+        { "title": "CodeBeauty", "link": "https://www.youtube.com/c/CodeBeauty", "description": "C++ tutorials.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "In Cybersecurity": [
-        { "title": "SEI CERT C++ Coding Standard", "link": "https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682", "description": "Secure coding rules." },
-        { "title": "Game Hacking", "link": "https://nostarch.com/gamehacking", "description": "Developing Autonomous Bots (often involves C++)." },
-        { "title": "Reverse Engineering", "link": "https://cve.mitre.org/", "description": "Analyzing C++ binaries." }
+        { "title": "SEI CERT C++ Coding Standard", "link": "https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682", "description": "Secure coding rules.", "image": "https://images.unsplash.com/photo-1563206767-5b1d97299337?w=500&q=80" },
+        { "title": "Game Hacking", "link": "https://nostarch.com/gamehacking", "description": "Developing Autonomous Bots (often involves C++).", "image": "https://nostarch.com/sites/default/files/styles/cover_page/public/gamehacking_cover.png" },
+        { "title": "Reverse Engineering", "link": "https://cve.mitre.org/", "description": "Analyzing C++ binaries.", "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=500&q=80" }
       ],
       "My Notes": [
-        { "title": "RAII", "content": "Resource Acquisition Is Initialization. Managing resources via object lifetime." }
+        { "title": "RAII", "content": "Resource Acquisition Is Initialization. Managing resources via object lifetime.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" }
       ]
     }
   },
@@ -421,41 +421,41 @@
     "difficulty": "Medium",
     "iconType": "fa-battery-half",
     "languageType": "Multi-paradigm",
-    "uses": "Back End, Game Development",
+    "uses": "Back End",
     "devSalary": "$60,000 - $110,000",
     "description": "C# (C-sharp) is a modern, object-oriented programming language developed by Microsoft. It is commonly used for building enterprise applications, web applications, and video games using the Unity game engine. C# is known for its ease of use, versatility, and integration with the .NET ecosystem.",
     "officialDocumentationLink": "https://learn.microsoft.com/en-us/dotnet/csharp/",
     "resources": {
       "Codes": [
-        { "title": ".NET Samples", "link": "https://github.com/dotnet/samples", "description": "Official samples from Microsoft." },
-        { "title": "C# Examples", "link": "https://www.programiz.com/csharp-programming/examples", "description": "Basic to advanced examples." }
+        { "title": ".NET Samples", "link": "https://github.com/dotnet/samples", "description": "Official samples from Microsoft.", "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&q=80" },
+        { "title": "C# Examples", "link": "https://www.programiz.com/csharp-programming/examples", "description": "Basic to advanced examples.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "Cheatsheets": [
-        { "title": "C# Cheat Sheet", "link": "https://cheatography.com/tag/c-sharp/", "description": "Various C# cheat sheets." },
-        { "title": "C# Coding Conventions", "link": "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions", "description": "Official style guide." }
+        { "title": "C# Cheat Sheet", "link": "https://cheatography.com/tag/c-sharp/", "description": "Various C# cheat sheets.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" },
+        { "title": "C# Coding Conventions", "link": "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions", "description": "Official style guide.", "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500&q=80" }
       ],
       "Books": [
-        { "title": "C# in Depth", "link": "https://csharpindepth.com/", "description": "Deep dive by Jon Skeet." },
-        { "title": "Pro C# with .NET", "link": "https://www.apress.com/gp/book/9781484269381", "description": "Comprehensive guide." },
-        { "title": "Head First C#", "link": "https://www.oreilly.com/library/view/head-first-c/9781491976692/", "description": "Visual learning." }
+        { "title": "C# in Depth", "link": "https://csharpindepth.com/", "description": "Deep dive by Jon Skeet.", "image": "https://images.manning.com/720/960/resize/book/4/7528e37-c7e6-42c2-8732-8df21033227e/Skeet-CiD-4ed-HI.png" },
+        { "title": "Pro C# with .NET", "link": "https://www.apress.com/gp/book/9781484269381", "description": "Comprehensive guide.", "image": "https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4842-6939-8" },
+        { "title": "Head First C#", "link": "https://www.oreilly.com/library/view/head-first-c/9781491976692/", "description": "Visual learning.", "image": "https://covers.oreillystatic.com/images/9781491976708/lrg.jpg" }
       ],
       "Blogs": [
-        { "title": ".NET Blog", "link": "https://devblogs.microsoft.com/dotnet/", "description": "Official Microsoft blog." },
-        { "title": "Scott Hanselman", "link": "https://www.hanselman.com/blog/", "description": "Tech and .NET." },
-        { "title": "Code Maze", "link": "https://code-maze.com/", "description": "C# and .NET tutorials." }
+        { "title": ".NET Blog", "link": "https://devblogs.microsoft.com/dotnet/", "description": "Official Microsoft blog.", "image": "https://images.unsplash.com/photo-1499750310159-525446a91989?w=500&q=80" },
+        { "title": "Scott Hanselman", "link": "https://www.hanselman.com/blog/", "description": "Tech and .NET.", "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=500&q=80" },
+        { "title": "Code Maze", "link": "https://code-maze.com/", "description": "C# and .NET tutorials.", "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&q=80" }
       ],
       "Youtube": [
-        { "title": "Tim Corey", "link": "https://www.youtube.com/user/IAmTimCorey", "description": "Master C#." },
-        { "title": "Nick Chapsas", "link": "https://www.youtube.com/c/NickChapsas", "description": "Modern .NET and C#." },
-        { "title": "dotnet", "link": "https://www.youtube.com/c/dotNET", "description": "Official .NET channel." }
+        { "title": "Tim Corey", "link": "https://www.youtube.com/user/IAmTimCorey", "description": "Master C#.", "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&q=80" },
+        { "title": "Nick Chapsas", "link": "https://www.youtube.com/c/NickChapsas", "description": "Modern .NET and C#.", "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&q=80" },
+        { "title": "dotnet", "link": "https://www.youtube.com/c/dotNET", "description": "Official .NET channel.", "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&q=80" }
       ],
       "In Cybersecurity": [
-        { "title": "Secure Coding in C#", "link": "https://learn.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines", "description": "Microsoft guidelines." },
-        { "title": "Gray Hat C#", "link": "https://nostarch.com/grayhatcsharp", "description": "A Hacker's Guide to Creating and Automating Security Tools." },
-        { "title": "OWASP .NET Security Cheat Sheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html", "description": "Securing .NET apps." }
+        { "title": "Secure Coding in C#", "link": "https://learn.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines", "description": "Microsoft guidelines.", "image": "https://images.unsplash.com/photo-1563206767-5b1d97299337?w=500&q=80" },
+        { "title": "Gray Hat C#", "link": "https://nostarch.com/grayhatcsharp", "description": "A Hacker's Guide to Creating and Automating Security Tools.", "image": "https://nostarch.com/sites/default/files/styles/cover_page/public/grayhatcsharp_cover.png" },
+        { "title": "OWASP .NET Security Cheat Sheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html", "description": "Securing .NET apps.", "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=500&q=80" }
       ],
       "My Notes": [
-        { "title": "LINQ", "content": "Language Integrated Query. Powerful syntax for querying data." }
+        { "title": "LINQ", "content": "Language Integrated Query. Powerful syntax for querying data.", "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80" }
       ]
     }
   }

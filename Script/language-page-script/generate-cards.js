@@ -89,7 +89,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
             .modal-grid {
                 display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                grid-template-columns: repeat(auto-fill, minmax(280px, 350px));
+                justify-content: center;
                 gap: 25px;
                 overflow-y: auto;
                 padding-right: 10px; /* Space for scrollbar */
