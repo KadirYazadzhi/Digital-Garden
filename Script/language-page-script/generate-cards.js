@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             <div class="modal-content">
                 <span class="close-modal">&times;</span>
                 <h2 id="modal-title" class="heading-sm">Resource Title</h2>
-                <div id="modal-body" class="paragraph-small">
+                <div id="modal-body" class="modal-grid">
                     <!-- Dynamic Content -->
                 </div>
             </div>
@@ -48,71 +48,137 @@ document.addEventListener('DOMContentLoaded', async () => {
         style.textContent = `
             .modal-overlay {
                 position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-                background: rgba(0,0,0,0.7); z-index: 1000;
+                background: rgba(0,0,0,0.8); z-index: 1000;
                 display: flex; justify-content: center; align-items: center;
-                backdrop-filter: blur(5px);
+                backdrop-filter: blur(8px);
             }
             .modal-content {
                 background: var(--bg-surface); 
                 color: var(--text-body);
-                padding: 20px; 
+                padding: 30px; 
                 border-radius: var(--radius-md);
-                width: 90%; 
-                max-width: 500px; 
+                width: 85%; 
+                max-width: 1400px; 
+                height: 85vh;
+                display: flex;
+                flex-direction: column;
                 position: relative;
-                max-height: 80vh; 
-                overflow-y: auto;
-                text-align: left;
                 box-shadow: var(--shadow-md);
                 border: 1px solid var(--border-medium);
             }
             .close-modal {
                 position: absolute; 
-                top: 10px; 
-                right: 15px; 
-                font-size: 24px; 
+                top: 20px; 
+                right: 30px; 
+                font-size: 32px; 
                 cursor: pointer; 
                 color: var(--text-heading);
                 transition: var(--animation);
+                z-index: 10;
             }
             .close-modal:hover { 
                 color: var(--primary-color); 
             }
-            .resource-item { 
-                margin-bottom: 15px; 
-                padding: 15px; 
-                background: var(--bg-sidebar); 
-                border-radius: var(--radius-sm); 
-                border: 1px solid var(--border-subtle);
-            }
-            .resource-item a { 
-                color: var(--primary-color); 
-                text-decoration: none; 
-                word-break: break-all; 
-                font-weight: 500;
-                transition: var(--animation);
-            }
-            .resource-item a:hover { 
-                text-decoration: underline; 
-                color: var(--text-heading);
-            }
-            .resource-item p { 
-                margin: 5px 0 0; 
-                font-size: 0.9em; 
-                color: var(--text-body); 
-            }
-            .resource-item strong { 
-                display: block; 
-                margin-bottom: 5px; 
-                color: var(--text-heading); 
-                font-size: 1.1em;
-            }
             #modal-title {
-                margin-bottom: 1rem;
+                margin-bottom: 1.5rem;
                 color: var(--text-heading);
                 border-bottom: 2px solid var(--primary-color);
                 padding-bottom: 0.5rem;
                 display: inline-block;
+                flex-shrink: 0;
+            }
+            .modal-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 25px;
+                overflow-y: auto;
+                padding-right: 10px; /* Space for scrollbar */
+                flex: 1;
+            }
+            /* Scrollbar styling */
+            .modal-grid::-webkit-scrollbar {
+                width: 8px;
+            }
+            .modal-grid::-webkit-scrollbar-track {
+                background: var(--bg-sidebar); 
+                border-radius: 4px;
+            }
+            .modal-grid::-webkit-scrollbar-thumb {
+                background: var(--border-strong); 
+                border-radius: 4px;
+            }
+
+            /* Resource Card Styles */
+            .resource-card {
+                background: var(--bg-sidebar);
+                border: 1px solid var(--border-subtle);
+                border-radius: var(--radius-md);
+                overflow: hidden;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .resource-card:hover {
+                transform: translateY(-5px);
+                box-shadow: var(--shadow-md);
+                border-color: var(--primary-color);
+            }
+            .resource-card-visual {
+                height: 160px;
+                background: var(--bg-body); /* Slightly darker/lighter contrast */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-bottom: 1px solid var(--border-subtle);
+                position: relative;
+            }
+            .resource-card-visual i {
+                font-size: 4rem;
+                color: var(--primary-color);
+                opacity: 0.8;
+            }
+            .resource-card-visual img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .resource-card-content {
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+            }
+            .resource-card-title {
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: var(--text-heading);
+                margin-bottom: 10px;
+                line-height: 1.4;
+            }
+            .resource-card-desc {
+                font-size: 0.9rem;
+                color: var(--text-body);
+                margin-bottom: 15px;
+                flex: 1; /* Pushes button down */
+                opacity: 0.9;
+            }
+            .resource-card-btn {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: transparent;
+                border: 2px solid var(--primary-color);
+                color: var(--text-heading);
+                text-align: center;
+                border-radius: var(--radius-sm);
+                font-weight: 500;
+                transition: var(--animation);
+                text-decoration: none;
+                margin-top: auto;
+            }
+            .resource-card-btn:hover {
+                background-color: var(--primary-color);
+                color: var(--text-inverse);
             }
         `;
         document.head.appendChild(style);
@@ -169,21 +235,67 @@ document.addEventListener('DOMContentLoaded', async () => {
                              const items = languageData.resources[card.title];
                              if (items.length > 0) {
                                  items.forEach(item => {
-                                     const div = document.createElement('div');
-                                     div.className = 'resource-item';
-                                     let content = '';
-                                     if (item.title) content += `<strong>${item.title}</strong>`;
-                                     if (item.link && item.link !== '#') content += `<a href="${item.link}" target="_blank">${item.link}</a><br>`;
-                                     if (item.description) content += `<p>${item.description}</p>`;
-                                     if (item.content) content += `<p>${item.content}</p>`; // For notes
-                                     div.innerHTML = content;
-                                     body.appendChild(div);
+                                     // Create Card Structure
+                                     const cardEl = document.createElement('div');
+                                     cardEl.className = 'resource-card';
+
+                                     // Visual Section
+                                     const visual = document.createElement('div');
+                                     visual.className = 'resource-card-visual';
+                                     
+                                     if (item.image) {
+                                         const img = document.createElement('img');
+                                         img.src = item.image;
+                                         img.alt = item.title;
+                                         visual.appendChild(img);
+                                     } else {
+                                         // Fallback Icon (use the category icon)
+                                         const icon = document.createElement('i');
+                                         // Extract class names from card.icon string
+                                         icon.className = card.icon; 
+                                         visual.appendChild(icon);
+                                     }
+                                     cardEl.appendChild(visual);
+
+                                     // Content Section
+                                     const content = document.createElement('div');
+                                     content.className = 'resource-card-content';
+
+                                     // Title
+                                     if (item.title) {
+                                         const titleEl = document.createElement('h3');
+                                         titleEl.className = 'resource-card-title';
+                                         titleEl.textContent = item.title;
+                                         content.appendChild(titleEl);
+                                     }
+
+                                     // Description
+                                     if (item.description || item.content) {
+                                         const descEl = document.createElement('p');
+                                         descEl.className = 'resource-card-desc';
+                                         // Limit text length if needed, but flex layout handles it mostly
+                                         descEl.textContent = item.description || item.content; 
+                                         content.appendChild(descEl);
+                                     }
+
+                                     // Link Button
+                                     if (item.link && item.link !== '#') {
+                                         const btn = document.createElement('a');
+                                         btn.className = 'resource-card-btn';
+                                         btn.href = item.link;
+                                         btn.target = '_blank';
+                                         btn.textContent = 'View Resource';
+                                         content.appendChild(btn);
+                                     }
+
+                                     cardEl.appendChild(content);
+                                     body.appendChild(cardEl);
                                  });
                              } else {
-                                 body.innerHTML = '<p style="color:var(--text-body); opacity: 0.7;">No resources found for this category yet.</p>';
+                                 body.innerHTML = '<p style="color:var(--text-body); opacity: 0.7; grid-column: 1/-1; text-align: center;">No resources found for this category yet.</p>';
                              }
                          } else {
-                             body.innerHTML = '<p style="color:var(--text-body); opacity: 0.7;">Data not available or language not selected.</p>';
+                             body.innerHTML = '<p style="color:var(--text-body); opacity: 0.7; grid-column: 1/-1; text-align: center;">Data not available or language not selected.</p>';
                          }
 
                          modalOverlay.style.display = 'flex';
