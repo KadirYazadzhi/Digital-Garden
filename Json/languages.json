@@ -13,25 +13,36 @@
     "officialDocumentationLink": "https://docs.python.org/3/",
     "resources": {
       "Codes": [
-        { "title": "Example Code 1", "link": "#", "description": "Basic Python syntax example." }
+        { "title": "The Algorithms - Python", "link": "https://github.com/TheAlgorithms/Python", "description": "All Algorithms implemented in Python." },
+        { "title": "Python Snippets", "link": "https://python-snippets.com/", "description": "Useful Python code snippets." }
       ],
       "Cheatsheets": [
-        { "title": "Python Basics", "link": "#" }
+        { "title": "Python Cheatsheet.org", "link": "https://www.pythoncheatsheet.org/", "description": "Comprehensive Python features guide." },
+        { "title": "Real Python Cheatsheets", "link": "https://realpython.com/downloads/", "description": "Topic-specific cheatsheets from Real Python." },
+        { "title": "DataCamp Python Cheat Sheet", "link": "https://www.datacamp.com/cheat-sheet/python-basics-cheat-sheet", "description": "Great for data science and beginners." }
       ],
       "Books": [
-        { "title": "Automate the Boring Stuff with Python", "link": "https://automatetheboringstuff.com/" }
+        { "title": "Python Crash Course", "link": "https://nostarch.com/pythoncrashcourse2e", "description": "A hands-on, project-based introduction to programming." },
+        { "title": "Automate the Boring Stuff with Python", "link": "https://automatetheboringstuff.com/", "description": "Practical programming for total beginners." },
+        { "title": "Fluent Python", "link": "https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/", "description": "Clear, concise, and effective programming." }
       ],
       "Blogs": [
-        { "title": "Real Python", "link": "https://realpython.com/" }
+        { "title": "Real Python", "link": "https://realpython.com/", "description": "Top-tier tutorials and articles." },
+        { "title": "Planet Python", "link": "https://planetpython.org/", "description": "Aggregator of Python blogs." },
+        { "title": "Mouse vs Python", "link": "https://www.blog.pythonlibrary.org/", "description": "Mike Driscoll's blog on Python." }
       ],
       "Youtube": [
-        { "title": "Programming with Mosh - Python", "link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc" }
+        { "title": "Programming with Mosh", "link": "https://www.youtube.com/c/programmingwithmosh", "description": "Fast-paced, high-quality tutorials." },
+        { "title": "Corey Schafer", "link": "https://www.youtube.com/user/schafer5", "description": "In-depth Python tutorials." },
+        { "title": "Tech With Tim", "link": "https://www.youtube.com/c/TechWithTim", "description": "Python, Game Dev, and Machine Learning." }
       ],
       "In Cybersecurity": [
-        { "title": "Black Hat Python", "link": "#" }
+        { "title": "Black Hat Python", "link": "https://nostarch.com/blackhatpython2e", "description": "Python for hackers and pentesters." },
+        { "title": "Scapy", "link": "https://scapy.net/", "description": "Packet manipulation program." },
+        { "title": "Violent Python", "link": "https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579", "description": "Cookbook for hackers." }
       ],
       "My Notes": [
-        { "title": "My Personal Notes on Python", "link": "#", "content": "Variables are dynamic..." }
+        { "title": "Variables & Types", "content": "Python uses dynamic typing. Variables don't need explicit declaration." }
       ]
     }
   },
@@ -48,13 +59,38 @@
     "description": "JavaScript, created in 1995, is a versatile programming language for building dynamic and interactive web content. It supports various programming styles and powers frameworks like React and Node.js. Essential for web development, JavaScript is widely used on both the client and server sides.",
     "officialDocumentationLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "resources": {
-      "Codes": [],
-      "Cheatsheets": [],
-      "Books": [],
-      "Blogs": [],
-      "Youtube": [],
-      "In Cybersecurity": [],
-      "My Notes": []
+      "Codes": [
+        { "title": "30 Seconds of Code", "link": "https://www.30secondsofcode.org/js/p/1", "description": "Short JavaScript code snippets for all your development needs." },
+        { "title": "JavaScript Algorithms", "link": "https://github.com/trekhleb/javascript-algorithms", "description": "Algorithms and data structures implemented in JavaScript." }
+      ],
+      "Cheatsheets": [
+        { "title": "JavaScript Info", "link": "https://javascript.info/", "description": "Modern JavaScript Tutorial." },
+        { "title": "OverAPI JavaScript Cheat Sheet", "link": "https://overapi.com/javascript", "description": "Comprehensive reference." },
+        { "title": "ES6 Cheatsheet", "link": "https://github.com/DrkSephy/es6-cheatsheet", "description": "Cheatsheet for ES6 features." }
+      ],
+      "Books": [
+        { "title": "Eloquent JavaScript", "link": "https://eloquentjavascript.net/", "description": "A modern introduction to programming." },
+        { "title": "You Don't Know JS", "link": "https://github.com/getify/You-Dont-Know-JS", "description": "Deep dive into the core mechanisms of the language." },
+        { "title": "JavaScript: The Good Parts", "link": "https://www.oreilly.com/library/view/javascript-the-good/9780596517748/", "description": "Classic book on writing better JavaScript." }
+      ],
+      "Blogs": [
+        { "title": "CSS-Tricks", "link": "https://css-tricks.com/tag/javascript/", "description": "Great articles on JS and Front-end." },
+        { "title": "David Walsh Blog", "link": "https://davidwalsh.name/", "description": "Expert advice and tutorials." },
+        { "title": "Overreacted", "link": "https://overreacted.io/", "description": "Dan Abramov's blog (React focus)." }
+      ],
+      "Youtube": [
+        { "title": "Traversy Media", "link": "https://www.youtube.com/user/TechGuyWeb", "description": "Web development tutorials." },
+        { "title": "The Net Ninja", "link": "https://www.youtube.com/c/TheNetNinja", "description": "Comprehensive series on JS, React, Node." },
+        { "title": "Web Dev Simplified", "link": "https://www.youtube.com/c/WebDevSimplified", "description": "Concepts explained simply." }
+      ],
+      "In Cybersecurity": [
+        { "title": "OWASP XSS Prevention Cheat Sheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html", "description": "Preventing Cross-Site Scripting." },
+        { "title": "Node.js Security Cheatsheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html", "description": "Securing Node.js applications." },
+        { "title": "DOMPurify", "link": "https://github.com/cure53/DOMPurify", "description": "XSS sanitizer for HTML, MathML and SVG." }
+      ],
+      "My Notes": [
+        { "title": "Closures", "content": "A closure is the combination of a function bundled together with references to its surrounding state." }
+      ]
     }
   },
   {
@@ -70,13 +106,37 @@
     "description": "Go, also known as Golang, is an open-source programming language created by Google in 2009. It's designed for simplicity, efficiency, and strong concurrency support. Go is widely used for building scalable, high-performance systems, particularly for web servers and cloud applications.",
     "officialDocumentationLink": "https://golang.org/doc/",
     "resources": {
-      "Codes": [],
-      "Cheatsheets": [],
-      "Books": [],
-      "Blogs": [],
-      "Youtube": [],
-      "In Cybersecurity": [],
-      "My Notes": []
+      "Codes": [
+        { "title": "Go by Example", "link": "https://gobyexample.com/", "description": "Hands-on introduction to Go using annotated example programs." },
+        { "title": "Awesome Go", "link": "https://awesome-go.com/", "description": "A curated list of awesome Go frameworks, libraries and software." }
+      ],
+      "Cheatsheets": [
+        { "title": "Go Cheat Sheet", "link": "https://github.com/a8m/go-lang-cheat-sheet", "description": "A reference for Go syntax." },
+        { "title": "Devhints Go", "link": "https://devhints.io/go", "description": "Quick reference for Go." }
+      ],
+      "Books": [
+        { "title": "The Go Programming Language", "link": "https://www.gopl.io/", "description": "The authoritative guide." },
+        { "title": "Learning Go", "link": "https://www.oreilly.com/library/view/learning-go/9781492077206/", "description": "Idiomatic Go guide." },
+        { "title": "Go in Action", "link": "https://www.manning.com/books/go-in-action", "description": "Guide for experienced developers." }
+      ],
+      "Blogs": [
+        { "title": "The Go Blog", "link": "https://blog.golang.org/", "description": "Official blog." },
+        { "title": "Dave Cheney", "link": "https://dave.cheney.net/", "description": "High quality Go articles." },
+        { "title": "Ardan Labs", "link": "https://www.ardanlabs.com/blog/", "description": "Deep dives into Go internals." }
+      ],
+      "Youtube": [
+        { "title": "JustForFunc", "link": "https://www.youtube.com/c/JustForFunc", "description": "Programming in Go with Francesc Campoy." },
+        { "title": "Golang Dojo", "link": "https://www.youtube.com/c/GolangDojo", "description": "Tutorials for Go." },
+        { "title": "Nic Jackson", "link": "https://www.youtube.com/c/NicJackson", "description": "Microservices and Go." }
+      ],
+      "In Cybersecurity": [
+        { "title": "Black Hat Go", "link": "https://nostarch.com/blackhatgo", "description": "Go for Penetration Testers and Researchers." },
+        { "title": "Bettercap", "link": "https://www.bettercap.org/", "description": "The Swiss Army knife for 802.11, BLE and Ethernet networks reconnaissance and attacks." },
+        { "title": "Gosec", "link": "https://github.com/securego/gosec", "description": "Golang Security Checker." }
+      ],
+      "My Notes": [
+        { "title": "Goroutines", "content": "Lightweight threads managed by the Go runtime." }
+      ]
     }
   },
   {
@@ -92,13 +152,37 @@
     "description": "SQL (Structured Query Language) is a standard programming language used for managing and manipulating relational databases. It allows developers to query, insert, update, and delete data efficiently. SQL is fundamental for working with databases in web development, data analysis, and business intelligence.",
     "officialDocumentationLink": "https://www.w3schools.com/sql/",
     "resources": {
-      "Codes": [],
-      "Cheatsheets": [],
-      "Books": [],
-      "Blogs": [],
-      "Youtube": [],
-      "In Cybersecurity": [],
-      "My Notes": []
+      "Codes": [
+        { "title": "SQL Zoo", "link": "https://sqlzoo.net/", "description": "Interactive SQL tutorials." },
+        { "title": "Mode SQL Tutorial", "link": "https://mode.com/sql-tutorial/", "description": "Introduction to SQL for Data Analysis." }
+      ],
+      "Cheatsheets": [
+        { "title": "SQL Cheat Sheet", "link": "https://www.sqltutorial.org/sql-cheat-sheet/", "description": "Quick reference for SQL commands." },
+        { "title": "DataCamp SQL Cheat Sheet", "link": "https://www.datacamp.com/cheat-sheet/sql-basics-cheat-sheet", "description": "Basics for beginners." }
+      ],
+      "Books": [
+        { "title": "SQL in 10 Minutes, Sams Teach Yourself", "link": "https://www.amazon.com/SQL-Minutes-Sams-Teach-Yourself/dp/0135182794", "description": "Quick start guide." },
+        { "title": "SQL Cookbook", "link": "https://www.oreilly.com/library/view/sql-cookbook/0596009763/", "description": "Query solutions and techniques." },
+        { "title": "Learning SQL", "link": "https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/", "description": "Master SQL Fundamentals." }
+      ],
+      "Blogs": [
+        { "title": "Brent Ozar Unlimited", "link": "https://www.brentozar.com/blog/", "description": "SQL Server focus." },
+        { "title": "Use The Index, Luke", "link": "https://use-the-index-luke.com/", "description": "SQL performance explained." },
+        { "title": "SQLAuthority", "link": "https://blog.sqlauthority.com/", "description": "Comprehensive SQL tips." }
+      ],
+      "Youtube": [
+        { "title": "Alex The Analyst", "link": "https://www.youtube.com/c/AlexTheAnalyst", "description": "SQL for Data Analysis." },
+        { "title": "Joey Blue", "link": "https://www.youtube.com/user/Jblue05", "description": "Database design and SQL." },
+        { "title": "Kudvenkat", "link": "https://www.youtube.com/user/kudvenkat", "description": "SQL Server tutorials." }
+      ],
+      "In Cybersecurity": [
+        { "title": "SQL Injection Cheat Sheet", "link": "https://portswigger.net/web-security/sql-injection/cheat-sheet", "description": "PortSwigger's guide to SQLi." },
+        { "title": "SQLMap", "link": "https://sqlmap.org/", "description": "Automatic SQL injection and database takeover tool." },
+        { "title": "OWASP SQL Injection", "link": "https://owasp.org/www-community/attacks/SQL_Injection", "description": "Understanding the vulnerability." }
+      ],
+      "My Notes": [
+        { "title": "Joins", "content": "INNER JOIN returns records that have matching values in both tables." }
+      ]
     }
   },
   {
@@ -114,13 +198,37 @@
     "description": "Ruby is a high-level, dynamic, object-oriented programming language designed for simplicity and productivity. It is widely known for its use in the Ruby on Rails framework, which helps developers build web applications quickly and efficiently. Ruby emphasizes convention over configuration and developer happiness.",
     "officialDocumentationLink": "https://www.ruby-lang.org/en/documentation/",
     "resources": {
-      "Codes": [],
-      "Cheatsheets": [],
-      "Books": [],
-      "Blogs": [],
-      "Youtube": [],
-      "In Cybersecurity": [],
-      "My Notes": []
+      "Codes": [
+        { "title": "Ruby Koans", "link": "http://rubykoans.com/", "description": "Learn Ruby with the Edge of Enlightenment." },
+        { "title": "Exercism Ruby", "link": "https://exercism.org/tracks/ruby", "description": "Practice Ruby concepts." }
+      ],
+      "Cheatsheets": [
+        { "title": "Ruby Cheatsheet", "link": "https://www.ruby-lang.org/en/documentation/quickstart/", "description": "Official Quickstart." },
+        { "title": "Ruby on Rails Cheatsheet", "link": "https://devhints.io/rails", "description": "Quick reference for Rails." }
+      ],
+      "Books": [
+        { "title": "The Well-Grounded Rubyist", "link": "https://www.manning.com/books/the-well-grounded-rubyist-third-edition", "description": "Deep dive into Ruby objects." },
+        { "title": "Practical Object-Oriented Design in Ruby", "link": "https://www.poodr.com/", "description": "Clean code in Ruby." },
+        { "title": "Programming Ruby (The Pickaxe)", "link": "https://pragprog.com/titles/ruby4/programming-ruby-3-0-4th-edition/", "description": "The definitive guide." }
+      ],
+      "Blogs": [
+        { "title": "Ruby Inside", "link": "http://www.rubyinside.com/", "description": "Popular Ruby blog." },
+        { "title": "Schneems", "link": "https://www.schneems.com/", "description": "Richard Schneeman's blog." },
+        { "title": "Tenderlovemaking", "link": "https://tenderlovemaking.com/", "description": "Aaron Patterson's blog." }
+      ],
+      "Youtube": [
+        { "title": "Drifting Ruby", "link": "https://www.youtube.com/c/DriftingRuby", "description": "Ruby on Rails tutorials." },
+        { "title": "GoRails", "link": "https://www.youtube.com/c/GorailsTV", "description": "Rails casts and tutorials." },
+        { "title": "RubyConf", "link": "https://www.youtube.com/c/RubyConf", "description": "Conference talks." }
+      ],
+      "In Cybersecurity": [
+        { "title": "Brakeman", "link": "https://brakemanscanner.org/", "description": "Static analysis security scanner for Ruby on Rails." },
+        { "title": "Ruby Advisory Database", "link": "https://github.com/rubysec/ruby-advisory-db", "description": "Database of vulnerable Ruby Gems." },
+        { "title": "Metasploit", "link": "https://www.metasploit.com/", "description": "The world's most used penetration testing framework (written in Ruby)." }
+      ],
+      "My Notes": [
+        { "title": "Blocks", "content": "Ruby blocks are anonymous functions that can be passed to methods." }
+      ]
     }
   },
   {
@@ -136,13 +244,37 @@
     "description": "PHP is a widely-used open-source server-side scripting language designed for web development. It can be embedded into HTML and is most often used for creating dynamic websites and web applications. PHP powers major content management systems like WordPress and frameworks like Laravel.",
     "officialDocumentationLink": "https://www.php.net/docs.php",
     "resources": {
-      "Codes": [],
-      "Cheatsheets": [],
-      "Books": [],
-      "Blogs": [],
-      "Youtube": [],
-      "In Cybersecurity": [],
-      "My Notes": []
+      "Codes": [
+        { "title": "PHP The Right Way", "link": "https://phptherightway.com/", "description": "Quick reference for popular PHP coding standards." },
+        { "title": "PHP Delusions", "link": "https://phpdelusions.net/", "description": "Proper PHP practices." }
+      ],
+      "Cheatsheets": [
+        { "title": "PHP Cheat Sheet", "link": "https://websitesetup.org/php-cheat-sheet/", "description": "PDF available." },
+        { "title": "OverAPI PHP", "link": "https://overapi.com/php", "description": "Comprehensive reference." }
+      ],
+      "Books": [
+        { "title": "Modern PHP", "link": "https://www.oreilly.com/library/view/modern-php/9781491905128/", "description": "New features and good practices." },
+        { "title": "PHP & MySQL: Novice to Ninja", "link": "https://www.sitepoint.com/premium/books/php-mysql-novice-to-ninja-7th-edition", "description": "Solid introduction." },
+        { "title": "Laravel: Up and Running", "link": "https://laravelupandrunning.com/", "description": "Guide to the Laravel framework." }
+      ],
+      "Blogs": [
+        { "title": "Laravel News", "link": "https://laravel-news.com/", "description": "Everything Laravel." },
+        { "title": "Stitcher.io", "link": "https://stitcher.io/blog", "description": "Brent Roose's PHP blog." },
+        { "title": "PHP.Watch", "link": "https://php.watch/", "description": "PHP evolution and news." }
+      ],
+      "Youtube": [
+        { "title": "Laracasts", "link": "https://www.youtube.com/c/LaracastsOfficial", "description": "Best PHP/Laravel tutorials." },
+        { "title": "Program With Gio", "link": "https://www.youtube.com/c/ProgramWithGio", "description": "Modern PHP development." },
+        { "title": "Traversy Media", "link": "https://www.youtube.com/user/TechGuyWeb", "description": "PHP for beginners." }
+      ],
+      "In Cybersecurity": [
+        { "title": "PHP Security Best Practices", "link": "https://phptherightway.com/#security", "description": "Security section of PHP The Right Way." },
+        { "title": "DVWA (Damn Vulnerable Web App)", "link": "https://github.com/digininja/DVWA", "description": "Practice PHP/MySQL vulnerabilities." },
+        { "title": "OWASP PHP Security Cheat Sheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/PHP_Configuration_Cheat_Sheet.html", "description": "Securing PHP configuration." }
+      ],
+      "My Notes": [
+        { "title": "Composer", "content": "Dependency manager for PHP, standard for modern projects." }
+      ]
     }
   },
   {
@@ -158,13 +290,36 @@
     "description": "Assembly language is a low-level programming language that is closely related to machine code. It is used for programming hardware and embedded systems where performance and memory efficiency are crucial. Assembly is difficult to learn but offers the highest level of control over system resources.",
     "officialDocumentationLink": "https://en.wikibooks.org/wiki/Assembly_Language",
     "resources": {
-      "Codes": [],
-      "Cheatsheets": [],
-      "Books": [],
-      "Blogs": [],
-      "Youtube": [],
-      "In Cybersecurity": [],
-      "My Notes": []
+      "Codes": [
+        { "title": "Assembly Language Examples", "link": "https://www.tutorialspoint.com/assembly_programming/assembly_examples.htm", "description": "Basic examples." },
+        { "title": "x86 Assembly Guide", "link": "https://www.cs.virginia.edu/~evans/cs216/guides/x86.html", "description": "University of Virginia guide." }
+      ],
+      "Cheatsheets": [
+        { "title": "x86 Assembly Cheat Sheet", "link": "https://www.bmo.cl/bmo/x86m/", "description": "Opcode reference." },
+        { "title": "ARM Assembly Basics", "link": "https://azeria-labs.com/assembly-basics-cheatsheet/", "description": "For ARM architecture." }
+      ],
+      "Books": [
+        { "title": "Assembly Language for x86 Processors", "link": "http://asmirvine.com/", "description": "Standard textbook." },
+        { "title": "Programming from the Ground Up", "link": "https://savannah.nongnu.org/projects/pgubook/", "description": "Intro to programming using Assembly." },
+        { "title": "The Art of Assembly Language", "link": "https://nostarch.com/artofassembly", "description": "Comprehensive guide." }
+      ],
+      "Blogs": [
+        { "title": "Azeria Labs", "link": "https://azeria-labs.com/", "description": "ARM assembly and exploitation." },
+        { "title": "Agner Fog's Optimization Manuals", "link": "https://www.agner.org/optimize/", "description": "Deep dive into low-level optimization." }
+      ],
+      "Youtube": [
+        { "title": "Creel", "link": "https://www.youtube.com/c/CreelProgramming", "description": "Modern Assembly tutorials." },
+        { "title": "LiveOverflow", "link": "https://www.youtube.com/c/LiveOverflow", "description": "Hacking and Assembly basics." },
+        { "title": "Low Level Learning", "link": "https://www.youtube.com/c/LowLevelLearning", "description": "Systems programming and Assembly." }
+      ],
+      "In Cybersecurity": [
+        { "title": "Reverse Engineering for Beginners", "link": "https://beginners.re/", "description": "Free book on RE." },
+        { "title": "Ghidra", "link": "https://ghidra-sre.org/", "description": "NSA's reverse engineering tool." },
+        { "title": "Practical Malware Analysis", "link": "https://nostarch.com/malware", "description": "Dissecting malicious software." }
+      ],
+      "My Notes": [
+        { "title": "Registers", "content": "Small storage locations directly in the CPU used for immediate operations." }
+      ]
     }
   },
   {
@@ -180,13 +335,36 @@
     "description": "C is a general-purpose, procedural programming language developed in the early 1970s. It is widely used for system software, embedded systems, and operating systems. C provides low-level access to memory and system resources, making it an essential language for performance-critical applications.",
     "officialDocumentationLink": "https://en.wikipedia.org/wiki/C_(programming_language)",
     "resources": {
-      "Codes": [],
-      "Cheatsheets": [],
-      "Books": [],
-      "Blogs": [],
-      "Youtube": [],
-      "In Cybersecurity": [],
-      "My Notes": []
+      "Codes": [
+        { "title": "C Examples", "link": "https://www.programiz.com/c-programming/examples", "description": "Standard C examples." },
+        { "title": "The Algorithms - C", "link": "https://github.com/TheAlgorithms/C", "description": "Algorithms implemented in C." }
+      ],
+      "Cheatsheets": [
+        { "title": "C Cheat Sheet", "link": "https://quickref.me/c", "description": "Quick reference guide." },
+        { "title": "C Reference Card", "link": "https://www.cs.sfu.ca/~ggbaker/reference/c-class/crefcard.pdf", "description": "Standard C reference PDF." }
+      ],
+      "Books": [
+        { "title": "The C Programming Language (K&R)", "link": "https://en.wikipedia.org/wiki/The_C_Programming_Language", "description": "The classic text." },
+        { "title": "C Programming: A Modern Approach", "link": "http://knking.com/books/c2/", "description": "Comprehensive modern guide." },
+        { "title": "Head First C", "link": "https://www.oreilly.com/library/view/head-first-c/9781449345013/", "description": "Learner-friendly guide." }
+      ],
+      "Blogs": [
+        { "title": "Embedded.com", "link": "https://www.embedded.com/", "description": "C in embedded systems." },
+        { "title": "Dan Saks", "link": "https://www.dansaks.com/", "description": "C and C++ articles." }
+      ],
+      "Youtube": [
+        { "title": "Neso Academy", "link": "https://www.youtube.com/c/nesoacademy", "description": "C Programming playlist." },
+        { "title": "Jacob Sorber", "link": "https://www.youtube.com/c/JacobSorber", "description": "Systems programming in C." },
+        { "title": "CS50", "link": "https://www.youtube.com/c/cs50", "description": "Harvard's intro to CS (heavy on C)." }
+      ],
+      "In Cybersecurity": [
+        { "title": "Secure Coding in C and C++", "link": "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=30666", "description": "CERT standards." },
+        { "title": "Buffer Overflow Attacks", "link": "https://owasp.org/www-community/attacks/Buffer_Overflow", "description": "Classic C vulnerability." },
+        { "title": "Hacking: The Art of Exploitation", "link": "https://nostarch.com/hacking2.htm", "description": "Exploiting C programs." }
+      ],
+      "My Notes": [
+        { "title": "Pointers", "content": "Variables that store memory addresses. Powerful but dangerous." }
+      ]
     }
   },
   {
@@ -202,13 +380,37 @@
     "description": "C++ is a powerful, high-performance programming language developed as an extension of C. It supports both object-oriented and procedural programming and is used for building system software, high-performance applications, games, and real-time simulations. C++ is known for its efficiency and control over hardware.",
     "officialDocumentationLink": "https://en.cppreference.com/w/",
     "resources": {
-      "Codes": [],
-      "Cheatsheets": [],
-      "Books": [],
-      "Blogs": [],
-      "Youtube": [],
-      "In Cybersecurity": [],
-      "My Notes": []
+      "Codes": [
+        { "title": "Learn C++ Examples", "link": "https://www.learncpp.com/", "description": "Excellent tutorial site with examples." },
+        { "title": "C++ Samples", "link": "https://github.com/microsoft/Windows-classic-samples", "description": "Windows samples." }
+      ],
+      "Cheatsheets": [
+        { "title": "C++ Reference", "link": "https://en.cppreference.com/w/", "description": "The definitive wiki." },
+        { "title": "C++ Cheat Sheet", "link": "https://hackr.io/blog/cpp-cheat-sheet", "description": "Quick guide." }
+      ],
+      "Books": [
+        { "title": "A Tour of C++", "link": "https://www.stroustrup.com/tour2.html", "description": "Overview by the creator." },
+        { "title": "Effective Modern C++", "link": "https://www.oreilly.com/library/view/effective-modern-c/9781491908419/", "description": "Best practices for C++11 and C++14." },
+        { "title": "C++ Primer", "link": "https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113", "description": "Comprehensive introduction." }
+      ],
+      "Blogs": [
+        { "title": "Fluent C++", "link": "https://www.fluentcpp.com/", "description": "Expressive code in C++." },
+        { "title": "Modernes C++", "link": "https://www.modernescpp.com/", "description": "Blog about modern C++ standards." },
+        { "title": "Sutter's Mill", "link": "https://herbsutter.com/", "description": "Herb Sutter's blog." }
+      ],
+      "Youtube": [
+        { "title": "The Cherno", "link": "https://www.youtube.com/c/TheChernoProject", "description": "Game engine series (Hazel) and C++." },
+        { "title": "CppCon", "link": "https://www.youtube.com/user/CppCon", "description": "Conference talks." },
+        { "title": "CodeBeauty", "link": "https://www.youtube.com/c/CodeBeauty", "description": "C++ tutorials." }
+      ],
+      "In Cybersecurity": [
+        { "title": "SEI CERT C++ Coding Standard", "link": "https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682", "description": "Secure coding rules." },
+        { "title": "Game Hacking", "link": "https://nostarch.com/gamehacking", "description": "Developing Autonomous Bots (often involves C++)." },
+        { "title": "Reverse Engineering", "link": "https://cve.mitre.org/", "description": "Analyzing C++ binaries." }
+      ],
+      "My Notes": [
+        { "title": "RAII", "content": "Resource Acquisition Is Initialization. Managing resources via object lifetime." }
+      ]
     }
   },
   {
@@ -224,13 +426,37 @@
     "description": "C# (C-sharp) is a modern, object-oriented programming language developed by Microsoft. It is commonly used for building enterprise applications, web applications, and video games using the Unity game engine. C# is known for its ease of use, versatility, and integration with the .NET ecosystem.",
     "officialDocumentationLink": "https://learn.microsoft.com/en-us/dotnet/csharp/",
     "resources": {
-      "Codes": [],
-      "Cheatsheets": [],
-      "Books": [],
-      "Blogs": [],
-      "Youtube": [],
-      "In Cybersecurity": [],
-      "My Notes": []
+      "Codes": [
+        { "title": ".NET Samples", "link": "https://github.com/dotnet/samples", "description": "Official samples from Microsoft." },
+        { "title": "C# Examples", "link": "https://www.programiz.com/csharp-programming/examples", "description": "Basic to advanced examples." }
+      ],
+      "Cheatsheets": [
+        { "title": "C# Cheat Sheet", "link": "https://cheatography.com/tag/c-sharp/", "description": "Various C# cheat sheets." },
+        { "title": "C# Coding Conventions", "link": "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions", "description": "Official style guide." }
+      ],
+      "Books": [
+        { "title": "C# in Depth", "link": "https://csharpindepth.com/", "description": "Deep dive by Jon Skeet." },
+        { "title": "Pro C# with .NET", "link": "https://www.apress.com/gp/book/9781484269381", "description": "Comprehensive guide." },
+        { "title": "Head First C#", "link": "https://www.oreilly.com/library/view/head-first-c/9781491976692/", "description": "Visual learning." }
+      ],
+      "Blogs": [
+        { "title": ".NET Blog", "link": "https://devblogs.microsoft.com/dotnet/", "description": "Official Microsoft blog." },
+        { "title": "Scott Hanselman", "link": "https://www.hanselman.com/blog/", "description": "Tech and .NET." },
+        { "title": "Code Maze", "link": "https://code-maze.com/", "description": "C# and .NET tutorials." }
+      ],
+      "Youtube": [
+        { "title": "Tim Corey", "link": "https://www.youtube.com/user/IAmTimCorey", "description": "Master C#." },
+        { "title": "Nick Chapsas", "link": "https://www.youtube.com/c/NickChapsas", "description": "Modern .NET and C#." },
+        { "title": "dotnet", "link": "https://www.youtube.com/c/dotNET", "description": "Official .NET channel." }
+      ],
+      "In Cybersecurity": [
+        { "title": "Secure Coding in C#", "link": "https://learn.microsoft.com/en-us/dotnet/standard/security/secure-coding-guidelines", "description": "Microsoft guidelines." },
+        { "title": "Gray Hat C#", "link": "https://nostarch.com/grayhatcsharp", "description": "A Hacker's Guide to Creating and Automating Security Tools." },
+        { "title": "OWASP .NET Security Cheat Sheet", "link": "https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html", "description": "Securing .NET apps." }
+      ],
+      "My Notes": [
+        { "title": "LINQ", "content": "Language Integrated Query. Powerful syntax for querying data." }
+      ]
     }
   }
 ]
