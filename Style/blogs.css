@@ -105,6 +105,62 @@
     gap: var(--gap-sm);
 }
 
+.actions i {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.actions i:hover {
+    transform: scale(1.1);
+}
+
+/* Active like state (Heart) */
+.actions i.active-like {
+    color: var(--primary-color);
+    font-weight: 900; /* fa-solid */
+}
+
+/* Toast Notification */
+.toast-notification {
+    position: fixed;
+    top: 80px; /* Below navbar */
+    right: 20px;
+    background-color: var(--bg-surface);
+    color: var(--text-heading);
+    padding: 15px 20px;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-md);
+    border-left: 4px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    z-index: 10000;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    font-size: 14px;
+    pointer-events: none; /* Ignore clicks when hidden */
+}
+
+.toast-notification.show {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+.toast-close {
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--text-body);
+    transition: color 0.3s ease;
+    margin-left: 10px;
+}
+
+.toast-close:hover {
+    color: var(--primary-color);
+}
+
 @media (max-width: 800px) {
     .blog-cards {
         flex-direction: column;

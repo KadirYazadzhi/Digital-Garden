@@ -56,12 +56,22 @@ class BlogGenerator {
     }
 
     getLocalStorageElement() {
+        // 1. Check URL Params
+        const urlParams = new URLSearchParams(window.location.search);
+        const idFromUrl = urlParams.get('id');
+
+        if (idFromUrl && !isNaN(idFromUrl)) {
+            localStorage.setItem("activeBlog", idFromUrl);
+            return idFromUrl;
+        }
+
+        // 2. Fallback to LocalStorage
         const activeBlog = localStorage.getItem("activeBlog");
 
         if (!activeBlog || isNaN(activeBlog)) {
-            console.warn("Invalid or missing activeBlog in localStorage. Redirecting...");
+            console.warn("Invalid or missing activeBlog. Redirecting...");
             window.location.href = 'index.html';
-            return null; // Return null if no valid ID
+            return null;
         }
 
         return activeBlog;
