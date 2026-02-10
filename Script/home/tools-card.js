@@ -27,6 +27,12 @@ function generateToolCards(tools) {
 
         const card = document.createElement('div');
         card.classList.add('card', 'tool-card');
+        card.style.cursor = 'pointer';
+
+        card.addEventListener('click', () => {
+            localStorage.setItem('activeTool', tool.name);
+            window.location.href = 'tool.html';
+        });
 
         const iconBack = document.createElement('div');
         iconBack.classList.add('icon-back', 'tool');

@@ -99,7 +99,13 @@ footer {
     transition: var(--animation);
 }
 
-.items p:hover {
+.items a {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--animation);
+}
+
+.items *:hover, .icons-box:hover {
     color: var(--footer-text-hover);
     transform: translateX(10px);
 }

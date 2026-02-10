@@ -37,21 +37,21 @@ connectedCallback() {
                                 <h3>Social Media</h3>
         
                                 <div class="social-icons">
-                                    <div class="social-icon">
+                                    <a href="" class="social-icon">
                                         <i class="fa-brands fa-facebook"></i>
-                                    </div>
+                                    </a>
         
-                                    <div class="social-icon">
+                                    <a href="" class="social-icon">
                                         <i class="fa-brands fa-github"></i>
-                                    </div>
+                                    </a>
         
-                                    <div class="social-icon">
+                                    <a href="" class="social-icon">
                                         <i class="fa-solid fa-globe"></i>
-                                    </div>
+                                    </a>
         
-                                    <div class="social-icon">
+                                    <a href="" class="social-icon">
                                         <i class="fa-brands fa-instagram"></i>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -60,12 +60,12 @@ connectedCallback() {
                             <h3>Courses</h3>
         
                             <div class="items">
-                                <p>Algorithm Fundamentals with C#</p>
-                                <p>Data Structures Fundamentals</p>
-                                <p>Programming Basics with C++</p>
-                                <p>Software Technologies</p>
-                                <p>Database</p>
-                                <p>MySQL</p>
+                                <a href="course.html?title=Algorithm%20Fundamentals%20with%20C%23">Algorithm Fundamentals with C#</a>
+                                <a href="course.html?title=Data%20Structures%20Fundamentals">Data Structures Fundamentals</a>
+                                <a href="course.html?title=Programming%20Basics%20with%20C%2B%2B">Programming Basics with C++</a>
+                                <a href="course.html?title=Software%20Technologies">Software Technologies</a>
+                                <a href="course.html?title=Database">Database</a>
+                                <a href="course.html?title=MySQL">MySQL</a>
                             </div>
                         </div>
         
@@ -87,11 +87,11 @@ connectedCallback() {
                             <h3>Blogs</h3>
         
                             <div class="items">
-                                <p>Clean Code Principles</p>
-                                <p>OOP Programming</p>
-                                <p>Phishing Attack</p>
-                                <p>Pentesting Basics</p>
-                                <p>Javascript</p>
+                                <a href="blog.html?id=2">Clean Code Principles</a>
+                                <a href="blog.html?id=1">OOP Programming</a>
+                                <a href="blog.html?id=3">Phishing Attack</a>
+                                <a href="blog.html?id=4">Pentesting Basics</a>
+                                <a href="language.html">Javascript</a>
                             </div>
         
                         </div>
