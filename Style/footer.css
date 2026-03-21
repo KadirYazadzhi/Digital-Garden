@@ -99,6 +99,19 @@ footer {
     transition: var(--animation);
 }
 
+.footer-name-link {
+    color: var(--text-body);
+    opacity: 0.8;
+    text-decoration: none;
+    transition: var(--animation);
+}
+
+.footer-name-link:hover {
+    opacity: 1;
+    color: var(--text-body);
+}
+
+
 .items a {
     text-decoration: none;
     color: inherit;
